@@ -1,0 +1,26 @@
+﻿Build started 30/06/2016 12:10:07.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\test_static_libgdal-2.1.0.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\x86\Release\test_static_gdal-2.1.0.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\x86\Release\test_static_gdal-2.1.0.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib/x86/Release /LIBPATH:"../../3rdpart/expat-2.1.0/win32/bin/Release" wsock32.lib ws2_32.lib "gdal-2.1.0.lib" libexpat.lib /MANIFEST /ManifestFile:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\x86\Release\test_static_gdal-2.1.0.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\x86\Release\test_static_gdal-2.1.0.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\x86\Release\test_static_gdal-2.1.0.lib" /MACHINE:X86 "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\x86\Release\main.obj"
+            Creating library K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\x86\Release\test_static_gdal-2.1.0.lib and object K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\x86\Release\test_static_gdal-2.1.0.exp
+         Generating code
+         Finished generating code
+         test_static_libgdal-2.1.0.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\x86\Release\test_static_gdal-2.1.0.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\x86\Release\test_static_gdal-2.1.0.exe;#1" /manifest "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\x86\Release\test_static_gdal-2.1.0.exe.intermediate.manifest"
+       PostBuildEvent:
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\x86\Release\test_static_gdal-2.1.0.exe K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\binaries\lib\x86\Release\test_static_gdal-2.1.0.exe
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\x86\Release\test_static_gdal-2.1.0.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\x86\Release\test_static_gdal-2.1.0.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_libgdal-2.1.0\test_static_libgdal-2.1.0.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:29.87

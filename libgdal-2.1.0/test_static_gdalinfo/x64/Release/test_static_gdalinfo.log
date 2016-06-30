@@ -1,0 +1,43 @@
+﻿Build started 30/06/2016 11:34:13.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\test_static_gdalinfo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"../../gdal-2.1.0/alg" /I"../../gdal-2.1.0/frmts" /I"../../gdal-2.1.0/gcore" /I"../../gdal-2.1.0/ogr" /I"../../gdal-2.1.0/port" /I"../../gdal-2.1.0/frmts/vrt" /I"../../gdal-2.1.0/ogr/ogrsf_frmts/geojson" /I"../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt "..\..\gdal-2.1.0\apps\gdalinfo_bin.cpp"
+         gdalinfo_bin.cpp
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\gdal-2.1.0\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
+                 with
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Ty=char
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib/x64/Release /LIBPATH:"../../3rdpart/expat-2.1.0/x64/bin/Release" wsock32.lib ws2_32.lib "gdal-2.1.0.lib" libexpat.lib /MANIFEST /ManifestFile:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.lib" /MACHINE:X64 "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\commonutils.obj"
+         "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\gdalinfo_bin.obj"
+            Creating library K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.lib and object K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.exp
+         Generating code
+         Finished generating code
+         test_static_gdalinfo.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.exe;#1" /manifest "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.exe.intermediate.manifest"
+       PostBuildEvent:
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.exe K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\binaries\lib\x64\Release\test_static_gdalinfo.exe
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\test_static_gdalinfo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:17.49

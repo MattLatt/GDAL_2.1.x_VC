@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{459F406B-AF94-427B-96DD-F357C3910760}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>test_static_gdal-2.1.0</RootNamespace>
+    <ProjectName>test_static_gdal-2.1.0</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)$(PlatformShortName)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(PlatformShortName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(PlatformName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)$(PlatformShortName)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(PlatformShortName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(PlatformName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;OGR_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gdal-2.1.0.lib;libexpat.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../lib/$(PlatformShortName)/$(Configuration);../../3rdpart/expat-2.1.0/win32/bin/$(Configuration)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\lib\$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;OGR_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gdal-2.1.0.lib;libexpat.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../lib/$(PlatformName)/$(Configuration);../../3rdpart/expat-2.1.0/x64/bin/$(Configuration)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\lib\$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../lib/$(PlatformShortName)/$(Configuration);../../3rdpart/expat-2.1.0/win32/bin/$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gdal-2.1.0.lib;libexpat.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\lib\$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../lib/$(PlatformName)/$(Configuration);../../3rdpart/expat-2.1.0/x64/bin/$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gdal-2.1.0.lib;libexpat.lib;</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\lib\$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

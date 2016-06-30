@@ -1,0 +1,1569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1E69039E-EF22-45F9-958C-A48FA8C00978}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>gdal-2.1.0_dll</RootNamespace>
+    <ProjectName>gdal-2.1.0_dll</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectDir)$(PlatformShortName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)$(PlatformName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(ProjectDir)$(PlatformShortName)\$(Configuration)\</IntDir>
+    <TargetName>gdal-2.1.0</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IntDir>$(ProjectDir)$(PlatformName)\$(Configuration)\</IntDir>
+    <TargetName>gdal-2.1.0</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)$(PlatformShortName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(ProjectDir)$(PlatformName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(ProjectDir)$(PlatformShortName)\$(Configuration)\</IntDir>
+    <TargetName>gdal-2.1.0</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IntDir>$(ProjectDir)$(PlatformName)\$(Configuration)\</IntDir>
+    <TargetName>gdal-2.1.0</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;BUILD_AS_DLL;OGR_ENABLED;GDALDRIVER;GDAL_SUPPORT;GDAL_COMPILATION;USE_CPL;_USE_MATH_DEFINES;USE_IN_GDAL;INTERNAL_LIBGEOTIFF;INTERNAL_LIBTIFF;JPEG_INTERNALS;BIGTIFF_SUPPORT;INCLUDE_OGR_FRMTS;SQLITE_LIB;HAVE_LIBZ;HAVE_MITAB;HAVE_EXPAT;HAVE_SQLITE;HAVE_LIBJPEG;FRMT_ceos;FRMT_aigrid;FRMT_elas;FRMT_hfa;FRMT_gtiff;FRMT_sdts;FRMT_raw;FRMT_gxf;FRMT_ceos2;FRMT_png;FRMT_dted;FRMT_mem;FRMT_jpeg;FRMT_vrt;FRMT_nitf;FRMT_gif;FRMT_envisat;FRMT_bsb;FRMT_xpm;FRMT_bmp;FRMT_airsar;FRMT_rs2;FRMT_pcidsk;FRMT_pcraster;FRMT_ilwis;SHAPE_ENABLED;TAB_ENABLED;NTF_ENABLED;SDTS_ENABLED;S57_ENABLED;DGN_ENABLED;VRT_ENABLED;REC_ENABLED;MEM_ENABLED;BNA_ENABLED;CSV_ENABLED;GML_ENABLED;GPX_ENABLED;KML_ENABLED;GEOJSON_ENABLED;GMT_ENABLED;WASP_ENABLED;OPENFILEGDB_ENABLED;XPLANE_ENABLED;DXF_ENABLED;GEOCONCEPT_ENABLED;GEORSS_ENABLED;GTM_ENABLED;PGDUMP_ENABLED;OSM_ENABLED;GPSBABEL_ENABLED;SUA_ENABLED;OPENAIR_ENABLED;PDS_ENABLED;HTF_ENABLED;AERONAVFAA_ENABLED;EDIGEO_ENABLED;SVG_ENABLED;IDRISI_ENABLED;ARCGEN_ENABLED;SEGUKOOA_ENABLED;SEGY_ENABLED;SXF_ENABLED;SELAFIN_ENABLED;JML_ENABLED;TIGER_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/apps;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformName)\$(Configuration)\;../../3rdpart/expat-2.1.0/win32/bin/$(Configuration);../../3rdpart/sqlite-3.12/libsqlite/dll/$(PlatformShortName)/$(Configuration)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)
+copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).exp $(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\$(TargetName).exp
+copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).lib $(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\$(TargetName).lib</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;BUILD_AS_DLL;OGR_ENABLED;GDALDRIVER;GDAL_SUPPORT;GDAL_COMPILATION;USE_CPL;INTERNAL_LIBGEOTIFF;INTERNAL_LIBTIFF;JPEG_INTERNALS;BIGTIFF_SUPPORT;INCLUDE_OGR_FRMTS;SQLITE_LIB;HAVE_LIBZ;HAVE_MITAB;HAVE_EXPAT;HAVE_SQLITE;HAVE_LIBJPEG;FRMT_ceos;FRMT_aigrid;FRMT_elas;FRMT_hfa;FRMT_gtiff;FRMT_sdts;FRMT_raw;FRMT_gxf;FRMT_ceos2;FRMT_png;FRMT_dted;FRMT_mem;FRMT_jpeg;FRMT_vrt;FRMT_nitf;FRMT_gif;FRMT_envisat;FRMT_bsb;FRMT_xpm;FRMT_bmp;FRMT_airsar;FRMT_rs2;FRMT_pcidsk;FRMT_pcraster;FRMT_ilwis;SHAPE_ENABLED;TAB_ENABLED;NTF_ENABLED;SDTS_ENABLED;S57_ENABLED;DGN_ENABLED;VRT_ENABLED;REC_ENABLED;MEM_ENABLED;BNA_ENABLED;CSV_ENABLED;GML_ENABLED;GPX_ENABLED;KML_ENABLED;GEOJSON_ENABLED;GMT_ENABLED;WASP_ENABLED;OPENFILEGDB_ENABLED;XPLANE_ENABLED;DXF_ENABLED;GEOCONCEPT_ENABLED;GEORSS_ENABLED;GTM_ENABLED;PGDUMP_ENABLED;OSM_ENABLED;GPSBABEL_ENABLED;SUA_ENABLED;OPENAIR_ENABLED;PDS_ENABLED;HTF_ENABLED;AERONAVFAA_ENABLED;EDIGEO_ENABLED;SVG_ENABLED;IDRISI_ENABLED;ARCGEN_ENABLED;SEGUKOOA_ENABLED;SEGY_ENABLED;SXF_ENABLED;SELAFIN_ENABLED;JML_ENABLED;TIGER_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformName)\$(Configuration)\;../../3rdpart/expat-2.1.0/x64/bin/$(Configuration)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)
+copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).exp $(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\$(TargetName).exp
+copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\$(TargetName).lib</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;BUILD_AS_DLL;OGR_ENABLED;GDALDRIVER;GDAL_SUPPORT;GDAL_COMPILATION;USE_CPL;INTERNAL_LIBGEOTIFF;INTERNAL_LIBTIFF;BIGTIFF_SUPPORT;INCLUDE_OGR_FRMTS;SQLITE_LIB;HAVE_LIBZ;HAVE_MITAB;HAVE_EXPAT;HAVE_LIBJPEG;FRMT_ceos;FRMT_aigrid;FRMT_elas;FRMT_hfa;FRMT_gtiff;FRMT_sdts;FRMT_raw;FRMT_gxf;FRMT_ceos2;FRMT_png;FRMT_dted;FRMT_mem;FRMT_jpeg;FRMT_vrt;FRMT_nitf;FRMT_gif;FRMT_envisat;FRMT_bsb;FRMT_xpm;FRMT_bmp;FRMT_airsar;FRMT_rs2;FRMT_pcidsk;FRMT_pcraster;FRMT_ilwis;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformName)\$(Configuration)\;../../3rdpart/expat-2.1.0/win32/bin/$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\gdal-2.1.0$(TargetExt)
+copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).exp $(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\gdal-2.1.0.exp
+copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).lib $(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\gdal-2.1.0.lib</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;BUILD_AS_DLL;OGR_ENABLED;GDALDRIVER;GDAL_SUPPORT;GDAL_COMPILATION;USE_CPL;INTERNAL_LIBGEOTIFF;INTERNAL_LIBTIFF;BIGTIFF_SUPPORT;INCLUDE_OGR_FRMTS;SQLITE_LIB;HAVE_LIBZ;HAVE_MITAB;HAVE_EXPAT;HAVE_LIBJPEG;FRMT_ceos;FRMT_aigrid;FRMT_elas;FRMT_hfa;FRMT_gtiff;FRMT_sdts;FRMT_raw;FRMT_gxf;FRMT_ceos2;FRMT_png;FRMT_dted;FRMT_mem;FRMT_jpeg;FRMT_vrt;FRMT_nitf;FRMT_gif;FRMT_envisat;FRMT_bsb;FRMT_xpm;FRMT_bmp;FRMT_airsar;FRMT_rs2;FRMT_pcidsk;FRMT_pcraster;FRMT_ilwis;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformName)\$(Configuration)\;../../3rdpart/expat-2.1.0/x64/bin/$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\gdal-2.1.0$(TargetExt)
+copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).exp $(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\gdal-2.1.0.exp
+copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\gdal-2.1.0.lib</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\epsg_datum.inc" />
+    <None Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\epsg_ellipse.inc" />
+    <None Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\epsg_gcs.inc" />
+    <None Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\epsg_pcs.inc" />
+    <None Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\epsg_pm.inc" />
+    <None Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\epsg_proj.inc" />
+    <None Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\epsg_units.inc" />
+    <None Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\epsg_vertcs.inc" />
+    <None Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geokeys.inc" />
+    <None Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_ctrans.inc" />
+    <None Include="..\..\gdal-2.1.0\ogr\osr_cs_wkt_grammar.y" />
+    <None Include="..\..\gdal-2.1.0\ogr\style_pen1.gif" />
+    <None Include="..\..\gdal-2.1.0\ogr\style_pen2.gif" />
+    <None Include="..\..\gdal-2.1.0\ogr\style_pen3.gif" />
+    <None Include="..\..\gdal-2.1.0\ogr\style_textanchor.gif" />
+    <None Include="..\..\gdal-2.1.0\ogr\swq_parser.y" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\3rdpart\sqlite-3.12\sqlite-3.12-amalgamation\sqlite3.h" />
+    <ClInclude Include="..\..\3rdpart\sqlite-3.12\sqlite-3.12-amalgamation\sqlite3ext.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\gdalpansharpen.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\libqhull\geom.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\libqhull\io.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\libqhull\libqhull.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\libqhull\mem.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\libqhull\merge.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\libqhull\poly.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\libqhull\qhull_a.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\libqhull\qset.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\libqhull\random.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\libqhull\stat.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\libqhull\user.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\apps\commonutils.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\apps\gdal_utils.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\apps\gdal_utils_priv.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\iso8211\iso8211.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jchuff.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jconfig.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdct.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdhuff.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jerror.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jinclude.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jmemsys.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jmorecfg.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jpegint.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jpeglib.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jversion.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\jpeg\vsidataio.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\gdal.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\gdalexif.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\gdalgeorefpamdataset.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\gdaljp2abstractdataset.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\gdaljp2metadata.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\gdaljp2metadatagenerator.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\gdalsse_priv.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\gdal_frmts.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\gdal_mdreader.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\gdal_pam.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\gdal_priv.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\gdal_proxy.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\gdal_rat.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\gdal_version.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\mdreader\reader_alos.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\mdreader\reader_digital_globe.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\mdreader\reader_eros.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\mdreader\reader_geo_eye.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\mdreader\reader_kompsat.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\mdreader\reader_landsat.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\mdreader\reader_orb_view.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\mdreader\reader_pleiades.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\mdreader\reader_rapid_eye.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\mdreader\reader_rdk1.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\gcore\mdreader\reader_spot.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\gdalgrid.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\gdalgrid_priv.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\gdalwarper.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\gdalwarpkernel_opencl.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\gdal_alg.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\gdal_alg_priv.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\gdal_simplesurf.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\gvgcpfit.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\alg\thinplatespline.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\aigrid\aigrid.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\blx\blx.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\bsb\bsb_read.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\ceos2\ceos.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\ceos\ceosopen.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\dted\dted_api.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\e00grid\e00compr.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\ecw\gdal_ecw.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\envisat\adsrange.hpp" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\envisat\EnvisatFile.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\envisat\records.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\envisat\timedelta.hpp" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\ers\ershdrnode.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\fit\fit.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\fit\gstEndian.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\fit\gstTypes.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gif\gifabstractdataset.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gif\giflib\gif_hash.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gif\giflib\gif_lib.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gif\giflib\gif_lib_private.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\gtiff.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\gt_citation.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\gt_jpeg_copy.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\gt_overview.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\gt_wkt_srs.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\gt_wkt_srs_for_gdal.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\gt_wkt_srs_priv.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\cpl_serv.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\gdal_libgeotiff_symbol_rename.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geokeys.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geonames.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geotiff.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geotiffio.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geovalues.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_config.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_keyp.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_normalize.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_simpletags.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_tiffp.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\xtiffio.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\gdal_libtiff_symbol_rename.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\t4.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tiff.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tiffconf.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tiffio.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tiffiop.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tiffvers.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_config.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_dir.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_fax3.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_predict.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\uvcode.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\tifvsi.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gtiff\tif_float.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\gxf\gxfopen.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\hfa\hfa.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\hfa\hfa_p.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\idrisi\idrisi.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\ilwis\ilwisdataset.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\ingr\IngrTypes.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\ingr\IntergraphBand.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\ingr\IntergraphDataset.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\ingr\JpegHelper.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\kmlsuperoverlay\kmlsuperoverlaydataset.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mem\memdataset.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\msgn\msg_basic_types.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\msgn\msg_reader_core.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\nitf\mgrs.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\nitf\nitfdataset.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\nitf\nitflib.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\nitf\rpftoclib.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\northwood\northwood.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\gdal_pcidsk.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\channel\cbandinterleavedchannel.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\channel\cexternalchannel.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\channel\cpcidskchannel.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\channel\cpixelinterleavedchannel.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\channel\ctiledchannel.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\clinksegment.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\cpcidskfile.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\metadataset.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\mutexholder.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\pcidsk_utils.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\protectedfile.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\sysvirtualfile.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_ads40.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_airphoto.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_array.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_binary.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_buffer.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_channel.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_config.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_edb.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_ephemeris.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_exception.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_file.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_gcp.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_gcpsegment.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_georef.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_interfaces.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_io.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_mutex.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_pct.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_poly.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_rpc.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_segment.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_shape.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_tex.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_toutin.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_types.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\pcidsk_vectorsegment.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskads40model.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskapmodel.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskbinarysegment.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskbitmap.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskephemerissegment.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskgcp2segment.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskgeoref.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskpct.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskpolymodel.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskrpcmodel.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidsksegment.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidsktoutinmodel.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskvectorsegment.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidsk_array.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidsk_tex.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\metadatasegment.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\orbitstructures.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\pcidsksegmentbuilder.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\sysblockmap.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\toutinstructures.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\vecsegdataindex.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\vecsegheader.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\csf.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\csfattr.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\csfimpl.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\csftypes.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\pcrtypes.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcraster\pcrasterdataset.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcraster\pcrasterrasterband.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pcraster\pcrasterutil.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pds\nasakeywordhandler.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\pds\vicarkeywordhandler.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\png\libpng\png.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\png\libpng\pngconf.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\raw\atlsci_spheroid.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\raw\rawdataset.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\rmf\rmfdataset.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\sdts\sdts_al.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\vrt\gdal_vrt.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\vrt\vrtdataset.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\zlib\crc32.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\zlib\deflate.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\zlib\inffast.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\zlib\inffixed.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\zlib\inflate.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\zlib\inftrees.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\zlib\trees.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\zlib\zconf.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\zlib\zlib.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\zlib\zutil.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ograpispy.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrgeomediageometry.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrpgeogeometry.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\aeronavfaa\ogr_aeronavfaa.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\arcgen\ogr_arcgen.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\avc.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\avc_mbyte.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\dbfopen.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\ogr_avc.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\bna\ogrbnaparser.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\bna\ogr_bna.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\csv\ogr_csv.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\dgnlib.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\dgnlibp.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\ogr_dgn.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogrdxf_polyline_smooth.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogr_autocad_services.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogr_dxf.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\edigeo\ogr_edigeo.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogreditablelayer.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogremulatedtransaction.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrlayerdecorator.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrlayerpool.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrmutexeddatasource.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrmutexedlayer.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrunionlayer.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrwarpedlayer.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogr_gensql.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geoconcept\geoconcept.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geoconcept\geoconcept_syscoord.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geoconcept\ogrgeoconceptdatasource.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geoconcept\ogrgeoconceptdriver.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geoconcept\ogrgeoconceptlayer.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\arraylist.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\bits.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\config.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\debug.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\json.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\json_config.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\json_c_version.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\json_inttypes.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\json_object.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\json_object_iterator.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\json_object_private.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\json_tokener.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\json_util.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\linkhash.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\printbuf.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\symbol_renames.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\ogrgeojsonreader.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\ogrgeojsonutils.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\ogrgeojsonwriter.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\ogr_geojson.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\georss\ogr_georss.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlreader.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlreaderp.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlregistry.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlutils.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\ogr_gml.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\parsexsd.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gmt\ogr_gmt.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpsbabel\ogr_gpsbabel.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpx\ogr_gpx.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gtm\gtm.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gtm\ogr_gtm.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\htf\ogr_htf.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\idrisi\ogr_idrisi.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\jml\ogr_jml.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\kml\kml.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\kml\kmlnode.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\kml\kmlutility.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\kml\kmlvector.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\kml\ogr_kml.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mem\ogr_mem.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_geometry.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_ogr_driver.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_priv.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_utils.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\ntf\ntf.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\openair\ogr_openair.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\openfilegdb\filegdbtable.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\openfilegdb\filegdbtable_priv.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\openfilegdb\ogr_openfilegdb.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\osm\gpb.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\osm\ogr_osm.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\osm\osm_parser.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\pds\ogr_pds.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\pgdump\ogr_pgdump.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\rec\ogr_rec.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\s57\ogr_s57.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\s57\s57.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\s57\s57tables.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sdts\ogr_sdts.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\segukooa\ogr_segukooa.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\segy\ogr_segy.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\selafin\io_selafin.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\selafin\ogr_selafin.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\shape\ogrshape.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\shape\shapefil.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\shape\shp_vsi.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqlite3ext.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqliteexecutesql.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqliteregexp.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqlitesqlfunctions.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqlitevirtualogr.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogr_sqlite.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sua\ogr_sua.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\svg\ogr_svg.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sxf\ogr_sxf.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sxf\org_sxf_defs.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\ogr_tiger.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vrt\ogr_vrt.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wasp\ogrwasp.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane_apt_reader.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane_awy_reader.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane_fix_reader.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane_geo_utils.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane_nav_reader.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane_reader.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogr_api.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogr_core.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogr_expat.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogr_feature.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogr_featurestyle.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogr_geocoding.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogr_geometry.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogr_geos.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogr_p.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogr_spatialref.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogr_srs_api.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogr_srs_esri_names.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\osr_cs_wkt.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\osr_cs_wkt_parser.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\swq.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\swq_parser.hpp" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cplkeywordparser.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_atomic_ops.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_config.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_config_extras.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_conv.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_csv.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_error.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_hash_set.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_http.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_list.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_minixml.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_minizip_ioapi.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_minizip_unzip.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_minizip_zip.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_multiproc.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_odbc.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_port.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_progress.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_quad_tree.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_spawn.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_string.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_time.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_virtualmem.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_vsi.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_vsil_curl_priv.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_vsi_error.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_vsi_virtual.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_win32ce_api.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_wince.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_worker_thread_pool.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\gdal_csv.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\3rdpart\sqlite-3.12\sqlite-3.12-amalgamation\sqlite3.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\delaunay.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalpansharpen.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\geom.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\geom2.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\global.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\io.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\libqhull.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\mem.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\merge.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\poly.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\poly2.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\qset.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\random.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\rboxlib.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\stat.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\user.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\usermem.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\userprintf.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\libqhull\userprintf_rbox.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\apps\commonutils.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\apps\gdalbuildvrt_lib.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\apps\gdaldem_lib.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\apps\gdalinfo_lib.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\apps\gdalwarp_lib.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\apps\gdal_grid_lib.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\apps\gdal_rasterize_lib.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\apps\gdal_translate_lib.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\apps\nearblack_lib.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\apps\ogr2ogr_lib.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\bsb\bsb2raw.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\bsb\bsbdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\bsb\bsb_read.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\iso8211\ddffield.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\iso8211\ddffielddefn.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\iso8211\ddfmodule.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\iso8211\ddfrecord.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\iso8211\ddfsubfielddefn.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\iso8211\ddfutils.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\jpgdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\jpgdataset_12.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jcapimin.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jcapistd.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jccoefct.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jccolor.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jcdctmgr.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jchuff.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jcinit.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jcmainct.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jcmarker.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jcmaster.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jcomapi.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jcparam.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jcphuff.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jcprepct.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jcsample.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jctrans.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdapimin.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdapistd.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdatadst.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdatasrc.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdcoefct.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdcolor.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jddctmgr.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdhuff.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdinput.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdmainct.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdmarker.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdmaster.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdmerge.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdphuff.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdpostct.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdsample.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jdtrans.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jerror.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jfdctflt.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jfdctfst.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jfdctint.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jidctflt.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jidctfst.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jidctint.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jidctred.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jmemansi.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jmemmgr.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jquant1.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jquant2.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jutils.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\vsidataio.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\pcidskdataset2.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\iscedataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\vrt\vrtpansharpened.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalabstractbandblockcache.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalallvalidmaskband.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalarraybandblockcache.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalclientserver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalcolortable.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdaldataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdaldefaultasync.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdaldefaultoverviews.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdaldllmain.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdaldriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdaldrivermanager.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalexif.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalgeorefpamdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalgmlcoverage.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalhashsetbandblockcache.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdaljp2abstractdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdaljp2box.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdaljp2metadata.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdaljp2metadatagenerator.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdaljp2structure.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalmajorobject.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalmultidomainmetadata.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalnodatamaskband.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalnodatavaluesmaskband.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalopeninfo.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdaloverviewdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalpamdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalpamproxydb.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalpamrasterband.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalproxydataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalproxypool.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalrasterband.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalrasterblock.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalrescaledalphaband.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalvirtualmem.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdal_mdreader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdal_misc.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\gdal_rat.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\mdreader\reader_alos.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\mdreader\reader_digital_globe.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\mdreader\reader_eros.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\mdreader\reader_geo_eye.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\mdreader\reader_kompsat.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\mdreader\reader_landsat.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\mdreader\reader_orb_view.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\mdreader\reader_pleiades.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\mdreader\reader_rapid_eye.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\mdreader\reader_rdk1.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\mdreader\reader_spot.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\overview.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\gcore\rasterio.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\contour.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalchecksum.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalcutline.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdaldither.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalgeoloc.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalgrid.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalgridavx.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalgridsse.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalmatching.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalmediancut.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalproximity.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalrasterize.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalrasterpolygonenumerator.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalsievefilter.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalsimplewarp.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdaltransformer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdaltransformgeolocs.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalwarper.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalwarpkernel.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalwarpkernel_opencl.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdalwarpoperation.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdal_crs.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdal_octave.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdal_rpc.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdal_simplesurf.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\gdal_tps.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\llrasterize.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\polygonize.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\rasterfill.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\alg\thinplatespline.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\aaigrid\aaigriddataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\adrg\adrgdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\adrg\srpdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\aigrid\aigccitt.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\aigrid\aigdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\aigrid\aigopen.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\aigrid\gridlib.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\airsar\airsardataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\blx\blx.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\blx\blxdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\bmp\bmpdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ceos2\ceos.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ceos2\ceosrecipe.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ceos2\ceossar.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ceos2\link.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ceos2\sar_ceosdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ceos\ceosdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ceos\ceosopen.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\coasp\coasp_dataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\cosar\cosar_dataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ctg\ctgdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\dimap\dimapdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\dted\dteddataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\dted\dted_api.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\dted\dted_create.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\dted\dted_ptstream.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\e00grid\e00griddataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\e00grid\e00read.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\elas\elasdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\envisat\adsrange.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\envisat\envisatdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\envisat\EnvisatFile.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\envisat\records.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\envisat\unwrapgcps.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ers\ersdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ers\ershdrnode.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\fit\fit.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\fit\fitdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gdalallregister.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gff\gff_dataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gif\biggifdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gif\gifabstractdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gif\gifdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gif\giflib\dgif_lib.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gif\giflib\egif_lib.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gif\giflib\gifalloc.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gif\giflib\gif_err.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gif\giflib\gif_hash.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gsg\gs7bgdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gsg\gsagdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gsg\gsbgdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\geotiff.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\gt_citation.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\gt_jpeg_copy.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\gt_overview.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\gt_wkt_srs.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geotiff_proj4.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_extra.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_free.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_get.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_names.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_new.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_normalize.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_print.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_set.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_simpletags.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_tiffp.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_trans.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\geo_write.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libgeotiff\xtiff.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_aux.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_close.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_codec.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_color.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_compress.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_dir.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_dirinfo.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_dirread.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_dirwrite.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_dumpmode.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_error.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_extension.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_fax3.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_fax3sm.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_flush.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_getimage.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_jpeg.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_jpeg_12.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_luv.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_lzma.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_lzw.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_next.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_ojpeg.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_open.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_packbits.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_pixarlog.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_predict.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_print.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_read.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_strip.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_swab.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_thunder.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_tile.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_version.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_vsi.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_warning.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_write.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\libtiff\tif_zip.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\tifvsi.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gtiff\tif_float.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gxf\gxfdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gxf\gxfopen.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gxf\gxf_ogcwkt.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\gxf\gxf_proj4.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\hf2\hf2dataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\hfa\hfaband.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\hfa\hfacompress.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\hfa\hfadataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\hfa\hfadictionary.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\hfa\hfaentry.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\hfa\hfafield.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\hfa\hfaopen.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\hfa\hfatype.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\hfa\hfa_overviews.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\idrisi\IdrisiDataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ilwis\ilwiscoordinatesystem.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ilwis\ilwisdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ingr\IngrTypes.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ingr\IntergraphBand.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ingr\IntergraphDataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ingr\JpegHelper.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\iris\irisdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jaxapalsar\jaxapalsardataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\jdem\jdemdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\kmlsuperoverlay\kmlsuperoverlaydataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\l1b\l1bdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\leveller\levellerdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\map\mapdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mem\memdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\msgn\msgndataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\msgn\msg_basic_types.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\msgn\msg_reader_core.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ngsgeoid\ngsgeoiddataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\nitf\ecrgtocdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\nitf\mgrs.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\nitf\nitfaridpcm.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\nitf\nitfbilevel.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\nitf\nitfdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\nitf\nitfdes.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\nitf\nitffile.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\nitf\nitfimage.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\nitf\nitfrasterband.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\nitf\nitfwritejpeg.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\nitf\nitfwritejpeg_12.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\nitf\nitf_gcprpc.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\nitf\rpftocdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\nitf\rpftocfile.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\northwood\grcdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\northwood\grddataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\northwood\northwood.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ozi\ozidataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\gdal_edb.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\ogrpcidsklayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\channel\cbandinterleavedchannel.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\channel\cexternalchannel.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\channel\cpcidskchannel.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\channel\cpixelinterleavedchannel.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\channel\ctiledchannel.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\clinksegment.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\cpcidskfile.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\edb_pcidsk.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\libjpeg_io.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\metadataset_p.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\pcidskbuffer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\pcidskcreate.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\pcidskexception.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\pcidskinterfaces.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\pcidskopen.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\pcidsk_pubutils.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\pcidsk_utils.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\core\sysvirtualfile.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\port\io_win32.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\port\win32_mutex.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskads40model.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskapmodel.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskbinarysegment.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskbitmap.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskephemerissegment.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskgcp2segment.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskgeoref.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskpct.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskrpcmodel.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidsksegment.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidsktoutinmodel.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskvectorsegment.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidskvectorsegment_consistencycheck.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidsk_array.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\cpcidsk_tex.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\metadatasegment_p.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\sysblockmap.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\vecsegdataindex.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\sdk\segment\vecsegheader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\vsi_pcidsk_io.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\angle.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\attravai.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\attrsize.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\cellsize.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\create2.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\csfglob.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\csfsup.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\delattr.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\dumconv.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\endian.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\filename.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\gattrblk.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\gattridx.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\gcellrep.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\gdattype.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\getattr.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\getx0.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\gety0.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\ggisfid.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\gmaxval.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\gminval.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\gnrcols.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\gnrrows.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\gproj.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\gputproj.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\gvalscal.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\gvartype.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\gversion.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\ismv.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\kernlcsf.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\legend.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\mclose.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\mopen.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\moreattr.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\mperror.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\pgisfid.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\pmaxval.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\pminval.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\putallmv.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\putattr.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\putsomec.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\putx0.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\puty0.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\pvalscal.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\rattrblk.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\rcomp.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\rcoords.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\rdup2.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\reseterr.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\rextend.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\rmalloc.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\rrowcol.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\ruseas.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\setangle.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\setmv.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\setvtmv.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\strconst.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\strpad.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\swapio.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\trackmm.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\vs2.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\vsdef.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\vsis.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\vsvers.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\wattrblk.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\_getcell.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\_getrow.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\_gsomece.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\_putcell.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\libcsf\_rputrow.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\pcrasterdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\pcrastermisc.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\pcrasterrasterband.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pcraster\pcrasterutil.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pds\isis2dataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pds\isis3dataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pds\nasakeywordhandler.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pds\pdsdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pds\vicardataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\pds\vicarkeywordhandler.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\png.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pngerror.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pnggccrd.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pngget.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pngmem.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pngpread.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pngread.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pngrio.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pngrtran.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pngrutil.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pngset.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pngtrans.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pngvcrd.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pngwio.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pngwrite.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pngwtran.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\libpng\pngwutil.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\png\pngdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\ace2dataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\atlsci_spheroid.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\btdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\cpgdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\ctable2dataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\dipxdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\doq1dataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\doq2dataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\ehdrdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\eirdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\envidataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\fastdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\fujibasdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\genbindataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\gscdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\gtxdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\hkvdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\idadataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\krodataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\landataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\lcpdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\loslasdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\mffdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\ndfdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\ntv2dataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\pauxdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\pnmdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\rawdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\roipacdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\snodasdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\rik\rikdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\rmf\rmfdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\rmf\rmfdem.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\rmf\rmflzw.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\rs2\rs2dataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\r\rcreatecopy.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\r\rdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\saga\sagadataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\sdts\sdtsattrreader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\sdts\sdtscatd.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\sdts\sdtsdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\sdts\sdtsindexedreader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\sdts\sdtsiref.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\sdts\sdtslib.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\sdts\sdtslinereader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\sdts\sdtspointreader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\sdts\sdtspolygonreader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\sdts\sdtsrasterreader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\sdts\sdtstransfer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\sdts\sdtsxref.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\sgi\sgidataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\srtmhgt\srtmhgtdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\terragen\terragendataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\til\tildataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\tsx\tsxdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\usgsdem\usgsdemdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\usgsdem\usgsdem_create.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\vrt\vrtdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\vrt\vrtderivedrasterband.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\vrt\vrtdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\vrt\vrtfilters.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\vrt\vrtrasterband.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\vrt\vrtrawrasterband.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\vrt\vrtsourcedrasterband.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\vrt\vrtsources.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\vrt\vrtwarped.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\xpm\xpmdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\xyz\xyzdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\zlib\adler32.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\zlib\compress.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\zlib\crc32.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\zlib\deflate.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\zlib\gzio.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\zlib\infback.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\zlib\inffast.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\zlib\inflate.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\zlib\inftrees.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\zlib\trees.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\zlib\uncompr.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\zlib\zutil.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\zmap\zmapdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\gml2ogrgeometry.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr2gmlgeometry.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ograpispy.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ograssemblepolygon.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrcircularstring.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrcompoundcurve.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrct.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrcurve.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrcurvecollection.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrcurvepolygon.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrfeature.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrfeaturedefn.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrfeaturequery.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrfeaturestyle.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrfielddefn.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrgeomediageometry.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrgeometry.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrgeometrycollection.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrgeometryfactory.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrgeomfielddefn.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrlinearring.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrlinestring.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrmulticurve.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrmultilinestring.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrmultipoint.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrmultipolygon.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrmultisurface.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrpgeogeometry.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrpoint.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrpolygon.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\aeronavfaa\ograeronavfaadatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\aeronavfaa\ograeronavfaadriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\aeronavfaa\ograeronavfaalayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\arcgen\ograrcgendatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\arcgen\ograrcgendriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\arcgen\ograrcgenlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\avc_bin.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\avc_binwr.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\avc_e00gen.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\avc_e00parse.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\avc_e00read.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\avc_e00write.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\avc_mbyte.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\avc_misc.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\avc_rawbin.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\ogravcbindatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\ogravcbindriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\ogravcbinlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\ogravcdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\ogravce00datasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\ogravce00driver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\ogravce00layer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\ogravclayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\bna\ogrbnadatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\bna\ogrbnadriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\bna\ogrbnalayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\bna\ogrbnaparser.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\csv\ogrcsvdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\csv\ogrcsvdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\csv\ogrcsvlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\dgnfloat.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\dgnhelp.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\dgnopen.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\dgnread.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\dgnstroke.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\dgnwrite.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\ogrdgndatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\ogrdgndriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\ogrdgnlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\intronurbs.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogrdxfblockslayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogrdxfblockswriterlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogrdxfdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogrdxfdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogrdxflayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogrdxfreader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogrdxfwriterds.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogrdxfwriterlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogrdxf_blockmap.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogrdxf_dimension.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogrdxf_hatch.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogrdxf_polyline_smooth.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dxf\ogr_autocad_services.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\edigeo\ogredigeodatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\edigeo\ogredigeodriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\edigeo\ogredigeolayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogreditablelayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogremulatedtransaction.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrlayerdecorator.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrlayerpool.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrmutexeddatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrmutexedlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrregisterall.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrsfdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrsfdriverregistrar.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrunionlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogrwarpedlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogr_attrind.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogr_gensql.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\generic\ogr_miattrind.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geoconcept\geoconcept.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geoconcept\geoconcept_syscoord.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geoconcept\ogrgeoconceptdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geoconcept\ogrgeoconceptdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geoconcept\ogrgeoconceptlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\arraylist.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\debug.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\json_c_version.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\json_object.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\json_object_iterator.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\json_util.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\linkhash.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\libjson\printbuf.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\ogresrijsonreader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\ogrgeojsondatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\ogrgeojsondriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\ogrgeojsonlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\ogrgeojsonreader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\ogrgeojsonutils.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\ogrgeojsonwritelayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\ogrgeojsonwriter.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\ogrtopojsonreader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\georss\ogrgeorssdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\georss\ogrgeorssdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\georss\ogrgeorsslayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gfstemplate.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlfeature.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlfeatureclass.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlhandler.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlpropertydefn.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlreader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlreadstate.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlregistry.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlutils.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\hugefileresolver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\ogrgmldatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\ogrgmldriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\ogrgmllayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\parsexsd.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\resolvexlinks.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\trstring.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gmt\ogrgmtdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gmt\ogrgmtdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gmt\ogrgmtlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpsbabel\ogrgpsbabeldatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpsbabel\ogrgpsbabeldriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpsbabel\ogrgpsbabelwritedatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpx\ogrgpxdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpx\ogrgpxdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpx\ogrgpxlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gtm\gtm.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gtm\gtmtracklayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gtm\gtmwaypointlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gtm\ogrgtmdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gtm\ogrgtmdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gtm\ogrgtmlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\htf\ogrhtfdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\htf\ogrhtfdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\htf\ogrhtflayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\idrisi\ogridrisidatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\idrisi\ogridrisidriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\idrisi\ogridrisilayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\jml\ogrjmldataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\jml\ogrjmllayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\jml\ogrjmlwriterlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\kml\kml.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\kml\kmlnode.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\kml\kmlvector.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\kml\ogr2kmlgeometry.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\kml\ogrkmldatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\kml\ogrkmldriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\kml\ogrkmllayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mem\ogrmemdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mem\ogrmemdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mem\ogrmemlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_bounds.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_coordsys.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_datfile.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_feature.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_feature_mif.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_geometry.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_idfile.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_imapinfofile.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_indfile.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_mapcoordblock.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_mapfile.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_mapheaderblock.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_mapindexblock.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_mapobjectblock.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_maptoolblock.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_middatafile.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_miffile.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_ogr_datasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_ogr_driver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_rawbinblock.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_spatialref.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_tabfile.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_tabseamless.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_tabview.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_tooldef.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\mitab\mitab_utils.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\ntf\ntffilereader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\ntf\ntfrecord.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\ntf\ntfstroke.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\ntf\ntf_codelist.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\ntf\ntf_estlayers.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\ntf\ntf_generic.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\ntf\ntf_raster.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\ntf\ogrntfdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\ntf\ogrntfdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\ntf\ogrntffeatureclasslayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\ntf\ogrntflayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\openair\ogropenairdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\openair\ogropenairdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\openair\ogropenairlabellayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\openair\ogropenairlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\openfilegdb\filegdbindex.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\openfilegdb\filegdbtable.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\openfilegdb\ogropenfilegdbdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\openfilegdb\ogropenfilegdbdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\openfilegdb\ogropenfilegdblayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\osm\ogrosmdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\osm\ogrosmdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\osm\ogrosmlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\osm\osm_parser.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\pds\ogrpdsdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\pds\ogrpdsdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\pds\ogrpdslayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\pgdump\ogrpgdumpdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\pgdump\ogrpgdumpdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\pgdump\ogrpgdumplayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\rec\ll_recio.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\rec\ogrrecdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\rec\ogrrecdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\rec\ogrreclayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\s57\ddfrecordindex.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\s57\ogrs57datasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\s57\ogrs57driver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\s57\ogrs57layer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\s57\s57classregistrar.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\s57\s57featuredefns.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\s57\s57filecollector.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\s57\s57reader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\s57\s57writer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sdts\ogrsdtsdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sdts\ogrsdtsdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sdts\ogrsdtslayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\segukooa\ogrsegukooadatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\segukooa\ogrsegukooadriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\segukooa\ogrsegukooalayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\segy\ogrsegydatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\segy\ogrsegydriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\segy\ogrsegylayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\selafin\io_selafin.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\selafin\ogrselafindatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\selafin\ogrselafindriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\selafin\ogrselafinlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\shape\dbfopen.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\shape\ogrshapedatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\shape\ogrshapedriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\shape\ogrshapelayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\shape\sbnsearch.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\shape\shape2ogr.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\shape\shpopen.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\shape\shptree.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\shape\shp_vsi.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqliteapiroutines.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqlitedatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqlitedriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqliteexecutesql.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqlitelayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqliteselectlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqlitesinglefeaturelayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqlitetablelayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqlitevfs.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqliteviewlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sqlite\ogrsqlitevirtualogr.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sua\ogrsuadatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sua\ogrsuadriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sua\ogrsualayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\svg\ogrsvgdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\svg\ogrsvgdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\svg\ogrsvglayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sxf\ogrsxfdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sxf\ogrsxfdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sxf\ogrsxflayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\ogrtigerdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\ogrtigerdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\ogrtigerlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigeraltname.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerarealandmarks.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigercompletechain.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerentitynames.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerfeatureids.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerfilebase.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigeridhistory.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerkeyfeatures.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerlandmarks.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigeroverunder.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerpip.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerpoint.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerpolychainlink.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerpolygon.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerpolygoncorrections.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerpolygoneconomic.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerspatialmetadata.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigertlidrange.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerzerocellid.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerzipcodes.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerzipplus4.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vrt\ogrvrtdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vrt\ogrvrtdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vrt\ogrvrtlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wasp\ogrwaspdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wasp\ogrwaspdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wasp\ogrwasplayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogrxplanedatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogrxplanedriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogrxplanelayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane_apt_reader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane_awy_reader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane_fix_reader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane_geo_utils.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane_nav_reader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane_reader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrspatialreference.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsurface.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrutils.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_api.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_expat.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_fromepsg.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_geocoding.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_opt.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_srsnode.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_srs_dict.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_srs_erm.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_srs_esri.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_srs_ozi.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_srs_panorama.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_srs_pci.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_srs_proj4.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_srs_usgs.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_srs_validate.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogr_srs_xml.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\osr_cs_wkt.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\osr_cs_wkt_parser.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\swq.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\swq_expr_node.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\swq_op_general.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\swq_op_registrar.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\swq_parser.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\swq_select.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cplgetsymbol.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cplkeywordparser.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cplstring.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cplstringlist.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_atomic_ops.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_base64.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_conv.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_csv.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_error.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_findfile.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_getexecpath.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_google_oauth2.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_hash_set.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_http.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_list.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_minixml.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_minizip_ioapi.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_minizip_unzip.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_minizip_zip.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_multiproc.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_path.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_progress.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_quad_tree.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_recode.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_recode_iconv.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_recode_stub.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_spawn.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_string.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_strtod.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_time.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_virtualmem.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsil.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsil_abstract_archive.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsil_buffered_reader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsil_cache.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsil_crypt.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsil_curl.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsil_curl_streaming.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsil_gzip.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsil_sparsefile.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsil_stdin.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsil_stdout.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsil_subfile.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsil_tar.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsil_unix_stdio_64.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsil_win32.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsisimple.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsi_error.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_vsi_mem.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_worker_thread_pool.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_xml_validate.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\gdal-2.1.0\gcore\Version.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
