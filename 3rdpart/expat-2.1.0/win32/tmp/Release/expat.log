@@ -1,0 +1,34 @@
+﻿Build started 29/06/2016 08:10:12.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\3rdpart\expat-2.1.0\lib\expat.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\..\win32\tmp\Release\expat.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\..\win32\tmp\Release\expat.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D NDEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D COMPILED_FROM_DSP /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\..\win32\tmp\Release\\" /Fd".\..\win32\tmp\Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt xmlparse.c xmlrole.c xmltok.c xmltok_impl.c xmltok_ns.c
+         xmlparse.c
+         xmlrole.c
+         xmltok.c
+         xmltok_impl.c
+         xmltok_ns.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\3rdpart\expat-2.1.0\lib\.\..\win32\bin\Release\expat.dll) does not match the Linker's OutputFile property value (K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\3rdpart\expat-2.1.0\win32\bin\Release\libexpat.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(expat) does not match the Linker's OutputFile property value (libexpat). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\win32\bin\Release\libexpat.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\libexpat.def" /MANIFEST /ManifestFile:".\..\win32\tmp\Release\expat.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\3rdpart\expat-2.1.0\win32\bin\Release\expat.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\win32\bin\Release\libexpat.lib" /MACHINE:X86 /DLL .\..\win32\tmp\Release\xmlparse.obj
+         .\..\win32\tmp\Release\xmlrole.obj
+         .\..\win32\tmp\Release\xmltok.obj
+         .\..\win32\tmp\Release\xmltok_impl.obj
+         .\..\win32\tmp\Release\xmltok_ns.obj
+            Creating library .\..\win32\bin\Release\libexpat.lib and object .\..\win32\bin\Release\libexpat.exp
+         expat.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\3rdpart\expat-2.1.0\lib\.\..\win32\bin\Release\expat.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\..\win32\bin\Release\libexpat.dll;#2" /manifest .\..\win32\tmp\Release\expat.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\..\win32\tmp\Release\expat.unsuccessfulbuild".
+         Touching ".\..\win32\tmp\Release\expat.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\3rdpart\expat-2.1.0\lib\expat.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.29

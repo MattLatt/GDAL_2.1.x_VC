@@ -1,0 +1,32 @@
+﻿Build started 29/06/2016 08:10:02.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\3rdpart\expat-2.1.0\lib\expat_static.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\..\x64\tmp\Release_static\expat_static.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\..\x64\tmp\Release_static\expat_static.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /D WIN32 /D _WINDOWS /D NDEBUG /D _LIB /D COMPILED_FROM_DSP /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\..\x64\tmp\Release_static\\" /Fd".\..\x64\tmp\Release_static\vc100.pdb" /Gd /TC /errorReport:prompt xmlparse.c xmlrole.c xmltok.c xmltok_impl.c xmltok_ns.c
+         xmlparse.c
+     1>xmlparse.c(1844): warning C4244: 'return' : conversion from '__int64' to 'XML_Index', possible loss of data
+         xmlrole.c
+         xmltok.c
+         xmltok_impl.c
+         xmltok_ns.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\3rdpart\expat-2.1.0\lib\.\..\x64\bin\Release\expat_static.lib) does not match the Library's OutputFile property value (K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\3rdpart\expat-2.1.0\x64\bin\Release\libexpatMT.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(expat_static) does not match the Library's OutputFile property value (libexpatMT). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:".\..\x64\bin\Release\libexpatMT.lib" /NOLOGO .\..\x64\tmp\Release_static\xmlparse.obj
+         .\..\x64\tmp\Release_static\xmlrole.obj
+         .\..\x64\tmp\Release_static\xmltok.obj
+         .\..\x64\tmp\Release_static\xmltok_impl.obj
+         .\..\x64\tmp\Release_static\xmltok_ns.obj
+         expat_static.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\3rdpart\expat-2.1.0\lib\.\..\x64\bin\Release\expat_static.lib
+       FinalizeBuildStatus:
+         Deleting file ".\..\x64\tmp\Release_static\expat_static.unsuccessfulbuild".
+         Touching ".\..\x64\tmp\Release_static\expat_static.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.0.2_VC\3rdpart\expat-2.1.0\lib\expat_static.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.35
