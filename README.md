@@ -1,11 +1,12 @@
 # GDAL_2.1.0_VC
 This repository contain Visual C++ 2010 workspace of the GDAL 2.1.0 library (http://gdal.org)
 
-    * The Folder gdal-2.1.0 contain the gdal 2.1.0 source release (http://download.osgeo.org/gdal/2.1.0/gdal210.zip).
-	The file ./gdal-2.1.0/port/cpl_config.h.vc has been renamed to ./gdal-2.1.0/port/cpl_config.h in order to
-	compile with MS visual C++ and the file ./gdal-2.1.0/gcore/Version.rc has been slightly modified (including 
-	gdal_version.h instead of gdal.h) to avoid the RC1015 error compilation I have with VS 2010. I kept a copy of
-	the original file provided by OSgeo (./gdal-2.1.0/gcore/Version.rc.orig).
+    * The Folder gdal-2.1.0 contain the gdal 2.1.0 source release 
+	(http://download.osgeo.org/gdal/2.1.0/gdal210.zip). The file ./gdal-2.1.0/port/cpl_config.h.vc has been 
+	renamed to ./gdal-2.1.0/port/cpl_config.h in order to compile with MS visual C++ and the file 
+	./gdal-2.1.0/gcore/Version.rc has been slightly modified (including gdal_version.h instead of gdal.h)
+	to avoid the RC1015 error compilation I have with VS 2010. I kept a copy of the original file provided
+	by OSgeo (./gdal-2.1.0/gcore/Version.rc.orig).
 
 	* The folder libgdal-2.1.0 contain a MS Visual Studio Solution with all the workspaces and a "binaries"
 	sub-folder with each architecture and configuration binaries copied by VC post-build steps.
