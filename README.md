@@ -3,7 +3,7 @@ This repository contain Visual C++ 2010 workspace of the GDAL 2.1.0 library (htt
 
     * The Folder gdal-2.1.0 contain the gdal 2.1.0 source release 
 	(http://download.osgeo.org/gdal/2.1.0/gdal210.zip). The file ./gdal-2.1.0/port/cpl_config.h.vc has been 
-	renamed to ./gdal-2.1.0/port/cpl_config.h in order to compile with MS visual C++ and the file 
+	renamed into ./gdal-2.1.0/port/cpl_config.h in order to compile with MS visual C++ and the file 
 	./gdal-2.1.0/gcore/Version.rc has been slightly modified (including gdal_version.h instead of gdal.h)
 	to avoid the RC1015 error compilation I have with VS 2010. I kept a copy of the original file provided
 	by OSgeo (./gdal-2.1.0/gcore/Version.rc.orig).
@@ -15,7 +15,11 @@ This repository contain Visual C++ 2010 workspace of the GDAL 2.1.0 library (htt
 		+ test_dynamic_gdalbuildvrt workspace:
 		this is the gdalbuildvrt code provided by gdal (in the app folder of the source package) in a 
 		"windows console" workspace dynamically linked to GDAL 2.1.0
-		
+
+		+ test_dynamic_ogr2ogr workspace:
+		this is the ogr2ogr code provided by gdal (in the app folder of the source package) in a 
+		"windows console" workspace dynamically linked to GDAL 2.1.0
+	
 		+ test_static_libgdal-2.1.0 workspace:
 		this is a simple console program that dump all the supported drivers (GDAL/OGR) with theire 
 		capabilities (i.e. Read/Write)
@@ -32,22 +36,25 @@ This repository contain Visual C++ 2010 workspace of the GDAL 2.1.0 library (htt
 so you will have to rebuild the static lib version.
 	
 
-## 2016-06-29: Warning this is a work in progress
+## 2016-07-04: Warning this is a work in progress	
+
+    - Added proj lib (4.9.2) dll workspace for both architecture in the 3rdpart folder
+	
+	- Added a new test project "test_dynamic_ogr2ogr"
+
+What still need to be done :
+
+    - add ECW driver
+
+	- add V2.1.0 new drivers
+   
+    - test if it's possible to use Unicode charset (instead of Multi-Byte)
+
+ 	
+## 2016-06-29:
 
     - Added x64 version of all the workspaces (dll, lib and tests).
 	I've compiled the 3rd part library libexpat for x64 architecture excluding in UNICODE mode for now
-
-	
-What need to be done :
-
-    - adding Proj.4 lib
-    
-    - adding ECW driver
-    
-    - building libexpat for x64 architecture to test x64 version of all the workspaces
-    
-    - test if it's possible to use Unicode charset (instead of Multi-Byte)
-   	
 	
 ## 2016-06-28: 
 What is compiling :

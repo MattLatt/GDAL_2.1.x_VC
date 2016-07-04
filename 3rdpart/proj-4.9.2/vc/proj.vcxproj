@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{653A3B07-4762-4D49-B741-6E3A996E0FD6}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>proj</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)$(PlatformShortName)\$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)$(PlatformName)\$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)$(PlatformShortName)\$(Configuration)</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)$(PlatformName)\$(Configuration)</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">proj</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">proj</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)$(PlatformShortName)\$(Configuration)</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)$(PlatformName)\$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)$(PlatformShortName)\$(Configuration)</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)$(PlatformName)\$(Configuration)</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">proj</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">proj</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\src;.\%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;MUTEX_win32;PROJ_LIB="c:/OSGeo4W/share";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;MUTEX_win32;PROJ_LIB=\"c:/OSGeo4W/share\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <ModuleDefinitionFile>..\src\$(TargetName).def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\src;.\%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;MUTEX_win32;PROJ_LIB="c:/OSGeo4W/share";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;MUTEX_win32;PROJ_LIB=\"c:/OSGeo4W/share\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <ModuleDefinitionFile>..\src\$(TargetName).def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\src;.\%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MUTEX_win32;PROJ_LIB="c:/OSGeo4W/share";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MUTEX_win32;PROJ_LIB=\"c:/OSGeo4W/share\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <ModuleDefinitionFile>..\src\$(TargetName).def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\src;.\%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MUTEX_win32;PROJ_LIB="c:/OSGeo4W/share";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MUTEX_win32;PROJ_LIB=\"c:/OSGeo4W/share\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <ModuleDefinitionFile>..\src\$(TargetName).def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule K:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule K:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HK:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2 -BK:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2/VC10 --check-stamp-file K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HK:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2 -BK:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2/VC10 --check-stamp-file K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">K:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2/src/CMakeLists.txt;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\CMakeLists.txt;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\lib_proj.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindJNI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeFindJavaCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_cs2cs.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_proj.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_geod.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_nad2bin.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">K:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2/src/CMakeLists.txt;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\CMakeLists.txt;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\lib_proj.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindJNI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeFindJavaCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_cs2cs.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_proj.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_geod.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_nad2bin.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule K:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule K:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HK:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2 -BK:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2/VC10 --check-stamp-file K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HK:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2 -BK:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2/VC10 --check-stamp-file K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">K:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2/src/CMakeLists.txt;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\CMakeLists.txt;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\lib_proj.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindJNI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeFindJavaCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_cs2cs.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_proj.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_geod.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_nad2bin.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">K:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2/src/CMakeLists.txt;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\CMakeLists.txt;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\lib_proj.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindJNI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeFindJavaCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_cs2cs.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_proj.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_geod.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\bin_nad2bin.cmake;K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\3rdpart\proj-4.9.2\VC10\src\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\emess.h" />
+    <ClInclude Include="..\src\geocent.h" />
+    <ClInclude Include="..\src\pj_list.h" />
+    <ClInclude Include="proj_config.h" />
+    <ClInclude Include="..\src\projects.h" />
+    <ClInclude Include="..\src\proj_api.h" />
+    <ClInclude Include="..\src\geodesic.h" />
+    <ClCompile Include="..\src\nad_init.c" />
+    <ClCompile Include="..\src\PJ_aea.c" />
+    <ClCompile Include="..\src\PJ_aeqd.c" />
+    <ClCompile Include="..\src\PJ_airy.c" />
+    <ClCompile Include="..\src\PJ_aitoff.c" />
+    <ClCompile Include="..\src\PJ_august.c" />
+    <ClCompile Include="..\src\PJ_bacon.c" />
+    <ClCompile Include="..\src\PJ_bipc.c" />
+    <ClCompile Include="..\src\PJ_boggs.c" />
+    <ClCompile Include="..\src\PJ_bonne.c" />
+    <ClCompile Include="..\src\PJ_calcofi.c" />
+    <ClCompile Include="..\src\PJ_cass.c" />
+    <ClCompile Include="..\src\PJ_cc.c" />
+    <ClCompile Include="..\src\PJ_cea.c" />
+    <ClCompile Include="..\src\PJ_chamb.c" />
+    <ClCompile Include="..\src\PJ_collg.c" />
+    <ClCompile Include="..\src\PJ_crast.c" />
+    <ClCompile Include="..\src\PJ_denoy.c" />
+    <ClCompile Include="..\src\PJ_eck1.c" />
+    <ClCompile Include="..\src\PJ_eck2.c" />
+    <ClCompile Include="..\src\PJ_eck3.c" />
+    <ClCompile Include="..\src\PJ_eck4.c" />
+    <ClCompile Include="..\src\PJ_eck5.c" />
+    <ClCompile Include="..\src\PJ_eqc.c" />
+    <ClCompile Include="..\src\PJ_eqdc.c" />
+    <ClCompile Include="..\src\PJ_fahey.c" />
+    <ClCompile Include="..\src\PJ_fouc_s.c" />
+    <ClCompile Include="..\src\PJ_gall.c" />
+    <ClCompile Include="..\src\PJ_geos.c" />
+    <ClCompile Include="..\src\PJ_gins8.c" />
+    <ClCompile Include="..\src\PJ_gnom.c" />
+    <ClCompile Include="..\src\PJ_gn_sinu.c" />
+    <ClCompile Include="..\src\PJ_goode.c" />
+    <ClCompile Include="..\src\PJ_gstmerc.c" />
+    <ClCompile Include="..\src\PJ_hammer.c" />
+    <ClCompile Include="..\src\PJ_hatano.c" />
+    <ClCompile Include="..\src\PJ_igh.c" />
+    <ClCompile Include="..\src\PJ_isea.c" />
+    <ClCompile Include="..\src\PJ_imw_p.c" />
+    <ClCompile Include="..\src\PJ_krovak.c" />
+    <ClCompile Include="..\src\PJ_labrd.c" />
+    <ClCompile Include="..\src\PJ_laea.c" />
+    <ClCompile Include="..\src\PJ_lagrng.c" />
+    <ClCompile Include="..\src\PJ_larr.c" />
+    <ClCompile Include="..\src\PJ_lask.c" />
+    <ClCompile Include="..\src\PJ_lcca.c" />
+    <ClCompile Include="..\src\PJ_lcc.c" />
+    <ClCompile Include="..\src\PJ_loxim.c" />
+    <ClCompile Include="..\src\PJ_lsat.c" />
+    <ClCompile Include="..\src\PJ_mbt_fps.c" />
+    <ClCompile Include="..\src\PJ_mbtfpp.c" />
+    <ClCompile Include="..\src\PJ_mbtfpq.c" />
+    <ClCompile Include="..\src\PJ_merc.c" />
+    <ClCompile Include="..\src\PJ_mill.c" />
+    <ClCompile Include="..\src\PJ_mod_ster.c" />
+    <ClCompile Include="..\src\PJ_moll.c" />
+    <ClCompile Include="..\src\PJ_natearth.c" />
+    <ClCompile Include="..\src\PJ_nell.c" />
+    <ClCompile Include="..\src\PJ_nell_h.c" />
+    <ClCompile Include="..\src\PJ_nocol.c" />
+    <ClCompile Include="..\src\PJ_nsper.c" />
+    <ClCompile Include="..\src\PJ_nzmg.c" />
+    <ClCompile Include="..\src\PJ_ob_tran.c" />
+    <ClCompile Include="..\src\PJ_ocea.c" />
+    <ClCompile Include="..\src\PJ_oea.c" />
+    <ClCompile Include="..\src\PJ_omerc.c" />
+    <ClCompile Include="..\src\PJ_ortho.c" />
+    <ClCompile Include="..\src\PJ_poly.c" />
+    <ClCompile Include="..\src\PJ_putp2.c" />
+    <ClCompile Include="..\src\PJ_putp3.c" />
+    <ClCompile Include="..\src\PJ_putp4p.c" />
+    <ClCompile Include="..\src\PJ_putp5.c" />
+    <ClCompile Include="..\src\PJ_putp6.c" />
+    <ClCompile Include="..\src\PJ_qsc.c" />
+    <ClCompile Include="..\src\PJ_robin.c" />
+    <ClCompile Include="..\src\PJ_rpoly.c" />
+    <ClCompile Include="..\src\PJ_sconics.c" />
+    <ClCompile Include="..\src\PJ_somerc.c" />
+    <ClCompile Include="..\src\PJ_sterea.c" />
+    <ClCompile Include="..\src\PJ_stere.c" />
+    <ClCompile Include="..\src\PJ_sts.c" />
+    <ClCompile Include="..\src\PJ_tcc.c" />
+    <ClCompile Include="..\src\PJ_tcea.c" />
+    <ClCompile Include="..\src\PJ_tmerc.c" />
+    <ClCompile Include="..\src\PJ_tpeqd.c" />
+    <ClCompile Include="..\src\PJ_urm5.c" />
+    <ClCompile Include="..\src\PJ_urmfps.c" />
+    <ClCompile Include="..\src\PJ_vandg.c" />
+    <ClCompile Include="..\src\PJ_vandg2.c" />
+    <ClCompile Include="..\src\PJ_vandg4.c" />
+    <ClCompile Include="..\src\PJ_wag2.c" />
+    <ClCompile Include="..\src\PJ_wag3.c" />
+    <ClCompile Include="..\src\PJ_wag7.c" />
+    <ClCompile Include="..\src\PJ_wink1.c" />
+    <ClCompile Include="..\src\PJ_wink2.c" />
+    <ClCompile Include="..\src\proj_etmerc.c" />
+    <ClCompile Include="..\src\aasincos.c" />
+    <ClCompile Include="..\src\adjlon.c" />
+    <ClCompile Include="..\src\bch2bps.c" />
+    <ClCompile Include="..\src\bchgen.c" />
+    <ClCompile Include="..\src\biveval.c" />
+    <ClCompile Include="..\src\dmstor.c" />
+    <ClCompile Include="..\src\emess.c" />
+    <ClCompile Include="..\src\geocent.c" />
+    <ClCompile Include="..\src\geodesic.c" />
+    <ClCompile Include="..\src\mk_cheby.c" />
+    <ClCompile Include="..\src\nad_cvt.c" />
+    <ClCompile Include="..\src\nad_intr.c" />
+    <ClCompile Include="..\src\pj_apply_gridshift.c" />
+    <ClCompile Include="..\src\pj_apply_vgridshift.c" />
+    <ClCompile Include="..\src\pj_auth.c" />
+    <ClCompile Include="..\src\pj_ctx.c" />
+    <ClCompile Include="..\src\pj_fileapi.c" />
+    <ClCompile Include="..\src\pj_datum_set.c" />
+    <ClCompile Include="..\src\pj_datums.c" />
+    <ClCompile Include="..\src\pj_deriv.c" />
+    <ClCompile Include="..\src\pj_ell_set.c" />
+    <ClCompile Include="..\src\pj_ellps.c" />
+    <ClCompile Include="..\src\pj_errno.c" />
+    <ClCompile Include="..\src\pj_factors.c" />
+    <ClCompile Include="..\src\pj_fwd.c" />
+    <ClCompile Include="..\src\pj_gauss.c" />
+    <ClCompile Include="..\src\pj_gc_reader.c" />
+    <ClCompile Include="..\src\pj_geocent.c" />
+    <ClCompile Include="..\src\pj_gridcatalog.c" />
+    <ClCompile Include="..\src\pj_gridinfo.c" />
+    <ClCompile Include="..\src\pj_gridlist.c" />
+    <ClCompile Include="..\src\PJ_healpix.c" />
+    <ClCompile Include="..\src\pj_init.c" />
+    <ClCompile Include="..\src\pj_initcache.c" />
+    <ClCompile Include="..\src\pj_inv.c" />
+    <ClCompile Include="..\src\pj_latlong.c" />
+    <ClCompile Include="..\src\pj_list.c" />
+    <ClCompile Include="..\src\pj_log.c" />
+    <ClCompile Include="..\src\pj_malloc.c" />
+    <ClCompile Include="..\src\pj_mlfn.c" />
+    <ClCompile Include="..\src\pj_msfn.c" />
+    <ClCompile Include="..\src\pj_mutex.c" />
+    <ClCompile Include="..\src\pj_open_lib.c" />
+    <ClCompile Include="..\src\pj_param.c" />
+    <ClCompile Include="..\src\pj_phi2.c" />
+    <ClCompile Include="..\src\pj_pr_list.c" />
+    <ClCompile Include="..\src\pj_qsfn.c" />
+    <ClCompile Include="..\src\pj_release.c" />
+    <ClCompile Include="..\src\pj_strerrno.c" />
+    <ClCompile Include="..\src\pj_transform.c" />
+    <ClCompile Include="..\src\pj_tsfn.c" />
+    <ClCompile Include="..\src\pj_units.c" />
+    <ClCompile Include="..\src\pj_utils.c" />
+    <ClCompile Include="..\src\pj_zpoly1.c" />
+    <ClCompile Include="..\src\proj_mdist.c" />
+    <ClCompile Include="..\src\proj_rouss.c" />
+    <ClCompile Include="..\src\rtodms.c" />
+    <ClCompile Include="..\src\vector1.c" />
+    <ClCompile Include="..\src\pj_strtod.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="K:/Components/LibraryV2/GDAL/GDAL_2.1.0_VC_NoIntFilesCleanUp/3rdpart/proj-4.9.2/VC10/ZERO_CHECK.vcxproj">
+      <Project>340091CF-BB77-4D55-911F-74B460126D62</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\proj.def" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

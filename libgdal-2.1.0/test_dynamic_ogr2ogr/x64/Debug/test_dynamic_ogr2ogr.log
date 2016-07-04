@@ -1,0 +1,25 @@
+﻿Build started 04/07/2016 16:36:36.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\test_dynamic_ogr2ogr\test_dynamic_ogr2ogr.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\test_dynamic_ogr2ogr\x64\Debug\test_dynamic_ogr2ogr.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         test_dynamic_ogr2ogr.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\test_dynamic_ogr2ogr\x64\Debug\test_dynamic_ogr2ogr.exe
+       Manifest:
+         All outputs are up-to-date.
+       PostBuildEvent:
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\test_dynamic_ogr2ogr\x64\Debug\test_dynamic_ogr2ogr.exe K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\binaries\dll\x64\Debug\test_dynamic_ogr2ogr.exe
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\test_dynamic_ogr2ogr\x64\Debug\test_dynamic_ogr2ogr.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\test_dynamic_ogr2ogr\x64\Debug\test_dynamic_ogr2ogr.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\test_dynamic_ogr2ogr\test_dynamic_ogr2ogr.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.19
