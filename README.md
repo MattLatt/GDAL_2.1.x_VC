@@ -10,7 +10,7 @@ This repository contain Visual C++ 2010 workspace of the GDAL 2.1.0 library (htt
 
 	* The folder libgdal-2.1.0 contain a MS Visual Studio Solution with all the workspaces and a "binaries"
 	sub-folder with each architecture and configuration binaries copied by VC post-build steps.
-	There is both dynamic (dll) and static workspaces (lib) of GDAL 2.1.0 with 3 test workspaces:
+	There is both dynamic (dll) and static workspaces (lib) of GDAL 2.1.0 with 4 test workspaces:
 	
 		+ test_dynamic_gdalbuildvrt workspace:
 		this is the gdalbuildvrt code provided by gdal (in the app folder of the source package) in a 
