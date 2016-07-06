@@ -28,27 +28,40 @@ This repository contain Visual C++ 2010 workspace of the GDAL 2.1.0 library (htt
 		this is the gdalinfo code provided by gdal (in the app folder of the source package) in a 
 		"windows console" workspace statically linked to GDAL 2.1.0
 	
-	* The 3rdpart folder contain the library not provided internally by GDAL and necessary for some format I choosed to add (OSM,...).
-	For now it contain the libexpat (linlked dynamically) and libsqlite3.12 amalgamation included in the GDAL workspaces.
+	* The 3rdpart folder contain the library not provided internally by GDAL and necessary for some format
+	I choosed to add (OSM, ECW...).
+	For now it contain the libexpat (linlked dynamically), Proj.4 lib V4.9.2 (linked dynamically),
+	ECW 4.3 SDK (linked dynamically) and libsqlite3.12 amalgamation included in the GDAL workspaces.
 
 
 /!\ Due to GitHub (free version) limitation I've deleted the static version of gdal-2.1.0.lib (more than 650 MB),
-so you will have to rebuild the static lib version.
-	
+so you will have to rebuild the static lib version to build the "test_static_XX workspaces".
 
-## 2016-07-04: Warning this is a work in progress	
+## 2016-07-06: Warning this is still a work in progress		
+
+    - Added the ECW driver support (in Read Only mode), ECW 4.3 RO SDK provided in the 3rdpart folder.
+	The SDK is provided as downloaded except I've renamed all the "win32" folders to "x86".
+	
+	- Added the ERS driver support.
+	
+	- Corrected bad Preprocessor value in the Release (in Dynamic and static workspace for both architectures).
+
+What still need to be done :
+
+	- add GEOS geometry library
+	
+	- add iconv library
+	
+	- add V2.1.0 new drivers
+   
+    - test if it's possible to use Unicode charset (instead of Multi-Byte)
+	
+	
+## 2016-07-04:	
 
     - Added proj lib (4.9.2) dll workspace for both architecture in the 3rdpart folder
 	
 	- Added a new test project "test_dynamic_ogr2ogr"
-
-What still need to be done :
-
-    - add ECW driver
-
-	- add V2.1.0 new drivers
-   
-    - test if it's possible to use Unicode charset (instead of Multi-Byte)
 
  	
 ## 2016-06-29:

@@ -1,7 +1,7 @@
-﻿Build started 04/07/2016 16:35:13.
-     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\lib\gdal-2.1.0_lib.vcxproj" on node 2 (build target(s)).
+﻿Build started 06/07/2016 12:32:50.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\lib\gdal-2.1.0_lib.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\lib\x64\Release\gdal-2.1.0_lib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\lib\x64\Release\gdal-2.1.0_lib.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
          All outputs are up-to-date.
@@ -9,16 +9,16 @@
          All outputs are up-to-date.
        Lib:
          All outputs are up-to-date.
-         gdal-2.1.0_lib.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\lib\x64\Release\gdal-2.1.0.lib
+         gdal-2.1.0_lib.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\lib\x64\Release\gdal-2.1.0.lib
        PostBuildEvent:
-         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\lib\x64\Release\gdal-2.1.0.lib K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\binaries\lib\x64\Release\gdal-2.1.0.lib
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\lib\x64\Release\gdal-2.1.0.lib K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\binaries\lib\x64\Release\gdal-2.1.0.lib
          :VCEnd
                  1 fichier(s) copié(s).
        FinalizeBuildStatus:
-         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\lib\x64\Release\gdal-2.1.0_lib.unsuccessfulbuild".
-         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\lib\x64\Release\gdal-2.1.0_lib.lastbuildstate".
-     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\lib\gdal-2.1.0_lib.vcxproj" (build target(s)).
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\lib\x64\Release\gdal-2.1.0_lib.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\lib\x64\Release\gdal-2.1.0_lib.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\lib\gdal-2.1.0_lib.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:19.55
+Time Elapsed 00:00:19.90

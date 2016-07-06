@@ -1,7 +1,7 @@
-﻿Build started 04/07/2016 16:36:45.
-     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\dll\gdal-2.1.0_dll.vcxproj" on node 2 (build target(s)).
+﻿Build started 06/07/2016 12:38:00.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\dll\gdal-2.1.0_dll.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\dll\x86\Debug\gdal-2.1.0_dll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\dll\x86\Debug\gdal-2.1.0_dll.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
          All outputs are up-to-date.
@@ -9,20 +9,20 @@
          All outputs are up-to-date.
        Link:
          All outputs are up-to-date.
-         gdal-2.1.0_dll.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\dll\x86\Debug\gdal-2.1.0.dll
+         gdal-2.1.0_dll.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\dll\x86\Debug\gdal-2.1.0.dll
        PostBuildEvent:
-         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\dll\x86\Debug\gdal-2.1.0.dll K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\binaries\dll\x86\Debug\gdal-2.1.0.dll
-         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\dll\x86\Debug\gdal-2.1.0.exp K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\binaries\dll\x86\Debug\gdal-2.1.0.exp
-         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\dll\x86\Debug\gdal-2.1.0.lib K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\binaries\dll\x86\Debug\gdal-2.1.0.lib
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\dll\x86\Debug\gdal-2.1.0.dll K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\binaries\dll\x86\Debug\gdal-2.1.0.dll
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\dll\x86\Debug\gdal-2.1.0.exp K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\binaries\dll\x86\Debug\gdal-2.1.0.exp
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\dll\x86\Debug\gdal-2.1.0.lib K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\binaries\dll\x86\Debug\gdal-2.1.0.lib
          :VCEnd
                  1 fichier(s) copié(s).
                  1 fichier(s) copié(s).
                  1 fichier(s) copié(s).
        FinalizeBuildStatus:
-         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\dll\x86\Debug\gdal-2.1.0_dll.unsuccessfulbuild".
-         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\dll\x86\Debug\gdal-2.1.0_dll.lastbuildstate".
-     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC\libgdal-2.1.0\dll\gdal-2.1.0_dll.vcxproj" (build target(s)).
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\dll\x86\Debug\gdal-2.1.0_dll.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\dll\x86\Debug\gdal-2.1.0_dll.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\dll\gdal-2.1.0_dll.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.03
+Time Elapsed 00:00:01.75

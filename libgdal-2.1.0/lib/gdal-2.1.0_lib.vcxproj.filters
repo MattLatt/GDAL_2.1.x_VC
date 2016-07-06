@@ -1958,6 +1958,9 @@
     <ClInclude Include="..\..\gdal-2.1.0\apps\gdal_utils_priv.h">
       <Filter>Header Files\apps</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\ecw\ecwsdk_headers.h">
+      <Filter>Header Files\frmts\ecw</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\gdal-2.1.0\gcore\mdreader\reader_alos.cpp">
@@ -4839,6 +4842,18 @@
     </ClCompile>
     <ClCompile Include="..\..\gdal-2.1.0\port\cpl_worker_thread_pool.cpp">
       <Filter>Source Files\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ecw\ecwasyncreader.cpp">
+      <Filter>Source Files\frmts\ecw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ecw\ecwcreatecopy.cpp">
+      <Filter>Source Files\frmts\ecw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ecw\ecwdataset.cpp">
+      <Filter>Source Files\frmts\ecw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\ecw\jp2userbox.cpp">
+      <Filter>Source Files\frmts\ecw</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
