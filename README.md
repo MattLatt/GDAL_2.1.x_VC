@@ -28,10 +28,10 @@ This repository contain Visual C++ 2010 workspace of the GDAL 2.1.0 library (htt
 		this is the gdalinfo code provided by gdal (in the app folder of the source package) in a 
 		"windows console" workspace statically linked to GDAL 2.1.0
 	
-	* The 3rdpart folder contain the library not provided internally by GDAL and necessary for some format
-	I choosed to add (OSM, ECW...).
-	For now it contain the libexpat (linlked dynamically), Proj.4 lib V4.9.2 (linked dynamically),
-	ECW 4.3 SDK (linked dynamically) and libsqlite3.12 amalgamation included in the GDAL workspaces.
+	* The 3rdpart folder contain the libraries not provided internally by GDAL and necessary for some format
+	I choosed to add (OSM, ECW...). For now it contain the libexpat (linlked dynamically), 
+	Proj.4 lib V4.9.2 (linked dynamically), ECW 4.3 SDK (linked dynamically) and 
+	libsqlite3.12 amalgamation included in the GDAL workspaces.
 
 
 /!\ Due to GitHub (free version) limitation I've deleted the static version of gdal-2.1.0.lib (more than 650 MB),
