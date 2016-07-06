@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>FAQ</title>
+    <link rel="StyleSheet" href="css/FAQ.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+  <body onload="WWHUpdate();" onunload="WWHUnload();" onkeydown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onkeypress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onkeyup="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">FAQ </div>
+    <hr align="left" />
+    <blockquote>
+      <div class="Heading1"><a name="1237330">FAQ </a></div>
+      <div class="Text"><a name="1237360">This section serves as a quick reference guide to some of the terminologies </a>you may encounter when using this software.</div>
+      <div class="Subhead1"><a name="1242850">What is Lossless Compression </a></div>
+      <div class="Text"><a name="1242851">Lossless compression provides a compressed image that can uncompress to </a>an identical copy of the original image. This perfect reconstruction is the advantage of lossless compression. The disadvantage of lossless compression is a ratio limit of approximately 2:1 compressed file size. </div>
+      <div class="Subhead1"><a name="1242853">What is Lossy Compression</a></div>
+      <div class="Text"><a name="1242854">Lossy compression provides a compressed image that can uncompress to an </a>approximate copy of the original image. </div>
+      <div class="Text"><a name="1242855">Lossy compression sacrifices some data fidelity, in order to achieve much </a>higher compression rates than those available through lossless compression. These higher compression ratios are the advantages of lossy compression. </div>
+      <div class="Subhead1"><a name="1242857">What is Wavelet Compression</a></div>
+      <div class="Text"><a name="1242858">The most effective form of compression today is wavelet based image </a>encoding. Wavelet compression analyzes an uncompressed image recursively. This analysis produces a series of sequentially higher resolution images, each augmenting the information in the lower resolution images. Wavelet compression is very effective at retaining data accuracy within highly compressed files. Unlike JPEG, which uses a block-based Discrete Cosine Transformation (DCT) on blocks across the image, modern wavelet compression techniques enable compressions of 20:1 or greater without visible degradation of the original image. Wavelet compression can also be used to generate lossless compressed imagery, at ratios of around 2:1. </div>
+      <div class="Subhead1"><a name="1243648">SDK Compresssion Rates</a></div>
+      <div class="Text"><a name="1243649">The SDK can achieve compression rates of up to 95%. Your actual results will </a>vary depending upon the type of compression you use, your settings, and the original file. </div>
+      <div class="Subhead1"><a name="1242136">Maximum Output Bit Depth Per Image Component Supported by the </a>SDK</div>
+      <div class="Text"><a name="1242137">The SDK's JPEG 2000 encoder uses a 32-bit wide encoding pipeline. The </a>maximum effective bit depth per component is currently 28 bits, due to the need to reserve one or more bits as "guard" bits and one bit as a "carry" bit.</div>
+      <div class="Text"><a name="1242138">Compression to a bit depth less than or equal to 28 bits is recommended. </a></div>
+      <div class="Text"><a name="1242139">You can compress to bit depths that are not multiples of 8, so if image quality </a>is a high priority you can still compress to (say) 26 bits of depth per component and later extract the image data into 32- bit pixel buffers.</div>
+      <div class="Text"><a name="1242140">Any files (lossy or lossless) compressed to greater than 28 bits of depth would </a>be unreadable in all vendor implementations of the JPEG 2000 codec of which we are aware. </div>
+      <div class="Text"><a name="1242141">This restriction is currently the same across all known vendor </a>implementations.A wider pipeline of 64 bits would increase the possible bit depth per component to allow the full 1-38 bit depth range specified by the JPEG 2000 standard. </div>
+      <div class="Text"><a name="1242088">However, even with this enhancement there will be no way to do lossless </a>compressions with more than 32 bits of depth due to some rather obscure restrictions in the format of the JPEG 2000 codestream. A 64 bit pipeline should allow 33-38bit lossy compressions. </div>
+      <div class="Subhead1"><a name="1242625">Is the SDK 64 Bit Enabled</a></div>
+      <div class="Text"><a name="1242626">The SDK source is ready for the next generation of 64-bit processors and </a>operating systems. </div>
+      <div class="Subhead1"><a name="1242627">Which File Formats are Encoded by the ECW JPEG2000 SDK</a></div>
+      <div class="Text"><a name="1242628">The SDK will compress to the ECW and JPEG 2000 file formats. Currently the </a>SDK supports image compressions of up to 10,000 gigabytes for ECW and over 1,000 gigabytes for JPEG 2000. Compression of .ecw files operates as in previous versions of the SDK. The .jp2 files compressed by the SDK will actually be backwards-compatible jpx files from Part 2 of the ISO JPEG 2000 Standard, allowing ER Mapper to embed georeferencing information in header boxes in the files to support GIS applications. A JPEG 2000 decoder that complies with Part 1 of the standard will be able to decompress these files by default since it will ignore these header boxes. </div>
+      <div class="Subhead1"><a name="1243165">How the SDK Manages Decompression Functions on the Opacity </a>Channel </div>
+      <div class="Text"><a name="1242603">Various BGRA, RGBA etc decompression functions will either return a value </a>of 0 or 255 for the opacity channel. It should also be noted that multiband format is the correct format in which to compress actual RGBA information, which can then be retrieved using the BIL reading functions. </div>
+      <div class="Subhead1"><a name="1243266">How the SDK Manages Different Sample Sizes and Component Bit </a>Depths</div>
+      <div class="Text"><a name="1243267">If the user specifies three bands, cell type </a><span class="Computer">NCSCT_UINT32</span>, and bit depth 17 in each of the <span class="Computer">NCSFileBandInfo</span> structs in pBands, does this mean the compression process will read data in 32 - bit chunks for each? </div>
+      <div class="Text"><a name="1243268">The data type read (i.e. compression input buffer) is determined by the </a><span class="Computer">NCSEcwCellType</span><span style="color: #0000ff"> </span>specified in the <span class="Computer">SetFileInfo()</span><span style="color: #0000ff"> </span>call. Out of this, the compressor assumes the data is within the valid range. Currently it does clip IEEE4 buffers (for compatibility with the C API) to the specified bit depth, but for performance reasons no other types.</div>
+      <div class="Text"><a name="1243269">It is currently up to the application to guarantee the bit depth specified is </a>sufficient to handle whatever is passed into the buffer, and that the buffer is big enough to hold it (i.e., <span class="Computer">INT16</span> in a <span class="Computer">UINT8</span> buffer will not work). </div>
+      <div class="Subhead1"><a name="1243364">What Happens if the Bit Depth Specified is Greater than the Maximum </a>Bit Depth for the Cell Type</div>
+      <div class="Text"><a name="1243365">If for example you inserted a value 8 in </a><span class="Computer">nBits</span> but the cell type was <span class="Computer">NCST_UINT8 </span>it will most likely work. However by specifying more bits than there actually, you are just confusing downstream applications decompressing the image - i.e. most will assume 16 bit will be 16 bits of data, and rescale for display as appropriate (kdu_show<span style="font-weight: bold"> </span>does this - ER Mapper however calculates a histogram and creates a default transform based on that). </div>
+      <div class="Subhead1"><a name="1243474">How does the SDK Handle Optimal Block Sizes</a></div>
+      <div class="Text"><a name="1243464">The SDK now calculates an optimal block size internally instead of allowing the </a>application developer to change it manually. However the architecture for compression remains the same for backwards compatibility with old SDK applications.</div>
+      <div class="Text"><a name="1241385">This section outlines the functionality present in the current version of the SDK.</a></div>
+      <div class="Subhead1"><a name="1241338">What is JPEG 2000 </a></div>
+      <div class="Text"><a name="1237352">JPEG 2000 is an ISO standard (ISO/IEC 15444) for compressing, storing and </a>transmitting images of all types. It uses wavelet compression technology to achieve scalable compression ranging from lossless to arbitrarily lossy, while retaining unprecedented decompressed image quality. </div>
+      <div class="Subhead1"><a name="1240043">What is the Extent of SDK Support for JPEG 2000</a></div>
+      <div class="Text"><a name="1240156">ERDAS is the only vendor in the geospatial industry to commit to developing </a>its own JPEG 2000 implementation in order to provide superior solutions for multi-terabyte JPEG 2000 images. This includes compliance class 2 JPEG 2000 and NITF decompression, input and output of geographical metadata in three formats (embedded GML, embedded GeoTIFF UUID box and six-value world file), easy to use API and customizable compression parameters.</div>
+      <div class="Subhead1"><a name="1241035">GeoJP2 Support in the SDK </a></div>
+      <div class="Text"><a name="1241037">The GeoJP2 standard for embedding geospatial information in .jp2 files, </a>started by the now defunct Mapping Science Inc., inserts a degenerate GeoTIFF file in a UUID box in the JPEG 2000 file, providing coordinate system information and a mapping between pixel coordinates and georeferenced coordinates. Although it is a somewhat inelegant solution to the problem of embedding geographic metadata in a JPEG 2000 file, it is supported by the SDK. </div>
+      <div class="Text"><a name="1241675">ERDAS also supports the inclusion of georeferencing information as Open GIS </a>Consortium Geography Markup Language (OGC GML), continuing our commitment to open standards and interoperability. Developers using the SDK can select which forms of geographical metadata are processed on input and output to and from a JPEG 2000 image file. </div>
+      <div class="Subhead1"><a name="1241107">Inconsistent Decompressiong Speeds with JPEG 2000 Files</a></div>
+      <div class="Text"><a name="1241108">JPEG 2000 files are instances of a large and highly customizable specification. </a>The JPEG 2000 standard supports many different compression formats, some of which are more optimized towards quick loading than others. As a consequence, the speed performance of the SDK can be somewhat variable across the range of all input files. The SDK will decompress JPEG 2000 files at rates comparable to or better than those achieved by other decoder implementations. </div>
+      <div class="Subhead1"><a name="1242962">What is GML </a></div>
+      <div class="Text"><a name="1242951">The Geography Markup Language is an XML grammar and schema for </a>recording and transferring geographic data. GML has been developed by the OpenGIS Consortium in consultation with members and the International Standards Organization. Geospatial information is available as OGC GML in an XML header box as specified in Part 2 of the ISO JPEG 2000 Standard (ISO/IEC 15444-2).</div>
+      <div class="Subhead1"><a name="1243058">Support for Bi-level Imagery in the SDK </a></div>
+      <div class="Text"><a name="1243049">Bi-level images are an important subset of the images that can conform to the </a>JPEG 2000 specification. The standard supports bit-depths from 1-31 allowing a maximum level of flexibility. The SDK is able to decode compressed bi-level .jp2 files (with a bit-depth of 1) since it is fully compliant with the standard. Also, 1-bit .jp2 compression is supported by the SDK, and users are still able to compress bi-level data to grayscale ECW images. </div>
+      <div class="Text"><a name="1241989">This section of the FAQ discusses the compression format ECW.</a></div>
+      <div class="Subhead1"><a name="1241971">What is ECW</a></div>
+      <div class="Text"><a name="1237426">ECW is an acronym for Enhanced Compressed Wavelet, a popular standard </a>for compressing and using very large images. </div>
+      <div class="Subhead1"><a name="1237312">What is ECWP</a></div>
+      <div class="Text"><a name="1239891">ECWP is an acronym for Enhanced Compression Wavelet Protocol. It is the </a>protocol used to transmit images compressed with ECW over networks such as the Internet. ECWP offers the fastest possible access to large ECW and JPEG 2000 images and is fully supported by ERDAS Image Web Server.</div>
+      <div class="Subhead1"><a name="1237313">What is ECWPS</a></div>
+      <div class="Text"><a name="1237428">ECWPS is the version of ECWP that includes security. ECWPS enables </a>private and secure encrypted streaming of image data over public networks such as the Internet. ECWPS is a feature included with Image Web Server. It is also available for ArcGIS through the ECW JPEG2000 Plug-in. </div>
+      <div class="Subhead1"><a name="1237470">What is GeoTIFF</a></div>
+      <div class="Text"><a name="1237500">GeoTIFF is a version of the popular Tagged Image File Format (TIFF) that </a>includes georeferencing. GeoTIFF files are standard TIFF 6.0 files, with georeferencing encoded in several reserved TIFF tags. The SDK fully supports GeoTIFF metadata in compressed and decompressed image files. </div>
+      <div class="Subhead1"><a name="1237471">What is NITF</a></div>
+      <div class="Text"><a name="1261373">The National Imagery Transmission Format Standard (NITF) is a set of </a>combined government standards for the formatting, storage and transmission of digital imagery. Originally developed for United States military and government agencies, the NITF has been accepted through Standardization Agreements by NATO and other international defense organizations. </div>
+      <div class="Subhead1"><a name="1261396">NITF Support in the SDK </a></div>
+      <div class="Text"><a name="1261386">It is possible to enable the SDK to encode and decode to NITF/NSIF BIIF </a>NPJE, EPJE compliant codestreams.</div>
+      <div class="Subhead1"><a name="1261375">What is a Projection</a></div>
+      <div class="Text"><a name="1243125">A map projection is a mathematical function used to plot a point from an </a>ellipsoid, on a plane such as a sheet of paper. Projections attempt to replicate characteristics of the surface geometry at the given point. Dozens of different projections are available. </div>
+      <div class="Subhead1"><a name="1243520">How the SDK Handles Partially Georeferenced Datasets</a></div>
+      <div class="Text"><a name="1243521">ER Mapper uses a datum and projection pair called WGS84/LOCAL to </a>represent the coordinate system of datasets that have a geographic registration but no formal coordinate system or geocoding, so that multiple such datasets can be accurately overlaid (similar to the use of world files for this purpose). </div>
+      <div class="Text"><a name="1243522">An ECW file that is listed as in WGS84/LOCAL is processed with vertical </a>values inverted in ER Mapper as compared to a RAW/RAW dataset to account for the treatment of location as Eastings/ Northings rather than agnostic dataset coordinates. </div>
+      <div class="Text"><a name="1243514">Sometimes a partially georeferenced dataset may be compressed using the </a>SDK, e.g. one with a registration but no projection or datum, or, in the case of JPEG 2000 files only, a registration and a projection/datum pair that has no corresponding EPSG code. In the case of compression to ECW files, the projection and datum are stored in the file as listed in the output metadata. In the case of JPEG 2000 files, a partially georeferenced dataset is compressed without a stored EPSG code, and when reloaded is loaded with projection and datum WGS84/LOCAL to account for the registration information present (which indicates the dataset has a geographic purpose). This behavior can be tested using utility functions provided in the C API, and worked around in client code if it is considered undesirable for some reason. </div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <hr align="left" />
+    <table align="left">
+      <tr>
+        <td class="WebWorks_Company_Logo_Bottom">
+          <a href="http://www.erdas.com" target="none"><img src="ERDAS_big_logo.png" border="0" /></a>
+        </td>
+      </tr>
+      <tr>
+        <td class="WebWorks_Company_Phone_Bottom" style="font-family: Arial; font-size: 12px">Phone: +1 770 776 3400</td>
+      </tr>
+      <tr>
+        <td class="WebWorks_Company_Fax_Bottom" style="font-family: Arial; font-size: 12px">Fax: +1 770 776 3500</td>
+      </tr>
+      <tr>
+        <td class="WebWorks_Company_Email_Bottom" style="font-family: Arial; font-size: 12px">
+          <a href="mailto:info@erdas.com">info@erdas.com</a>
+        </td>
+      </tr>
+    </table>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Introduction</title>
+    <link rel="StyleSheet" href="css/Introduction.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+  <body onload="WWHUpdate();" onunload="WWHUnload();" onkeydown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onkeypress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onkeyup="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">Introduction</div>
+    <hr align="left" />
+    <blockquote>
+      <div class="Heading1"><a name="1238509">Introduction</a></div>
+      <div class="Text"><a name="1238121">The ERDAS ECW JPEG2000 Software Development Kit (SDK) may be used </a>to add large image support to applications. It provides compression and use of very large images in the industry standard ECW (Enhanced Compressed Wavelet) image format and the ISO standard JPEG 2000 format.</div>
+      <div class="Text"><a name="1236558">The SDK enables software developers working with C or C++ to add image </a>compression and decompression support for the ECW and JPEG 2000 file formats to their own GIS, CAD or imaging applications. The libraries are small and can be packaged as shared objects to install on a user system or in an application's executable code directory. The SDK libraries have a small, clean interface with only a few function calls. Subsampling and selective views of imagery are handled automatically. You can use the SDK library with a simple read-region call, or a progressive-update call (this is advantageous for imagery coming from an Image Web Server). You can include ECW or JPEG 2000 compressed images of any size (including terabytes or larger) within your application. The images can be from a local source (e.g. a hard disk, network server, CD or DVD-ROM). The images can also be from a remote source as delivered from an Image Web Server. The source is functionally hidden from your application, which needs only to open views into the image. The SDK manages the entire image access and decompression process for you. </div>
+      <div class="Subhead1"><a name="1239431">Viewing and Printing this Document</a></div>
+      <div class="Text"><a name="1239432">This sections outlines the different format types of this documentation and the </a>necessary programs needed to open them.</div>
+      <div class="Text"><a name="1239440">For on-line viewing we recommend that you select the following options from </a>the Acrobat Reader® or Acrobat® View menu.</div>
+      <div class="RTip1">
+        <img src="tipbullet.png" alt="*" border="0" width="15" height="24" /><a name="1239441">The free Acrobat® Reader, required to open PDF documents, is available </a>for download at:</div>
+      <div class="RContinue1"><span class="GotoLink"><a href="http://www.adobe.com/" name="1239443">http://www.adobe.com/</a></span></div>
+      <div class="Text"><a name="1239444">The PDF version allows you to:</a></div>
+      <div class="Bullet_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet_inner" style="width: 18pt; white-space: nowrap;">•	</div>
+            </td>
+            <td width="100%">
+              <div class="Bullet_inner"><a name="1239445">Ability to print sections or the entire document.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet_inner" style="width: 18pt; white-space: nowrap;">•	</div>
+            </td>
+            <td width="100%">
+              <div class="Bullet_inner"><a name="1240074">Easily navigate from the contents menu.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet_inner" style="width: 18pt; white-space: nowrap;">•	</div>
+            </td>
+            <td width="100%">
+              <div class="Bullet_inner"><a name="1239446">Resize and zoom in on the document.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet_inner" style="width: 18pt; white-space: nowrap;">•	</div>
+            </td>
+            <td width="100%">
+              <div class="Bullet_inner"><a name="1239447">Mark sections of the document.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="RTip1">
+        <img src="tipbullet.png" alt="*" border="0" width="15" height="24" /><a name="1239642">You can access the PDF version of the documentation from the Start </a>menu -&gt; All Programs -&gt; ERDAS 2010 -&gt; ERDAS ECW JPEG2000 SDK after installation.</div>
+      <div class="Subhead2"><a name="1239460">Code listings</a></div>
+      <div class="Text"><a name="1239461">Code listings are displayed in a Courier font, as follows:</a></div>
+      <div class="Code"><a name="1239462">classid="clsid:AD90E32F-1FE2-11D3-88C8-006008A717FD”</a></div>
+      <div class="Subhead1"><a name="1236538">Intended Audience </a></div>
+      <div class="Text"><a name="1236525">As with the SDK</a><span style="font-weight: bold"> </span>itself, this guide is intended for programmers with a good understanding of C and C++<span style="font-weight: bold"> </span>programming concepts and techniques. This guide describes specific considerations and techniques for implementing the compression and decompression features of the SDK in application programming.</div>
+      <div class="Subhead1"><a name="1237902">What’s New in Version 4.3</a></div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1256811">Improved the detection and handling of corrupt ECW files.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1256812">Improved the stability and decoding performance of JPEG 2000 files.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1256813">Improved the usage and creation of J2I files.  J2I files are no longer </a>created for multi-tile JPEG 2000 images, and are re-created when their associated JPEG 2000 file are modified.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1256814">Stability enhancements to ECWP when decoding multiple streams </a>simultaneously.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1256815">Better estimation and handling of the memory required for compression.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1256816">Fixed an issue decoding some NITF file streams.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1256817">Many bug fixes and optimizations.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Subhead1"><a name="1255983">What’s New in Version 4.2</a></div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255771">Many bug fixes and optimizations.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Subhead1"><a name="1255762">What’s New in Version 4.1</a></div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255763">ISO standard "GML in JP2" geo-referencing support.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255061">Opacity channels for ECW and JPEG 2000 format (local and ECWP).</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255062">Configurable persistent local cache of compressed blocks for streaming </a>ECWP files (ECW and JPEG 2000).</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255063">Configurable J2I index files (lower memory overhead and speed up </a>decoding of many JPEG 2000 profiles).</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255064">Configurable decoding of JPEG 2000 files with quality layers.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255065">Configurable buffered IO for JPEG 2000 reader.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255066">ECW decoder up to 4 times faster than version 3.x.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255067">Faster decoding and serving of JPEG 2000 format (including NPJE and </a>EPJE profiles).</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255068">Configurable "resilient" or "fussy" decoder modes for more robust ECW </a>decoding.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255069">Higher scalability when using many file views.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255070">New C++ APIs.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255071">New caching algorithms.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255072">New configuration preferences.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255074">API compatible with “C” interface of version 3.x release.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255075">Full native 32 and 64 bit platform support (Windows).</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255076">Microsoft Visual Studio 2005/2008 support (Windows).</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255105">Many bug fixes and optimizations.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Subhead1"><a name="1237904">What’s New in Version 3.3</a></div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1237267">Support for building on *NIX platforms using GNU autotools. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1236605">Fixes to threading issues on *NIX</a><span style="font-weight: bold"> </span>platforms. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1236606">Fix to a decoding problem on big-endian architectures. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1236607">Sample code with build files added to the distribution. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1240419">Fix for a very minor bug in lossless compression. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Subhead1"><a name="1255657">What’s New in Version 3.0</a></div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255681">Added ISO standard JPEG 2000 support.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Subhead1"><a name="1255691">What’s New in Version 2.0</a></div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255707">Added many new features.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255708">Enhanced the ECW format (version 2).</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255709">Added ECWP streaming.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255699">Added compression to the SDK.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Subhead1"><a name="1240558">Contacting Us</a></div>
+      <div class="Text"><a name="1240642">Any problems that you encounter when using this product should be reported </a>to the email address below. This is the preferred method of communication.</div>
+      <div class="Text" style="color: #3a88a4; font-family: Arial; font-size: 10.0pt; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; text-transform: none; vertical-align: baseline"><span class="GotoLink"><a name="1240643">support@erdas.com</a></span></div>
+      <div class="Text"><a name="1240640">Alternatively, there is a general developer forum for SDK’s at the website </a>below. You must first register for this free service.</div>
+      <div class="Text" style="color: #3a88a4; font-family: Arial; font-size: 10.0pt; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; text-transform: none; vertical-align: baseline"><span class="GotoLink"><a href="http://developer.lggi.com/Home.aspx" name="1240560">http://developer.lggi.com/Home.aspx</a></span></div>
+      <div class="Text"><a name="1240569">Please include the following in your bug reports:</a></div>
+      <div class="Step1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Step1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="Bold">1.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Step1_inner"><a name="1240570">PRODUCT.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Step_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Step_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="Bold">2.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Step_inner"><a name="1240571">VERSION.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Step_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Step_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="Bold">3.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Step_inner"><a name="1240572">COMPUTER AND OPERATING SYSTEM DETAILS.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Step_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Step_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="Bold">4.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Step_inner"><a name="1240573">SUMMARY/DESCRIPTION.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Step_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Step_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="Bold">5.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Step_inner"><a name="1240620">STEPS TO REPRODUCE THE PROBLEM.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Step_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Step_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="Bold">6.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Step_inner"><a name="1240621">SAMPLE DATA (JPEGs for error snapshots, small ECW or ER Mapper </a>files, etc).</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Step_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Step_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="Bold">7.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Step_inner"><a name="1240625">SAMPLE CODE (IF AVAILABLE) THAT REPRODUCES THE ISSUE.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Step_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Step_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="Bold">8.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Step_inner"><a name="1240622">WHAT YOU HAVE DONE TO TRY TO FIX THE PROBLEM OR YOUR </a>ANALYSIS.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Subhead1"><a name="1255196">Acknowledgements</a></div>
+      <div class="Text"><a name="1255241">We would like to acknowledge the following third part applications.</a></div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255603">Intel Thread Building Blocks.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255242">NSIS (Nullsoft Installation System).</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255564">TinyXML.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Bullet1_outer" style="margin-left: 0pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="">
+          <tr style="vertical-align: baseline;">
+            <td>
+              <div class="Bullet1_inner" style="width: 18pt; white-space: nowrap;">
+                <span class="BulletSymbol">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="Bullet1_inner"><a name="1255570">IJG libjpeg.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <hr align="left" />
+    <table align="left">
+      <tr>
+        <td class="WebWorks_Company_Logo_Bottom">
+          <a href="http://www.erdas.com" target="none"><img src="ERDAS_big_logo.png" border="0" /></a>
+        </td>
+      </tr>
+      <tr>
+        <td class="WebWorks_Company_Phone_Bottom" style="font-family: Arial; font-size: 12px">Phone: +1 770 776 3400</td>
+      </tr>
+      <tr>
+        <td class="WebWorks_Company_Fax_Bottom" style="font-family: Arial; font-size: 12px">Fax: +1 770 776 3500</td>
+      </tr>
+      <tr>
+        <td class="WebWorks_Company_Email_Bottom" style="font-family: Arial; font-size: 12px">
+          <a href="mailto:info@erdas.com">info@erdas.com</a>
+        </td>
+      </tr>
+    </table>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>
