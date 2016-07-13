@@ -30,32 +30,41 @@ This repository contain Visual C++ 2010 workspace of the GDAL 2.1.0 library (htt
 	
 	* The 3rdpart folder contain the libraries not provided internally by GDAL and necessary for some format
 	I choosed to add (OSM, ECW...). For now it contain the libexpat (linlked dynamically), 
-	Proj.4 lib V4.9.2 (linked dynamically), ECW 4.3 SDK (linked dynamically) and 
+	Proj.4 lib V4.9.2 (linked dynamically), ECW 4.3 SDK (linked dynamically), libcurl 7.49.1 and 
 	libsqlite 3.12 amalgamation included in the GDAL workspaces.
-
+	
+It contain too a dump (made by test_static_libgdal-2.1.0.exe) that print out all the supported drivers with
+theire capabilites in ods and txt format : SupportedDrivers.ods and SupportedDrivers.txt
 
 /!\ Due to GitHub (free version) limitation I've deleted the static version of gdal-2.1.0.lib (more than 650 MB),
 so you will have to rebuild the static lib version to build the "test_static_XX workspaces".
 
-## 2016-07-06: Warning this is still a work in progress		
+## 2016-07-13: Warning this is still a work in progress		
+	
+	- Compiled with the following gdal drivers: ARG, CALS, WMTS, WMS, MRF, SENTINEL2, SAFE and MBTILES
+	
+	- Compiled with the following ogr drivers: AMIGOCLOUD, VDV, WFS, SQLITE, CSW, VFK, XLSX, GFT
 
-    - Added the ECW driver support (in Read Only mode), ECW 4.3 RO SDK provided in the 3rdpart folder.
-	The SDK is provided as downloaded except I've renamed all the "win32" folders to "x86".
-	
-	- Added the ERS driver support.
-	
-	- Corrected bad Preprocessor value in the Release (in Dynamic and static workspace for both architectures).
+	- Compiled with the libcurl 7.49.1, provided in the 3rdpart folder. I used the libcurl compiled
+	for windows by Stefan Kanthak (home.arcor.de/skanthak/curl.html)
 
 What still need to be done :
 
 	- add GEOS geometry library
 	
 	- add iconv library
-	
-	- add V2.1.0 new drivers
-   
+	   
     - test if it's possible to use Unicode charset (instead of Multi-Byte)
+		
+
+## 2016-07-06: 
+
+    - Compiled with the ECW and JP2ECW driver support (in Read Only mode), ECW 4.3 RO SDK provided in the 3rdpart folder.
+	The SDK is provided as downloaded except I've renamed all the "win32" folders to "x86".
 	
+	- Compiled with the ERS driver support.
+	
+	- Corrected bad Preprocessor value in the Release (in Dynamic and static workspace for both architectures).
 	
 ## 2016-07-04:	
 

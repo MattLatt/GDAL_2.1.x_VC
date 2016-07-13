@@ -1,11 +1,11 @@
-﻿Build started 06/07/2016 12:34:18.
+﻿Build started 13/07/2016 07:16:22.
      1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\test_static_gdalinfo.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.unsuccessfulbuild".
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib/x64/Release /LIBPATH:"../../3rdpart/expat-2.1.0/x64/bin/Release" /LIBPATH:"../../3rdpart/ecw-4.3/lib/vc10/x64/" wsock32.lib ws2_32.lib "gdal-2.1.0.lib" libexpat.lib NCScnet4.lib NCSEcw4_RO.lib NCSUtil4.lib /MANIFEST /ManifestFile:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.lib" /MACHINE:X64 "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\commonutils.obj"
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib/x64/Release /LIBPATH:"../../3rdpart/expat-2.1.0/x64/bin/Release" /LIBPATH:"../../3rdpart/ecw-4.3/lib/vc10/x64/" /LIBPATH:"../../3rdpart/curl-7.49.1/bin/x64/" wsock32.lib ws2_32.lib "gdal-2.1.0.lib" libexpat.lib NCScnet4.lib NCSEcw4_RO.lib NCSUtil4.lib libcurl.lib /MANIFEST /ManifestFile:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.lib" /MACHINE:X64 "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\commonutils.obj"
          "K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\gdalinfo_bin.obj"
             Creating library K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.lib and object K:\Components\LibraryV2\GDAL\GDAL_2.1.0_VC_NoIntFilesCleanUp\libgdal-2.1.0\test_static_gdalinfo\x64\Release\test_static_gdalinfo.exp
          Generating code
@@ -24,4 +24,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:02:50.67
+Time Elapsed 00:03:37.51

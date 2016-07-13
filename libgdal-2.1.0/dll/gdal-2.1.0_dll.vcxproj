@@ -97,14 +97,14 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;BUILD_AS_DLL;OGR_ENABLED;GDALDRIVER;GDAL_SUPPORT;GDAL_COMPILATION;USE_CPL;_USE_MATH_DEFINES;USE_IN_GDAL;INTERNAL_LIBGEOTIFF;INTERNAL_LIBTIFF;JPEG_INTERNALS;BIGTIFF_SUPPORT;INCLUDE_OGR_FRMTS;SQLITE_LIB;HAVE_LIBZ;HAVE_MITAB;HAVE_EXPAT;HAVE_SQLITE;HAVE_LIBJPEG;FRMT_ceos;FRMT_aigrid;FRMT_elas;FRMT_hfa;FRMT_gtiff;FRMT_sdts;FRMT_raw;FRMT_gxf;FRMT_ceos2;FRMT_png;FRMT_dted;FRMT_mem;FRMT_jpeg;FRMT_vrt;FRMT_nitf;FRMT_gif;FRMT_envisat;FRMT_bsb;FRMT_xpm;FRMT_bmp;FRMT_airsar;FRMT_rs2;FRMT_pcidsk;FRMT_pcraster;FRMT_ilwis;FRMT_ers;FRMT_ecw;HAVE_ECW_BUILDNUMBER_H;SHAPE_ENABLED;TAB_ENABLED;NTF_ENABLED;SDTS_ENABLED;S57_ENABLED;DGN_ENABLED;VRT_ENABLED;REC_ENABLED;MEM_ENABLED;BNA_ENABLED;CSV_ENABLED;GML_ENABLED;GPX_ENABLED;KML_ENABLED;GEOJSON_ENABLED;GMT_ENABLED;WASP_ENABLED;OPENFILEGDB_ENABLED;XPLANE_ENABLED;DXF_ENABLED;GEOCONCEPT_ENABLED;GEORSS_ENABLED;GTM_ENABLED;PGDUMP_ENABLED;OSM_ENABLED;GPSBABEL_ENABLED;SUA_ENABLED;OPENAIR_ENABLED;PDS_ENABLED;HTF_ENABLED;AERONAVFAA_ENABLED;EDIGEO_ENABLED;SVG_ENABLED;IDRISI_ENABLED;ARCGEN_ENABLED;SEGUKOOA_ENABLED;SEGY_ENABLED;SXF_ENABLED;SELAFIN_ENABLED;JML_ENABLED;TIGER_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/apps;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;../../3rdpart/ecw-4.3/include;../../3rdpart/ecw-4.3/include/NCSECW/API;../../3rdpart/ecw-4.3/include/NCSECW/ECW;../../3rdpart/ecw-4.3/include/NCSECW/GDT;../../3rdpart/ecw-4.3/include/NCSECW/JP2;../../3rdpart/ecw-4.3/include/NCSECW/JPC;../../3rdpart/ecw-4.3/include/NCSECW/SDK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;BUILD_AS_DLL;OGR_ENABLED;GDALDRIVER;GDAL_SUPPORT;GDAL_COMPILATION;USE_CPL;_USE_MATH_DEFINES;USE_IN_GDAL;INTERNAL_LIBGEOTIFF;INTERNAL_LIBTIFF;JPEG_INTERNALS;BIGTIFF_SUPPORT;INCLUDE_OGR_FRMTS;SQLITE_LIB;HAVE_LIBZ;HAVE_MITAB;HAVE_EXPAT;HAVE_SQLITE;HAVE_LIBJPEG;HAVE_CURL;FRMT_ceos;FRMT_aigrid;FRMT_elas;FRMT_hfa;FRMT_gtiff;FRMT_sdts;FRMT_raw;FRMT_gxf;FRMT_ceos2;FRMT_png;FRMT_dted;FRMT_mem;FRMT_jpeg;FRMT_vrt;FRMT_nitf;FRMT_gif;FRMT_envisat;FRMT_bsb;FRMT_xpm;FRMT_bmp;FRMT_airsar;FRMT_rs2;FRMT_pcidsk;FRMT_pcraster;FRMT_ilwis;FRMT_ers;FRMT_ecw;FRMT_arg;FRMT_cals;FRMT_wmts;FRMT_wms;FRMT_sentinel2;FRMT_mrf;FRMT_safe;FRMT_mbtiles;LERC;HAVE_ECW_BUILDNUMBER_H;SHAPE_ENABLED;TAB_ENABLED;NTF_ENABLED;SDTS_ENABLED;S57_ENABLED;DGN_ENABLED;VRT_ENABLED;REC_ENABLED;MEM_ENABLED;BNA_ENABLED;CSV_ENABLED;GML_ENABLED;GPX_ENABLED;KML_ENABLED;GEOJSON_ENABLED;GMT_ENABLED;WASP_ENABLED;OPENFILEGDB_ENABLED;XPLANE_ENABLED;DXF_ENABLED;GEOCONCEPT_ENABLED;GEORSS_ENABLED;GTM_ENABLED;PGDUMP_ENABLED;OSM_ENABLED;GPSBABEL_ENABLED;SUA_ENABLED;OPENAIR_ENABLED;PDS_ENABLED;HTF_ENABLED;AERONAVFAA_ENABLED;EDIGEO_ENABLED;SVG_ENABLED;IDRISI_ENABLED;ARCGEN_ENABLED;SEGUKOOA_ENABLED;SEGY_ENABLED;SXF_ENABLED;SELAFIN_ENABLED;JML_ENABLED;TIGER_ENABLED;AMIGOCLOUD_ENABLED;VDV_ENABLED;WFS_ENABLED;CSW_ENABLED;SQLITE_ENABLED;XLSX_ENABLED;VFK_ENABLED;GFT_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/apps;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/mrf/libLERC;../../gdal-2.1.0/frmts/mrf;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/gml;../../gdal-2.1.0/ogr/ogrsf_frmts/gpkg;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/pgdump;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/wfs;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;../../3rdpart/ecw-4.3/include;../../3rdpart/ecw-4.3/include/NCSECW/API;../../3rdpart/ecw-4.3/include/NCSECW/ECW;../../3rdpart/ecw-4.3/include/NCSECW/GDT;../../3rdpart/ecw-4.3/include/NCSECW/JP2;../../3rdpart/ecw-4.3/include/NCSECW/JPC;../../3rdpart/ecw-4.3/include/NCSECW/SDK;../../3rdpart/curl-7.49.1/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib;NCScnet4d.lib;NCSEcw4_ROd.lib;NCSUtil4d.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformShortName)\$(Configuration)\;../../3rdpart/expat-2.1.0/$(PlatformName)/bin/$(Configuration)/;../../3rdpart/ecw-4.3/lib/vc10/$(PlatformShortName)/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib;NCScnet4d.lib;NCSEcw4_ROd.lib;NCSUtil4d.lib;libcurl.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformShortName)\$(Configuration)\;../../3rdpart/expat-2.1.0/$(PlatformName)/bin/$(Configuration)/;../../3rdpart/ecw-4.3/lib/vc10/$(PlatformShortName)/;../../3rdpart/curl-7.49.1/bin/$(PlatformShortName)/</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)
@@ -118,14 +118,14 @@ copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).lib $(Solu
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;BUILD_AS_DLL;OGR_ENABLED;GDALDRIVER;GDAL_SUPPORT;GDAL_COMPILATION;USE_CPL;_USE_MATH_DEFINES;USE_IN_GDAL;INTERNAL_LIBGEOTIFF;INTERNAL_LIBTIFF;JPEG_INTERNALS;BIGTIFF_SUPPORT;INCLUDE_OGR_FRMTS;SQLITE_LIB;HAVE_LIBZ;HAVE_MITAB;HAVE_EXPAT;HAVE_SQLITE;HAVE_LIBJPEG;FRMT_ceos;FRMT_aigrid;FRMT_elas;FRMT_hfa;FRMT_gtiff;FRMT_sdts;FRMT_raw;FRMT_gxf;FRMT_ceos2;FRMT_png;FRMT_dted;FRMT_mem;FRMT_jpeg;FRMT_vrt;FRMT_nitf;FRMT_gif;FRMT_envisat;FRMT_bsb;FRMT_xpm;FRMT_bmp;FRMT_airsar;FRMT_rs2;FRMT_pcidsk;FRMT_pcraster;FRMT_ilwis;FRMT_ers;FRMT_ecw;HAVE_ECW_BUILDNUMBER_H;SHAPE_ENABLED;TAB_ENABLED;NTF_ENABLED;SDTS_ENABLED;S57_ENABLED;DGN_ENABLED;VRT_ENABLED;REC_ENABLED;MEM_ENABLED;BNA_ENABLED;CSV_ENABLED;GML_ENABLED;GPX_ENABLED;KML_ENABLED;GEOJSON_ENABLED;GMT_ENABLED;WASP_ENABLED;OPENFILEGDB_ENABLED;XPLANE_ENABLED;DXF_ENABLED;GEOCONCEPT_ENABLED;GEORSS_ENABLED;GTM_ENABLED;PGDUMP_ENABLED;OSM_ENABLED;GPSBABEL_ENABLED;SUA_ENABLED;OPENAIR_ENABLED;PDS_ENABLED;HTF_ENABLED;AERONAVFAA_ENABLED;EDIGEO_ENABLED;SVG_ENABLED;IDRISI_ENABLED;ARCGEN_ENABLED;SEGUKOOA_ENABLED;SEGY_ENABLED;SXF_ENABLED;SELAFIN_ENABLED;JML_ENABLED;TIGER_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/apps;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;../../3rdpart/ecw-4.3/include;../../3rdpart/ecw-4.3/include/NCSECW/API;../../3rdpart/ecw-4.3/include/NCSECW/ECW;../../3rdpart/ecw-4.3/include/NCSECW/GDT;../../3rdpart/ecw-4.3/include/NCSECW/JP2;../../3rdpart/ecw-4.3/include/NCSECW/JPC;../../3rdpart/ecw-4.3/include/NCSECW/SDK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;BUILD_AS_DLL;OGR_ENABLED;GDALDRIVER;GDAL_SUPPORT;GDAL_COMPILATION;USE_CPL;_USE_MATH_DEFINES;USE_IN_GDAL;INTERNAL_LIBGEOTIFF;INTERNAL_LIBTIFF;JPEG_INTERNALS;BIGTIFF_SUPPORT;INCLUDE_OGR_FRMTS;SQLITE_LIB;HAVE_LIBZ;HAVE_MITAB;HAVE_EXPAT;HAVE_SQLITE;HAVE_LIBJPEG;HAVE_CURL;FRMT_ceos;FRMT_aigrid;FRMT_elas;FRMT_hfa;FRMT_gtiff;FRMT_sdts;FRMT_raw;FRMT_gxf;FRMT_ceos2;FRMT_png;FRMT_dted;FRMT_mem;FRMT_jpeg;FRMT_vrt;FRMT_nitf;FRMT_gif;FRMT_envisat;FRMT_bsb;FRMT_xpm;FRMT_bmp;FRMT_airsar;FRMT_rs2;FRMT_pcidsk;FRMT_pcraster;FRMT_ilwis;FRMT_ers;FRMT_ecw;FRMT_arg;FRMT_cals;FRMT_wmts;FRMT_wms;FRMT_sentinel2;FRMT_mrf;FRMT_safe;FRMT_mbtiles;LERC;HAVE_ECW_BUILDNUMBER_H;SHAPE_ENABLED;TAB_ENABLED;NTF_ENABLED;SDTS_ENABLED;S57_ENABLED;DGN_ENABLED;VRT_ENABLED;REC_ENABLED;MEM_ENABLED;BNA_ENABLED;CSV_ENABLED;GML_ENABLED;GPX_ENABLED;KML_ENABLED;GEOJSON_ENABLED;GMT_ENABLED;WASP_ENABLED;OPENFILEGDB_ENABLED;XPLANE_ENABLED;DXF_ENABLED;GEOCONCEPT_ENABLED;GEORSS_ENABLED;GTM_ENABLED;PGDUMP_ENABLED;OSM_ENABLED;GPSBABEL_ENABLED;SUA_ENABLED;OPENAIR_ENABLED;PDS_ENABLED;HTF_ENABLED;AERONAVFAA_ENABLED;EDIGEO_ENABLED;SVG_ENABLED;IDRISI_ENABLED;ARCGEN_ENABLED;SEGUKOOA_ENABLED;SEGY_ENABLED;SXF_ENABLED;SELAFIN_ENABLED;JML_ENABLED;TIGER_ENABLED;AMIGOCLOUD_ENABLED;VDV_ENABLED;WFS_ENABLED;CSW_ENABLED;SQLITE_ENABLED;XLSX_ENABLED;VFK_ENABLED;GFT_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/apps;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/mrf/libLERC;../../gdal-2.1.0/frmts/mrf;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/gml;../../gdal-2.1.0/ogr/ogrsf_frmts/gpkg;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/pgdump;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/wfs;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;../../3rdpart/ecw-4.3/include;../../3rdpart/ecw-4.3/include/NCSECW/API;../../3rdpart/ecw-4.3/include/NCSECW/ECW;../../3rdpart/ecw-4.3/include/NCSECW/GDT;../../3rdpart/ecw-4.3/include/NCSECW/JP2;../../3rdpart/ecw-4.3/include/NCSECW/JPC;../../3rdpart/ecw-4.3/include/NCSECW/SDK;../../3rdpart/curl-7.49.1/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib;NCScnet4d.lib;NCSEcw4_ROd.lib;NCSUtil4d.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformName)\$(Configuration)\;../../3rdpart/expat-2.1.0/$(PlatformName)/bin/$(Configuration);../../3rdpart/ecw-4.3/lib/vc10/$(PlatformName)/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib;NCScnet4d.lib;NCSEcw4_ROd.lib;NCSUtil4d.lib;libcurl.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformName)\$(Configuration)\;../../3rdpart/expat-2.1.0/$(PlatformName)/bin/$(Configuration);../../3rdpart/ecw-4.3/lib/vc10/$(PlatformName)/;../../3rdpart/curl-7.49.1/bin/$(PlatformName)/</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)
@@ -141,16 +141,16 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;BUILD_AS_DLL;OGR_ENABLED;GDALDRIVER;GDAL_SUPPORT;GDAL_COMPILATION;USE_CPL;_USE_MATH_DEFINES;USE_IN_GDAL;INTERNAL_LIBGEOTIFF;INTERNAL_LIBTIFF;JPEG_INTERNALS;BIGTIFF_SUPPORT;INCLUDE_OGR_FRMTS;SQLITE_LIB;HAVE_LIBZ;HAVE_MITAB;HAVE_EXPAT;HAVE_SQLITE;HAVE_LIBJPEG;FRMT_ceos;FRMT_aigrid;FRMT_elas;FRMT_hfa;FRMT_gtiff;FRMT_sdts;FRMT_raw;FRMT_gxf;FRMT_ceos2;FRMT_png;FRMT_dted;FRMT_mem;FRMT_jpeg;FRMT_vrt;FRMT_nitf;FRMT_gif;FRMT_envisat;FRMT_bsb;FRMT_xpm;FRMT_bmp;FRMT_airsar;FRMT_rs2;FRMT_pcidsk;FRMT_pcraster;FRMT_ilwis;FRMT_ers;FRMT_ecw;HAVE_ECW_BUILDNUMBER_H;SHAPE_ENABLED;TAB_ENABLED;NTF_ENABLED;SDTS_ENABLED;S57_ENABLED;DGN_ENABLED;VRT_ENABLED;REC_ENABLED;MEM_ENABLED;BNA_ENABLED;CSV_ENABLED;GML_ENABLED;GPX_ENABLED;KML_ENABLED;GEOJSON_ENABLED;GMT_ENABLED;WASP_ENABLED;OPENFILEGDB_ENABLED;XPLANE_ENABLED;DXF_ENABLED;GEOCONCEPT_ENABLED;GEORSS_ENABLED;GTM_ENABLED;PGDUMP_ENABLED;OSM_ENABLED;GPSBABEL_ENABLED;SUA_ENABLED;OPENAIR_ENABLED;PDS_ENABLED;HTF_ENABLED;AERONAVFAA_ENABLED;EDIGEO_ENABLED;SVG_ENABLED;IDRISI_ENABLED;ARCGEN_ENABLED;SEGUKOOA_ENABLED;SEGY_ENABLED;SXF_ENABLED;SELAFIN_ENABLED;JML_ENABLED;TIGER_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/apps;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;../../3rdpart/ecw-4.3/include;../../3rdpart/ecw-4.3/include/NCSECW/API;../../3rdpart/ecw-4.3/include/NCSECW/ECW;../../3rdpart/ecw-4.3/include/NCSECW/GDT;../../3rdpart/ecw-4.3/include/NCSECW/JP2;../../3rdpart/ecw-4.3/include/NCSECW/JPC;../../3rdpart/ecw-4.3/include/NCSECW/SDK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;BUILD_AS_DLL;OGR_ENABLED;GDALDRIVER;GDAL_SUPPORT;GDAL_COMPILATION;USE_CPL;_USE_MATH_DEFINES;USE_IN_GDAL;INTERNAL_LIBGEOTIFF;INTERNAL_LIBTIFF;JPEG_INTERNALS;BIGTIFF_SUPPORT;INCLUDE_OGR_FRMTS;SQLITE_LIB;HAVE_LIBZ;HAVE_MITAB;HAVE_EXPAT;HAVE_SQLITE;HAVE_LIBJPEG;HAVE_CURL;FRMT_ceos;FRMT_aigrid;FRMT_elas;FRMT_hfa;FRMT_gtiff;FRMT_sdts;FRMT_raw;FRMT_gxf;FRMT_ceos2;FRMT_png;FRMT_dted;FRMT_mem;FRMT_jpeg;FRMT_vrt;FRMT_nitf;FRMT_gif;FRMT_envisat;FRMT_bsb;FRMT_xpm;FRMT_bmp;FRMT_airsar;FRMT_rs2;FRMT_pcidsk;FRMT_pcraster;FRMT_ilwis;FRMT_ers;FRMT_ecw;FRMT_arg;FRMT_cals;FRMT_wmts;FRMT_wms;FRMT_sentinel2;FRMT_mrf;FRMT_safe;FRMT_mbtiles;LERC;HAVE_ECW_BUILDNUMBER_H;SHAPE_ENABLED;TAB_ENABLED;NTF_ENABLED;SDTS_ENABLED;S57_ENABLED;DGN_ENABLED;VRT_ENABLED;REC_ENABLED;MEM_ENABLED;BNA_ENABLED;CSV_ENABLED;GML_ENABLED;GPX_ENABLED;KML_ENABLED;GEOJSON_ENABLED;GMT_ENABLED;WASP_ENABLED;OPENFILEGDB_ENABLED;XPLANE_ENABLED;DXF_ENABLED;GEOCONCEPT_ENABLED;GEORSS_ENABLED;GTM_ENABLED;PGDUMP_ENABLED;OSM_ENABLED;GPSBABEL_ENABLED;SUA_ENABLED;OPENAIR_ENABLED;PDS_ENABLED;HTF_ENABLED;AERONAVFAA_ENABLED;EDIGEO_ENABLED;SVG_ENABLED;IDRISI_ENABLED;ARCGEN_ENABLED;SEGUKOOA_ENABLED;SEGY_ENABLED;SXF_ENABLED;SELAFIN_ENABLED;JML_ENABLED;TIGER_ENABLED;AMIGOCLOUD_ENABLED;VDV_ENABLED;WFS_ENABLED;CSW_ENABLED;SQLITE_ENABLED;XLSX_ENABLED;VFK_ENABLED;GFT_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/apps;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/mrf/libLERC;../../gdal-2.1.0/frmts/mrf;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/gml;../../gdal-2.1.0/ogr/ogrsf_frmts/gpkg;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/pgdump;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/wfs;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;../../3rdpart/ecw-4.3/include;../../3rdpart/ecw-4.3/include/NCSECW/API;../../3rdpart/ecw-4.3/include/NCSECW/ECW;../../3rdpart/ecw-4.3/include/NCSECW/GDT;../../3rdpart/ecw-4.3/include/NCSECW/JP2;../../3rdpart/ecw-4.3/include/NCSECW/JPC;../../3rdpart/ecw-4.3/include/NCSECW/SDK;../../3rdpart/curl-7.49.1/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformShortName)\$(Configuration)\;../../3rdpart/expat-2.1.0/$(PlatformName)/bin/$(Configuration)/;../../3rdpart/ecw-4.3/lib/vc10/$(PlatformShortName)/</AdditionalLibraryDirectories>
-      <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib;NCScnet4.lib;NCSEcw4_RO.lib;NCSUtil4.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformShortName)\$(Configuration)\;../../3rdpart/expat-2.1.0/$(PlatformName)/bin/$(Configuration)/;../../3rdpart/ecw-4.3/lib/vc10/$(PlatformShortName)/;../../3rdpart/curl-7.49.1/bin/$(PlatformShortName)/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib;NCScnet4.lib;NCSEcw4_RO.lib;NCSUtil4.lib;libcurl.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\gdal-2.1.0$(TargetExt)
@@ -166,16 +166,16 @@ copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).lib $(Solu
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;BUILD_AS_DLL;OGR_ENABLED;GDALDRIVER;GDAL_SUPPORT;GDAL_COMPILATION;USE_CPL;_USE_MATH_DEFINES;USE_IN_GDAL;INTERNAL_LIBGEOTIFF;INTERNAL_LIBTIFF;JPEG_INTERNALS;BIGTIFF_SUPPORT;INCLUDE_OGR_FRMTS;SQLITE_LIB;HAVE_LIBZ;HAVE_MITAB;HAVE_EXPAT;HAVE_SQLITE;HAVE_LIBJPEG;FRMT_ceos;FRMT_aigrid;FRMT_elas;FRMT_hfa;FRMT_gtiff;FRMT_sdts;FRMT_raw;FRMT_gxf;FRMT_ceos2;FRMT_png;FRMT_dted;FRMT_mem;FRMT_jpeg;FRMT_vrt;FRMT_nitf;FRMT_gif;FRMT_envisat;FRMT_bsb;FRMT_xpm;FRMT_bmp;FRMT_airsar;FRMT_rs2;FRMT_pcidsk;FRMT_pcraster;FRMT_ilwis;FRMT_ers;FRMT_ecw;HAVE_ECW_BUILDNUMBER_H;SHAPE_ENABLED;TAB_ENABLED;NTF_ENABLED;SDTS_ENABLED;S57_ENABLED;DGN_ENABLED;VRT_ENABLED;REC_ENABLED;MEM_ENABLED;BNA_ENABLED;CSV_ENABLED;GML_ENABLED;GPX_ENABLED;KML_ENABLED;GEOJSON_ENABLED;GMT_ENABLED;WASP_ENABLED;OPENFILEGDB_ENABLED;XPLANE_ENABLED;DXF_ENABLED;GEOCONCEPT_ENABLED;GEORSS_ENABLED;GTM_ENABLED;PGDUMP_ENABLED;OSM_ENABLED;GPSBABEL_ENABLED;SUA_ENABLED;OPENAIR_ENABLED;PDS_ENABLED;HTF_ENABLED;AERONAVFAA_ENABLED;EDIGEO_ENABLED;SVG_ENABLED;IDRISI_ENABLED;ARCGEN_ENABLED;SEGUKOOA_ENABLED;SEGY_ENABLED;SXF_ENABLED;SELAFIN_ENABLED;JML_ENABLED;TIGER_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/apps;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;../../3rdpart/ecw-4.3/include;../../3rdpart/ecw-4.3/include/NCSECW/API;../../3rdpart/ecw-4.3/include/NCSECW/ECW;../../3rdpart/ecw-4.3/include/NCSECW/GDT;../../3rdpart/ecw-4.3/include/NCSECW/JP2;../../3rdpart/ecw-4.3/include/NCSECW/JPC;../../3rdpart/ecw-4.3/include/NCSECW/SDK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;BUILD_AS_DLL;OGR_ENABLED;GDALDRIVER;GDAL_SUPPORT;GDAL_COMPILATION;USE_CPL;_USE_MATH_DEFINES;USE_IN_GDAL;INTERNAL_LIBGEOTIFF;INTERNAL_LIBTIFF;JPEG_INTERNALS;BIGTIFF_SUPPORT;INCLUDE_OGR_FRMTS;SQLITE_LIB;HAVE_LIBZ;HAVE_MITAB;HAVE_EXPAT;HAVE_SQLITE;HAVE_LIBJPEG;HAVE_CURL;FRMT_ceos;FRMT_aigrid;FRMT_elas;FRMT_hfa;FRMT_gtiff;FRMT_sdts;FRMT_raw;FRMT_gxf;FRMT_ceos2;FRMT_png;FRMT_dted;FRMT_mem;FRMT_jpeg;FRMT_vrt;FRMT_nitf;FRMT_gif;FRMT_envisat;FRMT_bsb;FRMT_xpm;FRMT_bmp;FRMT_airsar;FRMT_rs2;FRMT_pcidsk;FRMT_pcraster;FRMT_ilwis;FRMT_ers;FRMT_ecw;FRMT_arg;FRMT_cals;FRMT_wmts;FRMT_wms;FRMT_sentinel2;FRMT_mrf;FRMT_safe;FRMT_mbtiles;LERC;HAVE_ECW_BUILDNUMBER_H;SHAPE_ENABLED;TAB_ENABLED;NTF_ENABLED;SDTS_ENABLED;S57_ENABLED;DGN_ENABLED;VRT_ENABLED;REC_ENABLED;MEM_ENABLED;BNA_ENABLED;CSV_ENABLED;GML_ENABLED;GPX_ENABLED;KML_ENABLED;GEOJSON_ENABLED;GMT_ENABLED;WASP_ENABLED;OPENFILEGDB_ENABLED;XPLANE_ENABLED;DXF_ENABLED;GEOCONCEPT_ENABLED;GEORSS_ENABLED;GTM_ENABLED;PGDUMP_ENABLED;OSM_ENABLED;GPSBABEL_ENABLED;SUA_ENABLED;OPENAIR_ENABLED;PDS_ENABLED;HTF_ENABLED;AERONAVFAA_ENABLED;EDIGEO_ENABLED;SVG_ENABLED;IDRISI_ENABLED;ARCGEN_ENABLED;SEGUKOOA_ENABLED;SEGY_ENABLED;SXF_ENABLED;SELAFIN_ENABLED;JML_ENABLED;TIGER_ENABLED;AMIGOCLOUD_ENABLED;VDV_ENABLED;WFS_ENABLED;CSW_ENABLED;SQLITE_ENABLED;XLSX_ENABLED;VFK_ENABLED;GFT_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../gdal-2.1.0/alg;../../gdal-2.1.0/apps;../../gdal-2.1.0/frmts;../../gdal-2.1.0/frmts/blx;../../gdal-2.1.0/frmts/gif/giflib;../../gdal-2.1.0/frmts/gtiff;../../gdal-2.1.0/frmts/gtiff/libgeotiff;../../gdal-2.1.0/frmts/gtiff/libtiff;../../gdal-2.1.0/frmts/idrisi;../../gdal-2.1.0/frmts/iso8211;../../gdal-2.1.0/frmts/jpeg;../../gdal-2.1.0/frmts/jpeg/libjpeg;../../gdal-2.1.0/frmts/mem;../../gdal-2.1.0/frmts/mrf/libLERC;../../gdal-2.1.0/frmts/mrf;../../gdal-2.1.0/frmts/pcidsk/sdk;../../gdal-2.1.0/frmts/pcidsk/sdk/segment;../../gdal-2.1.0/frmts/pcraster/libcsf;../../gdal-2.1.0/frmts/pds;../../gdal-2.1.0/frmts/png/libpng;../../gdal-2.1.0/frmts/raw;../../gdal-2.1.0/frmts/sdts;../../gdal-2.1.0/frmts/vrt;../../gdal-2.1.0/frmts/zlib;../../gdal-2.1.0/gcore;../../gdal-2.1.0/ogr;../../gdal-2.1.0/ogr/ogrsf_frmts;../../gdal-2.1.0/ogr/ogrsf_frmts/avc;../../gdal-2.1.0/ogr/ogrsf_frmts/generic;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson/libjson;../../gdal-2.1.0/ogr/ogrsf_frmts/geojson;../../gdal-2.1.0/ogr/ogrsf_frmts/gml;../../gdal-2.1.0/ogr/ogrsf_frmts/gpkg;../../gdal-2.1.0/ogr/ogrsf_frmts/mem;../../gdal-2.1.0/ogr/ogrsf_frmts/pgdump;../../gdal-2.1.0/ogr/ogrsf_frmts/shape;../../gdal-2.1.0/ogr/ogrsf_frmts/sqlite;../../gdal-2.1.0/ogr/ogrsf_frmts/wfs;../../gdal-2.1.0/ogr/ogrsf_frmts/xplane;../../gdal-2.1.0/port;../../3rdpart/expat-2.1.0/lib;../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation;../../3rdpart/ecw-4.3/include;../../3rdpart/ecw-4.3/include/NCSECW/API;../../3rdpart/ecw-4.3/include/NCSECW/ECW;../../3rdpart/ecw-4.3/include/NCSECW/GDT;../../3rdpart/ecw-4.3/include/NCSECW/JP2;../../3rdpart/ecw-4.3/include/NCSECW/JPC;../../3rdpart/ecw-4.3/include/NCSECW/SDK;../../3rdpart/curl-7.49.1/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformName)\$(Configuration)\;../../3rdpart/expat-2.1.0/$(PlatformName)/bin/$(Configuration);../../3rdpart/ecw-4.3/lib/vc10/$(PlatformName)/</AdditionalLibraryDirectories>
-      <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib;NCScnet4.lib;NCSEcw4_RO.lib;NCSUtil4.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformName)\$(Configuration)\;../../3rdpart/expat-2.1.0/$(PlatformName)/bin/$(Configuration);../../3rdpart/ecw-4.3/lib/vc10/$(PlatformName)/;../../3rdpart/curl-7.49.1/bin/$(PlatformName)/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib;NCScnet4.lib;NCSEcw4_RO.lib;NCSUtil4.lib;libcurl.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\gdal-2.1.0$(TargetExt)
@@ -234,6 +234,30 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClInclude Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jpeglib.h" />
     <ClInclude Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jversion.h" />
     <ClInclude Include="..\..\gdal-2.1.0\frmts\jpeg\vsidataio.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitMask.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitMask2.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitStuffer.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitStuffer2.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\CntZImage.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\Defines.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\Huffman.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\Image.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\Lerc2.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\RLE.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\TImage.hpp" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\marfa.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\gdalhttp.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\md5.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_arcgis_server.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_iip.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_tiled_wms.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_tileservice.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_tms.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_virtualearth.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_wms.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_worldwind.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\wmsdriver.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\wmsmetadataset.h" />
     <ClInclude Include="..\..\gdal-2.1.0\gcore\gdal.h" />
     <ClInclude Include="..\..\gdal-2.1.0\gcore\gdalexif.h" />
     <ClInclude Include="..\..\gdal-2.1.0\gcore\gdalgeorefpamdataset.h" />
@@ -434,6 +458,7 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrgeomediageometry.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrpgeogeometry.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\aeronavfaa\ogr_aeronavfaa.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\amigocloud\ogr_amigocloud.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\arcgen\ogr_arcgen.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\avc.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\avc\avc_mbyte.h" />
@@ -442,6 +467,7 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\bna\ogrbnaparser.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\bna\ogr_bna.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\csv\ogr_csv.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\db2\ogr_db2.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\dgnlib.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\dgnlibp.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\ogr_dgn.h" />
@@ -484,6 +510,7 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\ogrgeojsonwriter.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\geojson\ogr_geojson.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\georss\ogr_georss.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gft\ogr_gft.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlreader.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlreaderp.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlregistry.h" />
@@ -491,6 +518,9 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\ogr_gml.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\parsexsd.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gmt\ogr_gmt.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\gpkgmbtilescommon.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogrgeopackageutility.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogr_geopackage.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpsbabel\ogr_gpsbabel.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpx\ogr_gpx.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gtm\gtm.h" />
@@ -542,8 +572,14 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sxf\ogr_sxf.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\sxf\org_sxf_defs.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\ogr_tiger.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vdv\ogr_vdv.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\ogr_vfk.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkreader.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkreaderp.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vrt\ogr_vrt.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wasp\ogrwasp.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wfs\ogr_wfs.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xlsx\ogr_xlsx.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane_apt_reader.h" />
     <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogr_xplane_awy_reader.h" />
@@ -569,6 +605,7 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClInclude Include="..\..\gdal-2.1.0\ogr\swq_parser.hpp" />
     <ClInclude Include="..\..\gdal-2.1.0\port\cplkeywordparser.h" />
     <ClInclude Include="..\..\gdal-2.1.0\port\cpl_atomic_ops.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_aws.h" />
     <ClInclude Include="..\..\gdal-2.1.0\port\cpl_config.h" />
     <ClInclude Include="..\..\gdal-2.1.0\port\cpl_config_extras.h" />
     <ClInclude Include="..\..\gdal-2.1.0\port\cpl_conv.h" />
@@ -586,6 +623,7 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClInclude Include="..\..\gdal-2.1.0\port\cpl_port.h" />
     <ClInclude Include="..\..\gdal-2.1.0\port\cpl_progress.h" />
     <ClInclude Include="..\..\gdal-2.1.0\port\cpl_quad_tree.h" />
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_sha256.h" />
     <ClInclude Include="..\..\gdal-2.1.0\port\cpl_spawn.h" />
     <ClInclude Include="..\..\gdal-2.1.0\port\cpl_string.h" />
     <ClInclude Include="..\..\gdal-2.1.0\port\cpl_time.h" />
@@ -630,9 +668,11 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClCompile Include="..\..\gdal-2.1.0\apps\gdal_translate_lib.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\apps\nearblack_lib.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\apps\ogr2ogr_lib.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\arg\argdataset.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\frmts\bsb\bsb2raw.c" />
     <ClCompile Include="..\..\gdal-2.1.0\frmts\bsb\bsbdataset.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\frmts\bsb\bsb_read.c" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\cals\calsdataset.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\frmts\ecw\ecwasyncreader.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\frmts\ecw\ecwcreatecopy.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\frmts\ecw\ecwdataset.cpp" />
@@ -692,9 +732,49 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jquant2.c" />
     <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\libjpeg\jutils.c" />
     <ClCompile Include="..\..\gdal-2.1.0\frmts\jpeg\vsidataio.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mbtiles\mbtilesdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\JPEG12_band.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\JPEG_band.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\JPNG_band.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\LERC_band.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitMask.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitMask2.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitStuffer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitStuffer2.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\CntZImage.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\Huffman.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\Lerc2.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\RLE.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\marfa_dataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\mrf_band.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\mrf_overview.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\mrf_util.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\PNG_band.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\Raw_band.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\Tif_band.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\frmts\pcidsk\pcidskdataset2.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\frmts\raw\iscedataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\safe\safedataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\sentinel2\sentinel2dataset.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\frmts\vrt\vrtpansharpened.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\gdalhttp.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\gdalwmscache.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\gdalwmsdataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\gdalwmsrasterband.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\md5.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_arcgis_server.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_iip.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_tiled_wms.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_tileservice.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_tms.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_virtualearth.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_wms.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_worldwind.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\wmsdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\wmsmetadataset.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\wmsutils.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wmts\wmtsdataset.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalabstractbandblockcache.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalallvalidmaskband.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\gcore\gdalarraybandblockcache.cpp" />
@@ -1191,6 +1271,11 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\aeronavfaa\ograeronavfaadatasource.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\aeronavfaa\ograeronavfaadriver.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\aeronavfaa\ograeronavfaalayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\amigocloud\ogramigoclouddatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\amigocloud\ogramigoclouddriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\amigocloud\ogramigocloudlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\amigocloud\ogramigocloudresultlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\amigocloud\ogramigocloudtablelayer.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\arcgen\ograrcgendatasource.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\arcgen\ograrcgendriver.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\arcgen\ograrcgenlayer.cpp" />
@@ -1218,6 +1303,7 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\csv\ogrcsvdatasource.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\csv\ogrcsvdriver.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\csv\ogrcsvlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\csw\ogrcswdataset.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\dgnfloat.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\dgnhelp.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\dgn\dgnopen.cpp" />
@@ -1286,6 +1372,11 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\georss\ogrgeorssdatasource.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\georss\ogrgeorssdriver.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\georss\ogrgeorsslayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gft\ogrgftdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gft\ogrgftdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gft\ogrgftlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gft\ogrgftresultlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gft\ogrgfttablelayer.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gfstemplate.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlfeature.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gml\gmlfeatureclass.cpp" />
@@ -1305,6 +1396,13 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gmt\ogrgmtdatasource.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gmt\ogrgmtdriver.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gmt\ogrgmtlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\gdalgeopackagerasterband.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogrgeopackagedatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogrgeopackagedriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogrgeopackagelayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogrgeopackageselectlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogrgeopackagetablelayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogrgeopackageutility.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpsbabel\ogrgpsbabeldatasource.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpsbabel\ogrgpsbabeldriver.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpsbabel\ogrgpsbabelwritedatasource.cpp" />
@@ -1471,12 +1569,31 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerzerocellid.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerzipcodes.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\tiger\tigerzipplus4.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vdv\ogrvdvdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\ogrvfkdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\ogrvfkdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\ogrvfklayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkdatablock.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkdatablocksqlite.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkfeature.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkfeaturesqlite.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkproperty.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkpropertydefn.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkreader.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkreadersqlite.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vrt\ogrvrtdatasource.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vrt\ogrvrtdriver.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vrt\ogrvrtlayer.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wasp\ogrwaspdatasource.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wasp\ogrwaspdriver.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wasp\ogrwasplayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wfs\ogrwfsdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wfs\ogrwfsdriver.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wfs\ogrwfsfilter.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wfs\ogrwfsjoinlayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wfs\ogrwfslayer.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xlsx\ogrxlsxdatasource.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xlsx\ogrxlsxdriver.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogrxplanedatasource.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogrxplanedriver.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xplane\ogrxplanelayer.cpp" />
@@ -1518,6 +1635,7 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClCompile Include="..\..\gdal-2.1.0\port\cplstring.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\port\cplstringlist.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\port\cpl_atomic_ops.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_aws.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\port\cpl_base64.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\port\cpl_conv.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\port\cpl_csv.cpp" />
@@ -1539,6 +1657,7 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
     <ClCompile Include="..\..\gdal-2.1.0\port\cpl_recode.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\port\cpl_recode_iconv.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\port\cpl_recode_stub.cpp" />
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_sha256.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\port\cpl_spawn.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\port\cpl_string.cpp" />
     <ClCompile Include="..\..\gdal-2.1.0\port\cpl_strtod.cpp" />

@@ -727,6 +727,108 @@
     <Filter Include="Source Files\apps">
       <UniqueIdentifier>{75b4baf2-5c80-40da-b86b-cb7e27b97111}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\frmts\cals">
+      <UniqueIdentifier>{dc293dae-0df8-4adb-bdad-7c5b129bbc09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\db2">
+      <UniqueIdentifier>{91f4cb33-c04e-437e-bdb7-a60145e3ca32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ogr\ogrsf_frmts\db2">
+      <UniqueIdentifier>{ee6f5394-281e-43e1-bbff-a238aebed371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frmts\mrf">
+      <UniqueIdentifier>{e75b0dbf-be78-4fcd-9bf3-c92f058270bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\frmts\mrf">
+      <UniqueIdentifier>{3c377774-2e5c-4a1e-b6aa-bab17965c247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\frmts\mrf\libLERC">
+      <UniqueIdentifier>{c07bb549-b560-442e-88f6-2c47aa5ea277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frmts\mrf\libLERC">
+      <UniqueIdentifier>{8e6903f8-3f9a-464f-b8e3-f91ef519d9fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frmts\safe">
+      <UniqueIdentifier>{e80ed5c2-a8de-494a-a7f4-a7c595052693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frmts\sentinel2">
+      <UniqueIdentifier>{b3df3604-8f63-421c-9a8c-49d75801b1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frmts\wms">
+      <UniqueIdentifier>{13d8e023-d37b-4dcf-9913-8e554ad287db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\frmts\wms">
+      <UniqueIdentifier>{3ef3137b-58d7-4e17-9489-cb6148a03d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frmts\wmts">
+      <UniqueIdentifier>{06670853-7f64-40fe-a6b9-36e46680e53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\amigocloud">
+      <UniqueIdentifier>{7cfee928-fa3a-484e-8526-f8efe13a6134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ogr\ogrsf_frmts\mongodb">
+      <UniqueIdentifier>{eac46097-21c4-4c82-8f2a-6c528137abd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ogr\ogrsf_frmts\amigocloud">
+      <UniqueIdentifier>{8cd6522f-db67-41cc-bf80-c358d50d5950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\mongodb">
+      <UniqueIdentifier>{fc952e7a-5b89-4a95-bc27-6035ec484bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\netcdf">
+      <UniqueIdentifier>{e6452617-5067-450d-ab00-611049d315a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frmts\netcdf">
+      <UniqueIdentifier>{545874ad-2db5-43b4-a672-6a721dd44e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\frmts\netcdf">
+      <UniqueIdentifier>{4d13267e-c11c-451c-91b4-05824a45eabd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ogr\ogrsf_frmts\vdv">
+      <UniqueIdentifier>{49cc31ca-cd88-4776-91ad-937af1e43167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\vdv">
+      <UniqueIdentifier>{eebf0918-de14-407d-b658-c52a25742237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\gpkg">
+      <UniqueIdentifier>{1dbaf3e1-aefc-4d31-91ee-6ca7f1958baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\wfs">
+      <UniqueIdentifier>{bd7b5162-7cfe-402e-a60a-deb0a2a25b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ogr\ogrsf_frmts\wfs">
+      <UniqueIdentifier>{f6b9211d-1294-4a89-ba90-101dae84d50c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frmts\mbtiles">
+      <UniqueIdentifier>{cb713832-2e45-4a6b-b80a-6f756d0915d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\csw">
+      <UniqueIdentifier>{44ba831b-af6c-4840-a0f1-f0978292eaa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\xlsx">
+      <UniqueIdentifier>{8bc51078-27b0-4de3-9584-53331127b790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ogr\ogrsf_frmts\xlsx">
+      <UniqueIdentifier>{37741342-2453-48f2-8320-3d67018528b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\ods">
+      <UniqueIdentifier>{806ceff7-b326-4421-bb41-072157db9d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ogr\ogrsf_frmts\ods">
+      <UniqueIdentifier>{7c85e22a-4446-4610-a466-2eb75cdc6151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\gft">
+      <UniqueIdentifier>{8586ad41-c208-48a1-9226-90af32ac0c81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ogr\ogrsf_frmts\gft">
+      <UniqueIdentifier>{d3af4578-8cbb-4509-9267-985453bacb5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ogr\ogrsf_frmts\vfk">
+      <UniqueIdentifier>{fa5994d2-966b-41a0-88af-442df93f7685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ogr\ogrsf_frmts\vfk">
+      <UniqueIdentifier>{24114916-1de4-4be2-b6b8-b976b1a52017}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -1960,6 +2062,120 @@
     </ClInclude>
     <ClInclude Include="..\..\gdal-2.1.0\frmts\ecw\ecwsdk_headers.h">
       <Filter>Header Files\frmts\ecw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\db2\ogr_db2.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\db2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\marfa.h">
+      <Filter>Header Files\frmts\mrf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitMask.h">
+      <Filter>Header Files\frmts\mrf\libLERC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitMask2.h">
+      <Filter>Header Files\frmts\mrf\libLERC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitStuffer.h">
+      <Filter>Header Files\frmts\mrf\libLERC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitStuffer2.h">
+      <Filter>Header Files\frmts\mrf\libLERC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\CntZImage.h">
+      <Filter>Header Files\frmts\mrf\libLERC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\Defines.h">
+      <Filter>Header Files\frmts\mrf\libLERC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\Huffman.h">
+      <Filter>Header Files\frmts\mrf\libLERC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\Image.h">
+      <Filter>Header Files\frmts\mrf\libLERC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\Lerc2.h">
+      <Filter>Header Files\frmts\mrf\libLERC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\RLE.h">
+      <Filter>Header Files\frmts\mrf\libLERC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\TImage.hpp">
+      <Filter>Header Files\frmts\mrf\libLERC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\gdalhttp.h">
+      <Filter>Header Files\frmts\wms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\md5.h">
+      <Filter>Header Files\frmts\wms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_arcgis_server.h">
+      <Filter>Header Files\frmts\wms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_iip.h">
+      <Filter>Header Files\frmts\wms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_tiled_wms.h">
+      <Filter>Header Files\frmts\wms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_tileservice.h">
+      <Filter>Header Files\frmts\wms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_tms.h">
+      <Filter>Header Files\frmts\wms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_virtualearth.h">
+      <Filter>Header Files\frmts\wms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_wms.h">
+      <Filter>Header Files\frmts\wms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\minidriver_worldwind.h">
+      <Filter>Header Files\frmts\wms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\wmsdriver.h">
+      <Filter>Header Files\frmts\wms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\frmts\wms\wmsmetadataset.h">
+      <Filter>Header Files\frmts\wms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\amigocloud\ogr_amigocloud.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\amigocloud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vdv\ogr_vdv.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\vdv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\gpkgmbtilescommon.h">
+      <Filter>Source Files\ogr\ogrsf_frmts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogr_geopackage.h">
+      <Filter>Source Files\ogr\ogrsf_frmts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogrgeopackageutility.h">
+      <Filter>Source Files\ogr\ogrsf_frmts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wfs\ogr_wfs.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\wfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xlsx\ogr_xlsx.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gft\ogr_gft.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\gft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\ogr_vfk.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\vfk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkreader.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\vfk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkreaderp.h">
+      <Filter>Header Files\ogr\ogrsf_frmts\vfk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_aws.h">
+      <Filter>Header Files\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.0\port\cpl_sha256.h">
+      <Filter>Header Files\port</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -4854,6 +5070,249 @@
     </ClCompile>
     <ClCompile Include="..\..\gdal-2.1.0\frmts\ecw\jp2userbox.cpp">
       <Filter>Source Files\frmts\ecw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\cals\calsdataset.cpp">
+      <Filter>Source Files\frmts\cals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\arg\argdataset.cpp">
+      <Filter>Source Files\frmts\arg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\JPEG_band.cpp">
+      <Filter>Source Files\frmts\mrf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\JPEG12_band.cpp">
+      <Filter>Source Files\frmts\mrf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\JPNG_band.cpp">
+      <Filter>Source Files\frmts\mrf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\LERC_band.cpp">
+      <Filter>Source Files\frmts\mrf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\marfa_dataset.cpp">
+      <Filter>Source Files\frmts\mrf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\mrf_band.cpp">
+      <Filter>Source Files\frmts\mrf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\mrf_overview.cpp">
+      <Filter>Source Files\frmts\mrf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\mrf_util.cpp">
+      <Filter>Source Files\frmts\mrf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\PNG_band.cpp">
+      <Filter>Source Files\frmts\mrf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\Raw_band.cpp">
+      <Filter>Source Files\frmts\mrf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\Tif_band.cpp">
+      <Filter>Source Files\frmts\mrf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitMask.cpp">
+      <Filter>Source Files\frmts\mrf\libLERC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitMask2.cpp">
+      <Filter>Source Files\frmts\mrf\libLERC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitStuffer.cpp">
+      <Filter>Source Files\frmts\mrf\libLERC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\BitStuffer2.cpp">
+      <Filter>Source Files\frmts\mrf\libLERC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\CntZImage.cpp">
+      <Filter>Source Files\frmts\mrf\libLERC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\Huffman.cpp">
+      <Filter>Source Files\frmts\mrf\libLERC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\Lerc2.cpp">
+      <Filter>Source Files\frmts\mrf\libLERC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mrf\libLERC\RLE.cpp">
+      <Filter>Source Files\frmts\mrf\libLERC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\safe\safedataset.cpp">
+      <Filter>Source Files\frmts\safe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\sentinel2\sentinel2dataset.cpp">
+      <Filter>Source Files\frmts\sentinel2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\gdalhttp.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\gdalwmscache.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\gdalwmsdataset.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\gdalwmsrasterband.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\md5.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_arcgis_server.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_iip.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_tiled_wms.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_tileservice.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_tms.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_virtualearth.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_wms.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\minidriver_worldwind.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\wmsdriver.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\wmsmetadataset.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wms\wmsutils.cpp">
+      <Filter>Source Files\frmts\wms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\wmts\wmtsdataset.cpp">
+      <Filter>Source Files\frmts\wmts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\amigocloud\ogramigoclouddatasource.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\amigocloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\amigocloud\ogramigoclouddriver.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\amigocloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\amigocloud\ogramigocloudlayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\amigocloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\amigocloud\ogramigocloudresultlayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\amigocloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\amigocloud\ogramigocloudtablelayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\amigocloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vdv\ogrvdvdatasource.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\vdv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogrgeopackagedatasource.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gpkg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogrgeopackagedriver.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gpkg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogrgeopackagelayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gpkg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogrgeopackageselectlayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gpkg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogrgeopackagetablelayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gpkg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\ogrgeopackageutility.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gpkg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wfs\ogrwfsdatasource.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\wfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wfs\ogrwfsdriver.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\wfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wfs\ogrwfsfilter.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\wfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wfs\ogrwfsjoinlayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\wfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\wfs\ogrwfslayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\wfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\frmts\mbtiles\mbtilesdataset.cpp">
+      <Filter>Source Files\frmts\mbtiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gpkg\gdalgeopackagerasterband.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gpkg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\csw\ogrcswdataset.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\csw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xlsx\ogrxlsxdatasource.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\xlsx\ogrxlsxdriver.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gft\ogrgftdatasource.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gft\ogrgftdriver.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gft\ogrgftlayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gft\ogrgftresultlayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\gft\ogrgfttablelayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\gft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\ogrvfkdatasource.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\vfk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\ogrvfkdriver.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\vfk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\ogrvfklayer.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\vfk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkdatablock.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\vfk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkdatablocksqlite.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\vfk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkfeature.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\vfk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkfeaturesqlite.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\vfk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkproperty.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\vfk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkpropertydefn.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\vfk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkreader.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\vfk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\ogr\ogrsf_frmts\vfk\vfkreadersqlite.cpp">
+      <Filter>Source Files\ogr\ogrsf_frmts\vfk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_aws.cpp">
+      <Filter>Source Files\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.0\port\cpl_sha256.cpp">
+      <Filter>Source Files\port</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
