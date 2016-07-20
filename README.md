@@ -43,7 +43,7 @@ so you will have to rebuild the static lib version to build the "test_static_XX 
 
 	- Compiled with the july release of gdal 2.1.1
 	
-	- Compiled with lib geos 3.5.0 linked dynamically linked (MS VC Workspace provided in the 3rdpart folder)
+	- Compiled with lib geos 3.5.0 linked dynamically (MS VC Workspace provided in the 3rdpart folder)
 	
 	- Corrected the test_static_libgdal-2.1.1 main.cpp source (removed OGRRegisterAll as its already called by GDALRegisterAll)
 	
