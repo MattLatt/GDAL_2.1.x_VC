@@ -1,0 +1,21 @@
+﻿Build started 20/07/2016 10:56:31.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_dynamic_gdalbuildvrt\test_dynamic_gdalbuildvrt.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         test_dynamic_gdalbuildvrt.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.exe
+       PostBuildEvent:
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.exe K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\binaries\dll\x64\Release\test_dynamic_gdalbuildvrt.exe
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_dynamic_gdalbuildvrt\test_dynamic_gdalbuildvrt.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.24
