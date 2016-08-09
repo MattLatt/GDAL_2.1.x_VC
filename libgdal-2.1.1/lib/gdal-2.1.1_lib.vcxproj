@@ -107,7 +107,7 @@
       <AdditionalLibraryDirectories>$(ProjectDir)$(Configuration)\$(PlatformShortName);../../3rdpart/expat-2.1.0/win32/bin/$(Configuration)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\lib\$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)</Command>
+      <Command>copy "$(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)" "$(SolutionDir)binaries\lib\$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)"</Command>
     </PostBuildEvent>
     <Lib>
       <TargetMachine>MachineX86</TargetMachine>
@@ -129,7 +129,7 @@
       <AdditionalLibraryDirectories>$(ProjectDir)$(Configuration)\$(PlatformShortName);../../3rdpart/expat-2.1.0/win32/bin/$(Configuration)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\lib\$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)</Command>
+      <Command>copy "$(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)" "$(SolutionDir)binaries\lib\$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)"</Command>
     </PostBuildEvent>
     <Lib>
       <TargetMachine>MachineX64</TargetMachine>
@@ -155,7 +155,7 @@
       <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\lib\$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)</Command>
+      <Command>copy "$(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)" "$(SolutionDir)binaries\lib\$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)"</Command>
     </PostBuildEvent>
     <Lib>
       <TargetMachine>MachineX86</TargetMachine>
@@ -182,7 +182,7 @@
       <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\lib\$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)</Command>
+      <Command>copy "$(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)" "$(SolutionDir)binaries\lib\$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)"</Command>
     </PostBuildEvent>
     <Lib>
       <TargetMachine>MachineX64</TargetMachine>

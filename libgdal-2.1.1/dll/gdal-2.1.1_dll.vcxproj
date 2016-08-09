@@ -107,9 +107,9 @@
       <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformShortName)\$(Configuration)\;../../3rdpart/expat-2.1.0/$(PlatformName)/bin/$(Configuration)/;../../3rdpart/ecw-4.3/lib/vc10/$(PlatformShortName)/;../../3rdpart/curl-7.49.1/bin/$(PlatformShortName)/;../../3rdpart/geos-3.5.0/vc/$(PlatformShortName)/$(Configuration)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)
-copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).exp $(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\$(TargetName).exp
-copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).lib $(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\$(TargetName).lib</Command>
+      <Command>copy "$(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)" "$(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)"
+copy "$(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).exp "$(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\$(TargetName).exp"
+copy "$(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).lib" "$(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\$(TargetName).lib"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -128,9 +128,9 @@ copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).lib $(Solu
       <AdditionalLibraryDirectories>$(ProjectDir)$(PlatformName)\$(Configuration)\;../../3rdpart/expat-2.1.0/$(PlatformName)/bin/$(Configuration);../../3rdpart/ecw-4.3/lib/vc10/$(PlatformName)/;../../3rdpart/curl-7.49.1/bin/$(PlatformName)/;../../3rdpart/geos-3.5.0/vc/$(PlatformName)/$(Configuration)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)
-copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).exp $(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\$(TargetName).exp
-copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\$(TargetName).lib</Command>
+      <Command>copy "$(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)" "$(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)"
+copy "$(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).exp" "$(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\$(TargetName).exp"
+copy "$(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib" "$(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\$(TargetName).lib"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -153,9 +153,9 @@ copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionD
       <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib;NCScnet4.lib;NCSEcw4_RO.lib;NCSUtil4.lib;libcurl.lib;geos.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\gdal-2.1.1$(TargetExt)
-copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).exp $(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\gdal-2.1.1.exp
-copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).lib $(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\gdal-2.1.1.lib</Command>
+      <Command>copy "$(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)" "$(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)"
+copy "$(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).exp" "$(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\$(TargetName).exp"
+copy "$(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).lib" "$(SolutionDir)binaries\dll\$(PlatformShortName)\$(Configuration)\$(TargetName).lib"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -178,9 +178,9 @@ copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName).lib $(Solu
       <AdditionalDependencies>wsock32.lib;ws2_32.lib;libexpat.lib;NCScnet4.lib;NCSEcw4_RO.lib;NCSUtil4.lib;libcurl.lib;geos.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\gdal-2.1.1$(TargetExt)
-copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).exp $(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\gdal-2.1.1.exp
-copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib $(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\gdal-2.1.1.lib</Command>
+      <Command>copy "$(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)" "$(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)"
+copy "$(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).exp" "$(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\$(TargetName).exp"
+copy "$(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName).lib" "$(SolutionDir)binaries\dll\$(PlatformName)\$(Configuration)\$(TargetName).lib"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
