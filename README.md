@@ -39,6 +39,27 @@ theire capabilites in ods and txt format : SupportedDrivers.ods and SupportedDri
 /!\ Due to GitHub (free version) limitation I've deleted the static version of gdal-2.1.1.lib (more than 650 MB),
 so you will have to rebuild the static lib version to build the "test_static_XX workspaces".
 
+## 2016-08-10:	
+
+	- Surrounded file URI with quote in the post-build events to fix issue when working in folder with space in the name
+	as reported by Jan Heckman on the GDAL-dev mailing list.
+	  
+	- Fixed some configuration with hard coded target name of binaries also in the post-build task. Replaced by macro $(TargetName)
+	
+	- Deactivated optimisation for X64 Release on the gdalexif.cpp file of the gcore folder as a workaround
+	to the C1001 error of the Visual Studio 2015 community edition, thanks again to Jan.
+	
+	- Tested full solution import and generation with VS 2015 community edition.
+	
+	- Fixed CleanVisualStudioTempFiles.bat so it work too when hour is lesser than 10.
+
+What still need to be done :
+	
+	- add iconv library
+	   
+    - test if it's possible to use Unicode charset (instead of Multi-Byte)
+		
+
 ## 2016-07-20:	
 
 	- Compiled with the july release of gdal 2.1.1
@@ -49,12 +70,6 @@ so you will have to rebuild the static lib version to build the "test_static_XX 
 	
 	- Renamed the repository GDAL_2.1.x_VC
 	
-What still need to be done :
-	
-	- add iconv library
-	   
-    - test if it's possible to use Unicode charset (instead of Multi-Byte)
-		
 	
 ## 2016-07-13:		
 	

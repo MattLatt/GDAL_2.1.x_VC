@@ -88,7 +88,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>../../gdal-2.1.1/alg;../../gdal-2.1.1/frmts;../../gdal-2.1.1/gcore;../../gdal-2.1.1/ogr;../../gdal-2.1.1/port;../../gdal-2.1.1/frmts/vrt;../../gdal-2.1.1/ogr/ogrsf_frmts;../../gdal-2.1.1/ogr/ogrsf_frmts/geojson;../../gdal-2.1.1/ogr/ogrsf_frmts/geojson/libjson</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -107,7 +107,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>../../gdal-2.1.1/alg;../../gdal-2.1.1/frmts;../../gdal-2.1.1/gcore;../../gdal-2.1.1/ogr;../../gdal-2.1.1/port;../../gdal-2.1.1/frmts/vrt;../../gdal-2.1.1/ogr/ogrsf_frmts;../../gdal-2.1.1/ogr/ogrsf_frmts/geojson;../../gdal-2.1.1/ogr/ogrsf_frmts/geojson/libjson</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -128,7 +128,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>../../gdal-2.1.1/alg;../../gdal-2.1.1/frmts;../../gdal-2.1.1/gcore;../../gdal-2.1.1/ogr;../../gdal-2.1.1/port;../../gdal-2.1.1/frmts/vrt;../../gdal-2.1.1/ogr/ogrsf_frmts;../../gdal-2.1.1/ogr/ogrsf_frmts/geojson;../../gdal-2.1.1/ogr/ogrsf_frmts/geojson/libjson</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -151,7 +151,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>../../gdal-2.1.1/alg;../../gdal-2.1.1/frmts;../../gdal-2.1.1/gcore;../../gdal-2.1.1/ogr;../../gdal-2.1.1/port;../../gdal-2.1.1/frmts/vrt;../../gdal-2.1.1/ogr/ogrsf_frmts;../../gdal-2.1.1/ogr/ogrsf_frmts/geojson;../../gdal-2.1.1/ogr/ogrsf_frmts/geojson/libjson</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>

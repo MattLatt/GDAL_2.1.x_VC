@@ -89,7 +89,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;OGR_ENABLED;GDALDRIVER;GDAL_SUPPORT;GDAL_COMPILATION;USE_CPL;INTERNAL_LIBGEOTIFF;INCLUDE_OGR_FRMTS;SQLITE_LIB;HAVE_LIBZ;HAVE_MITAB;HAVE_EXPAT;FRMT_ceos;FRMT_aigrid;FRMT_elas;FRMT_hfa;FRMT_gtiff;FRMT_sdts;FRMT_raw;FRMT_gxf;FRMT_ceos2;FRMT_png;FRMT_dted;FRMT_mem;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>../../gdal-2.1.1/alg;../../gdal-2.1.1/frmts;../../gdal-2.1.1/gcore;../../gdal-2.1.1/ogr;../../gdal-2.1.1/port;../../gdal-2.1.1/frmts/vrt;../../gdal-2.1.1/ogr/ogrsf_frmts/geojson;../../gdal-2.1.1/ogr/ogrsf_frmts/geojson/libjson;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -108,7 +108,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;OGR_ENABLED;GDALDRIVER;GDAL_SUPPORT;GDAL_COMPILATION;USE_CPL;INTERNAL_LIBGEOTIFF;INCLUDE_OGR_FRMTS;SQLITE_LIB;HAVE_LIBZ;HAVE_MITAB;HAVE_EXPAT;FRMT_ceos;FRMT_aigrid;FRMT_elas;FRMT_hfa;FRMT_gtiff;FRMT_sdts;FRMT_raw;FRMT_gxf;FRMT_ceos2;FRMT_png;FRMT_dted;FRMT_mem;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>../../gdal-2.1.1/alg;../../gdal-2.1.1/frmts;../../gdal-2.1.1/gcore;../../gdal-2.1.1/ogr;../../gdal-2.1.1/port;../../gdal-2.1.1/frmts/vrt;../../gdal-2.1.1/ogr/ogrsf_frmts/geojson;../../gdal-2.1.1/ogr/ogrsf_frmts/geojson/libjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
