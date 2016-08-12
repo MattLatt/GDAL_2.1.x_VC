@@ -70,6 +70,9 @@ GDAL Drivers: Rast. | Vect. | Read | Wri. | Driver Code | Driver Desc.
             :  Yes  |  No   |  Yes |  Yes | ISCE	| ISCE raster
             :  Yes  |  No   |  Yes |  No  | ARG	| Azavea Raster Grid format
             :  Yes  |  No   |  Yes |  No  | GXF	| GeoSoft Grid Exchange Format
+            :  Yes  |  No   |  Yes |  No  | BAG	| Bathymetry Attributed Grid
+            :  Yes  |  No   |  Yes |  No  | HDF5	| Hierarchical Data Format Release 5
+            :  Yes  |  No   |  Yes |  No  | HDF5Image	| HDF5 Dataset
             :  No   |  Yes  |  Yes |  Yes | ESRI Shapefile	| ESRI Shapefile
             :  No   |  Yes  |  Yes |  Yes | MapInfo File	| MapInfo File
             :  No   |  Yes  |  Yes |  No  | UK .NTF	| UK .NTF

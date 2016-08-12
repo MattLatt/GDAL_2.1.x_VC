@@ -829,9 +829,14 @@
     <Filter Include="Header Files\ogr\ogrsf_frmts\vfk">
       <UniqueIdentifier>{24114916-1de4-4be2-b6b8-b976b1a52017}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\frmts\hdf5">
+      <UniqueIdentifier>{3e42ae7c-bd73-4c40-9ffa-3bc19afa82fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frmts\hdf5">
+      <UniqueIdentifier>{bed2aaed-0c8a-4ff2-99fa-be138e946230}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ReadMe.txt" />
     <None Include="..\..\gdal-2.1.1\frmts\gtiff\libgeotiff\epsg_datum.inc">
       <Filter>Header Files\frmts\gtiff\libgeotiff</Filter>
     </None>
@@ -2173,6 +2178,12 @@
     </ClInclude>
     <ClInclude Include="..\..\gdal-2.1.1\port\cpl_sha256.h">
       <Filter>Header Files\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.1\frmts\hdf5\gh5_convenience.h">
+      <Filter>Header Files\frmts\hdf5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gdal-2.1.1\frmts\hdf5\hdf5dataset.h">
+      <Filter>Header Files\frmts\hdf5</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -5310,6 +5321,21 @@
     </ClCompile>
     <ClCompile Include="..\..\gdal-2.1.1\port\cpl_sha256.cpp">
       <Filter>Source Files\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.1\frmts\hdf5\bagdataset.cpp">
+      <Filter>Source Files\frmts\hdf5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.1\frmts\hdf5\gh5_convenience.cpp">
+      <Filter>Source Files\frmts\hdf5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.1\frmts\hdf5\hdf5dataset.cpp">
+      <Filter>Source Files\frmts\hdf5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.1\frmts\hdf5\hdf5imagedataset.cpp">
+      <Filter>Source Files\frmts\hdf5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gdal-2.1.1\frmts\hdf5\iso19115_srs.cpp">
+      <Filter>Source Files\frmts\hdf5</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

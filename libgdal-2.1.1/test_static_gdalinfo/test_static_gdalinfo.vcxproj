@@ -95,8 +95,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gdal-2.1.1.lib;libexpat.lib;NCScnet4d.lib;NCSEcw4_ROd.lib;NCSUtil4d.lib;libcurl.lib;geos.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>../lib/$(PlatformShortName)/$(Configuration);../../3rdpart/expat-2.1.0/$(PlatformName)/bin/$(Configuration);../../3rdpart/ecw-4.3/lib/vc10/$(PlatformShortName)/;../../3rdpart/curl-7.49.1/bin/$(PlatformShortName)/;../../3rdpart/geos-3.5.0/vc/$(PlatformShortName)/$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gdal-2.1.1.lib;libexpat.lib;NCScnet4d.lib;NCSEcw4_ROd.lib;NCSUtil4d.lib;libcurl.lib;geos.lib;hdf5.lib;szip.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../lib/$(PlatformShortName)/$(Configuration);../../3rdpart/expat-2.1.0/$(PlatformName)/bin/$(Configuration);../../3rdpart/ecw-4.3/lib/vc10/$(PlatformShortName)/;../../3rdpart/curl-7.49.1/bin/$(PlatformShortName)/;../../3rdpart/geos-3.5.0/vc/$(PlatformShortName)/$(Configuration);../../3rdpart/hdf5-1.8.17/lib/$(PlatformShortName)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\lib\$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)</Command>
@@ -114,8 +114,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gdal-2.1.1.lib;libexpat.lib;NCScnet4d.lib;NCSEcw4_ROd.lib;NCSUtil4d.lib;libcurl.lib;geos.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>../lib/$(PlatformName)/$(Configuration);../../3rdpart/expat-2.1.0/x64/bin/$(Configuration);../../3rdpart/ecw-4.3/lib/vc10/$(PlatformName)/;../../3rdpart/curl-7.49.1/bin/$(PlatformName)/;../../3rdpart/geos-3.5.0/vc/$(PlatformName)/$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gdal-2.1.1.lib;libexpat.lib;NCScnet4d.lib;NCSEcw4_ROd.lib;NCSUtil4d.lib;libcurl.lib;geos.lib;hdf5.lib;szip.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../lib/$(PlatformName)/$(Configuration);../../3rdpart/expat-2.1.0/x64/bin/$(Configuration);../../3rdpart/ecw-4.3/lib/vc10/$(PlatformName)/;../../3rdpart/curl-7.49.1/bin/$(PlatformName)/;../../3rdpart/geos-3.5.0/vc/$(PlatformName)/$(Configuration);../../3rdpart/hdf5-1.8.17/lib/$(PlatformName)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\lib\$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)</Command>
@@ -137,8 +137,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gdal-2.1.1.lib;libexpat.lib;NCScnet4.lib;NCSEcw4_RO.lib;NCSUtil4.lib;libcurl.lib;geos.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>../lib/$(PlatformShortName)/$(Configuration);../../3rdpart/expat-2.1.0/$(PlatformName)/bin/$(Configuration);../../3rdpart/ecw-4.3/lib/vc10/$(PlatformShortName)/;../../3rdpart/curl-7.49.1/bin/$(PlatformShortName)/;../../3rdpart/geos-3.5.0/vc/$(PlatformShortName)/$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gdal-2.1.1.lib;libexpat.lib;NCScnet4.lib;NCSEcw4_RO.lib;NCSUtil4.lib;libcurl.lib;geos.lib;hdf5.lib;szip.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../lib/$(PlatformShortName)/$(Configuration);../../3rdpart/expat-2.1.0/$(PlatformName)/bin/$(Configuration);../../3rdpart/ecw-4.3/lib/vc10/$(PlatformShortName)/;../../3rdpart/curl-7.49.1/bin/$(PlatformShortName)/;../../3rdpart/geos-3.5.0/vc/$(PlatformShortName)/$(Configuration);../../3rdpart/hdf5-1.8.17/lib/$(PlatformShortName)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>copy $(Projectdir)$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\lib\$(PlatformShortName)\$(Configuration)\$(TargetName)$(TargetExt)</Command>
@@ -160,8 +160,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>../lib/$(PlatformName)/$(Configuration);../../3rdpart/expat-2.1.0/x64/bin/$(Configuration);../../3rdpart/ecw-4.3/lib/vc10/$(PlatformName)/;../../3rdpart/curl-7.49.1/bin/$(PlatformName)/;../../3rdpart/geos-3.5.0/vc/$(PlatformName)/$(Configuration)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gdal-2.1.1.lib;libexpat.lib;NCScnet4.lib;NCSEcw4_RO.lib;NCSUtil4.lib;libcurl.lib;geos.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../lib/$(PlatformName)/$(Configuration);../../3rdpart/expat-2.1.0/x64/bin/$(Configuration);../../3rdpart/ecw-4.3/lib/vc10/$(PlatformName)/;../../3rdpart/curl-7.49.1/bin/$(PlatformName)/;../../3rdpart/geos-3.5.0/vc/$(PlatformName)/$(Configuration);../../3rdpart/hdf5-1.8.17/lib/$(PlatformName)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wsock32.lib;ws2_32.lib;gdal-2.1.1.lib;libexpat.lib;NCScnet4.lib;NCSEcw4_RO.lib;NCSUtil4.lib;libcurl.lib;geos.lib;hdf5.lib;szip.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy $(Projectdir)$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt) $(SolutionDir)binaries\lib\$(PlatformName)\$(Configuration)\$(TargetName)$(TargetExt)</Command>

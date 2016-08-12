@@ -1,11 +1,13 @@
-﻿Build started 10/08/2016 08:11:02.
-     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\test_static_libgdal-2.1.1.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+﻿Build started 10/08/2016 23:46:58.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\test_static_libgdal-2.1.1.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.unsuccessfulbuild".
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"../../gdal-2.1.1/alg" /I"../../gdal-2.1.1/frmts" /I"../../gdal-2.1.1/frmts/blx" /I"../../gdal-2.1.1/frmts/gif/giflib" /I"../../gdal-2.1.1/frmts/gtiff" /I"../../gdal-2.1.1/frmts/gtiff/libgeotiff" /I"../../gdal-2.1.1/frmts/gtiff/libtiff" /I"../../gdal-2.1.1/frmts/idrisi" /I"../../gdal-2.1.1/frmts/iso8211" /I"../../gdal-2.1.1/frmts/jpeg" /I"../../gdal-2.1.1/frmts/jpeg/libjpeg" /I"../../gdal-2.1.1/frmts/mem" /I"../../gdal-2.1.1/frmts/pcidsk/sdk" /I"../../gdal-2.1.1/frmts/pcidsk/sdk/segment" /I"../../gdal-2.1.1/frmts/pcraster/libcsf" /I"../../gdal-2.1.1/frmts/pds" /I"../../gdal-2.1.1/frmts/png/libpng" /I"../../gdal-2.1.1/frmts/raw" /I"../../gdal-2.1.1/frmts/sdts" /I"../../gdal-2.1.1/frmts/vrt" /I"../../gdal-2.1.1/frmts/zlib" /I"../../gdal-2.1.1/gcore" /I"../../gdal-2.1.1/ogr" /I"../../gdal-2.1.1/ogr/ogrsf_frmts" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/avc" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/generic" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/geojson/libjson" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/geojson" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/mem" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/shape" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/sqlite" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/xplane" /I"../../gdal-2.1.1/port" /I"../../3rdpart/expat-2.1.0/lib" /I"../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt main.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"../../gdal-2.1.1/alg" /I"../../gdal-2.1.1/frmts" /I"../../gdal-2.1.1/frmts/blx" /I"../../gdal-2.1.1/frmts/gif/giflib" /I"../../gdal-2.1.1/frmts/gtiff" /I"../../gdal-2.1.1/frmts/gtiff/libgeotiff" /I"../../gdal-2.1.1/frmts/gtiff/libtiff" /I"../../gdal-2.1.1/frmts/idrisi" /I"../../gdal-2.1.1/frmts/iso8211" /I"../../gdal-2.1.1/frmts/jpeg" /I"../../gdal-2.1.1/frmts/jpeg/libjpeg" /I"../../gdal-2.1.1/frmts/mem" /I"../../gdal-2.1.1/frmts/pcidsk/sdk" /I"../../gdal-2.1.1/frmts/pcidsk/sdk/segment" /I"../../gdal-2.1.1/frmts/pcraster/libcsf" /I"../../gdal-2.1.1/frmts/pds" /I"../../gdal-2.1.1/frmts/png/libpng" /I"../../gdal-2.1.1/frmts/raw" /I"../../gdal-2.1.1/frmts/sdts" /I"../../gdal-2.1.1/frmts/vrt" /I"../../gdal-2.1.1/frmts/zlib" /I"../../gdal-2.1.1/gcore" /I"../../gdal-2.1.1/ogr" /I"../../gdal-2.1.1/ogr/ogrsf_frmts" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/avc" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/generic" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/geojson/libjson" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/geojson" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/mem" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/shape" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/sqlite" /I"../../gdal-2.1.1/ogr/ogrsf_frmts/xplane" /I"../../gdal-2.1.1/port" /I"../../3rdpart/expat-2.1.0/lib" /I"../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt main.cpp
          main.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\gdal-2.1.1\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.1\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
                  [
                      _Elem=char,
@@ -20,36 +22,36 @@
                      _Elem=char,
                      _Alloc=std::allocator<char>
                  ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\gdal-2.1.1\gcore\gdal_priv.h(663): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.1\gcore\gdal_priv.h(663): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
                  with
                  [
                      _Ty=GDALColorEntry
                  ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\gdal-2.1.1\gcore\gdal_priv.h(1142): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.1\gcore\gdal_priv.h(1142): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
                  with
                  [
                      _Kty=CPLString,
                      _Ty=GDALDriver *
                  ]
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib/x64/Release /LIBPATH:"../../3rdpart/expat-2.1.0/x64/bin/Release" /LIBPATH:"../../3rdpart/ecw-4.3/lib/vc10/x64/" /LIBPATH:"../../3rdpart/curl-7.49.1/bin/x64/" /LIBPATH:"../../3rdpart/geos-3.5.0/vc/x64/Release" wsock32.lib ws2_32.lib "gdal-2.1.1.lib" libexpat.lib NCScnet4.lib NCSEcw4_RO.lib NCSUtil4.lib libcurl.lib geos.lib /MANIFEST /ManifestFile:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.lib" /MACHINE:X64 "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\main.obj"
-            Creating library K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.lib and object K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.exp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib/x64/Release /LIBPATH:"../../3rdpart/expat-2.1.0/x64/bin/Release" /LIBPATH:"../../3rdpart/ecw-4.3/lib/vc10/x64/" /LIBPATH:"../../3rdpart/curl-7.49.1/bin/x64/" /LIBPATH:"../../3rdpart/geos-3.5.0/vc/x64/Release" /LIBPATH:"../../3rdpart/hdf5-1.8.17/lib/x64" wsock32.lib ws2_32.lib "gdal-2.1.1.lib" libexpat.lib NCScnet4.lib NCSEcw4_RO.lib NCSUtil4.lib libcurl.lib geos.lib hdf5.lib szip.lib /MANIFEST /ManifestFile:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.lib" /MACHINE:X64 "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\main.obj"
+            Creating library K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.lib and object K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.exp
          Generating code
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc\gdal-2.1.1\gcore\gdalexif.cpp(59): warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc\gdal-2.1.1\gcore\gdalexif.cpp(217): warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.1\gcore\gdalexif.cpp(59): warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
+     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.1\gcore\gdalexif.cpp(217): warning C4748: /GS can not protect parameters and local variables from local buffer overrun because optimizations are disabled in function
          Finished generating code
-         test_static_libgdal-2.1.1.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.exe
+         test_static_libgdal-2.1.1.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.exe;#1" /manifest "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.exe;#1" /manifest "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.exe.intermediate.manifest"
        PostBuildEvent:
-         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.exe K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\binaries\lib\x64\Release\test_static_gdal-2.1.1.exe
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.exe K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\binaries\lib\x64\Release\test_static_gdal-2.1.1.exe
          :VCEnd
                  1 fichier(s) copié(s).
        FinalizeBuildStatus:
-         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.unsuccessfulbuild".
-         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.lastbuildstate".
-     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.1\test_static_libgdal-2.1.1\test_static_libgdal-2.1.1.vcxproj" (build target(s)).
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\x64\Release\test_static_gdal-2.1.1.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_libgdal-2.1.1\test_static_libgdal-2.1.1.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:06:42.31
+Time Elapsed 00:03:34.75

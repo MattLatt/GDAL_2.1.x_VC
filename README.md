@@ -39,6 +39,16 @@ theire capabilites in ods and txt format : SupportedDrivers.ods and SupportedDri
 /!\ Due to GitHub (free version) limitation I've deleted the static version of gdal-2.1.1.lib (more than 650 MB),
 so you will have to rebuild the static lib version to build the "test_static_XX workspaces".
 
+## 2016-08-12:	
+
+	- Compiled with the HDF5 drivers (dynamically linked to the v1.8.17 of the HDF5 lib, binaries provided in the 3rdpart folder) 
+
+What still need to be done :
+	
+	- add iconv library
+	   
+    - test if it's possible to use Unicode charset (instead of Multi-Byte)
+		
 ## 2016-08-10:	
 
 	- Surrounded file URI with quote in the post-build events to fix issue when working in folder with space in the name
@@ -53,12 +63,6 @@ so you will have to rebuild the static lib version to build the "test_static_XX 
 	
 	- Fixed CleanVisualStudioTempFiles.bat so it work too when hour is lesser than 10.
 
-What still need to be done :
-	
-	- add iconv library
-	   
-    - test if it's possible to use Unicode charset (instead of Multi-Byte)
-		
 
 ## 2016-07-20:	
 
