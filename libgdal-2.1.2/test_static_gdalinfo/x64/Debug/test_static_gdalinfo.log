@@ -1,0 +1,49 @@
+﻿Build started 21/10/2016 12:16:45.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\test_static_gdalinfo\test_static_gdalinfo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\test_static_gdalinfo\x64\Debug\test_static_gdalinfo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"../../gdal-2.1.2/alg" /I"../../gdal-2.1.2/frmts" /I"../../gdal-2.1.2/gcore" /I"../../gdal-2.1.2/ogr" /I"../../gdal-2.1.2/port" /I"../../gdal-2.1.2/frmts/vrt" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/geojson" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/geojson/libjson" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\test_static_gdalinfo\x64\Debug\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\test_static_gdalinfo\x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt "..\..\gdal-2.1.2\apps\commonutils.cpp" "..\..\gdal-2.1.2\apps\gdalinfo_bin.cpp"
+         gdalinfo_bin.cpp
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
+                 with
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Ty=char
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+         commonutils.cpp
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
+                 with
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Ty=char
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\test_static_gdalinfo\x64\Debug\test_static_gdalinfo.exe.embed.manifest.res" K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\test_static_gdalinfo\x64\Debug\test_static_gdalinfo_manifest.rc 
+         
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\test_static_gdalinfo\x64\Debug\test_static_gdalinfo_manifest.rc(1): error RC2135: file not found: K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.1\test_static_gdalinfo\x64\Debug\test_static_gdalinfo.exe.embed.manifest
+         
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\test_static_gdalinfo\test_static_gdalinfo.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.82
