@@ -2,34 +2,38 @@
 ==============================================================================
 This repository contain Visual C++ 2010 workspace of the GDAL 2.1.x library (http://gdal.org)
 
-    1. The Folder gdal-2.1.2 contain the gdal 2.1.2 RC3 source release 
-	(http://download.osgeo.org/gdal/2.1.2/gdal212RC3.zip). The file ./gdal-2.1.2/port/cpl_config.h.vc has been 
+    1. The Folder gdal-2.1.2 contain the 27/10/2016 gdal 2.1.2 source release
+	(http://download.osgeo.org/gdal/2.1.2/gdal212.zip). The file ./gdal-2.1.2/port/cpl_config.h.vc has been 
 	renamed into ./gdal-2.1.2/port/cpl_config.h in order to compile with MS visual C++ and the file 
 	./gdal-2.1.2/gcore/Version.rc has been slightly modified (including gdal_version.h instead of gdal.h)
 	to avoid the RC1015 error compilation I have with VS 2010. I kept a copy of the original file provided
 	by OSgeo (./gdal-2.1.2/gcore/Version.rc.orig).
 
-	1. The folder libgdal-2.1.2 contain a MS Visual Studio Solution with all the workspaces and a "binaries"
+	2. The folder libgdal-2.1.2 contain a MS Visual Studio Solution with all the workspaces and a "binaries"
 	sub-folder with each architecture and configuration binaries copied by VC post-build steps.
-	There is both dynamic (dll) and static workspaces (lib) of GDAL 2.1.2 with 4 test workspaces:
+	There is both dynamic (dll) and static workspaces (lib) of GDAL 2.1.2 with 5 test workspaces:
 	
-		2. test_dynamic_gdalbuildvrt workspace:
+		2.1. test_dynamic_gdalbuildvrt workspace:
 		this is the gdalbuildvrt code provided by gdal (in the app folder of the source package) in a 
 		"windows console" workspace dynamically linked to GDAL 2.1.2
 
-		2. test_dynamic_ogr2ogr workspace:
+		2.2. test_dynamic_ogr2ogr workspace:
 		this is the ogr2ogr code provided by gdal (in the app folder of the source package) in a 
 		"windows console" workspace dynamically linked to GDAL 2.1.2
 	
-		2. test_static_libgdal-2.1.2 workspace:
+		2.3. test_static_libgdal-2.1.2 workspace:
 		this is a simple console program that dump all the supported drivers (GDAL/OGR) with theire 
 		capabilities (i.e. Read/Write)
 		
-		2. test_static_gdalinfo workspace:
+		2.4. test_static_gdalinfo workspace:
 		this is the gdalinfo code provided by gdal (in the app folder of the source package) in a 
 		"windows console" workspace statically linked to GDAL 2.1.2
+		
+		2.5. test_dynamic_gdal_envvars_internals workspace:
+		this is a simple console program dynamically linked to GDAL 2.1.2 that show how to set env vars 
+		with C++, so you may not use the GDAL Cmd console.
 	
-	1. The 3rdpart folder contain the libraries not provided internally by GDAL and necessary for some format
+	3. The 3rdpart folder contain the libraries not provided internally by GDAL and necessary for some format
 	I choosed to add (OSM, ECW...). For now it contain the libexpat 2.4.0 (linked dynamically), 
 	Proj.4 lib V4.9.2 (linked dynamically), ECW 4.3 SDK (linked dynamically), libcurl 7.49.1 (linked dynamically),
 	lib geos 3.5.0 (linked dynamically) and libsqlite 3.12 amalgamation included in the GDAL workspaces.
@@ -39,6 +43,11 @@ theire capabilites in ods and txt format : SupportedDrivers.ods and SupportedDri
 
 /!\ Due to GitHub (free version) limitation I've deleted the static version of gdal-2.1.2.lib (more than 650 MB),
 so you will have to rebuild the static lib version to build the "test_static_XX workspaces".
+
+## 2016-08-12:	
+	1. Compiled with the 27/10/2016 GDAL 2.1.2 Release
+	
+	2. Added a new test workspace to show how to load GDAL_DATA and PROJ_LIB env vars form C++.
 
 ## 2016-08-12:	
 
