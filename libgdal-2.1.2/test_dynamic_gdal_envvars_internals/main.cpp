@@ -55,7 +55,7 @@ int main(int argc, char* argv[])
 
 	//Registering Raster Drivers
     GDALAllRegister();
-	
+
 	std::cout << "GDAL Drivers: Rast. | Vect. | Read | Wri. | Driver Code | Driver Desc." << std::endl;
 	for (int i = 0 ; i < GDALGetDriverCount() ; ++i)
 		{
@@ -66,6 +66,9 @@ int main(int argc, char* argv[])
 		bool Write	= poGDrv->GetMetadataItem( GDAL_DCAP_CREATE ) != NULL ;
 		std::cout << "            :  "<< (Raster ? "Yes" : "No ") << "  |  " << (Vector ? "Yes" : "No ") << "  |  " << (Read ? "Yes" : "No ")<< " |  " << (Write ? "Yes" : "No ") << " | " << poGDrv->GetDescription() << "\t| "  << poGDrv->GetMetadataItem( GDAL_DMD_LONGNAME )  << std::endl ;
 		}
+
+
+
 
 	return 0;
 	}

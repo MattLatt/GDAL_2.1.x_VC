@@ -1,332 +1,10 @@
-﻿Build started 21/10/2016 12:30:37.
+﻿Build started 29/10/2016 10:02:20.
      1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\lib\gdal-2.1.2_lib.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\lib\x64\Release\gdal-2.1.2_lib.unsuccessfulbuild".
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"../../gdal-2.1.2/alg" /I"../../gdal-2.1.2/apps" /I"../../gdal-2.1.2/frmts" /I"../../gdal-2.1.2/frmts/blx" /I"../../gdal-2.1.2/frmts/gif/giflib" /I"../../gdal-2.1.2/frmts/gtiff" /I"../../gdal-2.1.2/frmts/gtiff/libgeotiff" /I"../../gdal-2.1.2/frmts/gtiff/libtiff" /I"../../gdal-2.1.2/frmts/idrisi" /I"../../gdal-2.1.2/frmts/iso8211" /I"../../gdal-2.1.2/frmts/jpeg" /I"../../gdal-2.1.2/frmts/jpeg/libjpeg" /I"../../gdal-2.1.2/frmts/mem" /I"../../gdal-2.1.2/frmts/mrf/libLERC" /I"../../gdal-2.1.2/frmts/mrf" /I"../../gdal-2.1.2/frmts/pcidsk/sdk" /I"../../gdal-2.1.2/frmts/pcidsk/sdk/segment" /I"../../gdal-2.1.2/frmts/pcraster/libcsf" /I"../../gdal-2.1.2/frmts/pds" /I"../../gdal-2.1.2/frmts/png/libpng" /I"../../gdal-2.1.2/frmts/raw" /I"../../gdal-2.1.2/frmts/sdts" /I"../../gdal-2.1.2/frmts/vrt" /I"../../gdal-2.1.2/frmts/zlib" /I"../../gdal-2.1.2/gcore" /I"../../gdal-2.1.2/ogr" /I"../../gdal-2.1.2/ogr/ogrsf_frmts" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/avc" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/generic" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/geojson/libjson" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/geojson" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/gml" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/gpkg" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/mem" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/pgdump" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/shape" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/sqlite" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/wfs" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/xplane" /I"../../gdal-2.1.2/port" /I"../../3rdpart/expat-2.1.0/lib" /I"../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation" /I"../../3rdpart/ecw-4.3/include" /I"../../3rdpart/ecw-4.3/include/NCSECW/API" /I"../../3rdpart/ecw-4.3/include/NCSECW/ECW" /I"../../3rdpart/ecw-4.3/include/NCSECW/GDT" /I"../../3rdpart/ecw-4.3/include/NCSECW/JP2" /I"../../3rdpart/ecw-4.3/include/NCSECW/JPC" /I"../../3rdpart/ecw-4.3/include/NCSECW/SDK" /I"../../3rdpart/curl-7.49.1/include" /I"../../3rdpart/geos-3.5.0/capi" /I"../../3rdpart/geos-3.5.0/include" /I"../../3rdpart/hdf5-1.8.17/include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D OGR_ENABLED /D GDALDRIVER /D GDAL_SUPPORT /D GDAL_COMPILATION /D USE_CPL /D _USE_MATH_DEFINES /D USE_IN_GDAL /D INTERNAL_LIBGEOTIFF /D INTERNAL_LIBTIFF /D BIGTIFF_SUPPORT /D INCLUDE_OGR_FRMTS /D SQLITE_LIB /D HAVE_LIBZ /D HAVE_MITAB /D HAVE_EXPAT /D HAVE_SQLITE /D HAVE_LIBJPEG /D HAVE_CURL /D HAVE_GEOS /D FRMT_ceos /D FRMT_aigrid /D FRMT_elas /D FRMT_hfa /D FRMT_gtiff /D FRMT_sdts /D FRMT_raw /D FRMT_gxf /D FRMT_ceos2 /D FRMT_png /D FRMT_dted /D FRMT_mem /D FRMT_jpeg /D FRMT_vrt /D FRMT_nitf /D FRMT_gif /D FRMT_envisat /D FRMT_bsb /D FRMT_xpm /D FRMT_bmp /D FRMT_airsar /D FRMT_rs2 /D FRMT_pcidsk /D FRMT_pcraster /D FRMT_ilwis /D FRMT_ers /D FRMT_ecw /D FRMT_arg /D FRMT_cals /D FRMT_wmts /D FRMT_wms /D FRMT_sentinel2 /D FRMT_mrf /D FRMT_safe /D FRMT_mbtiles /D FRMT_hdf5 /D H5_BUILT_AS_DYNAMIC_LIB /D LERC /D HAVE_ECW_BUILDNUMBER_H /D SHAPE_ENABLED /D TAB_ENABLED /D NTF_ENABLED /D SDTS_ENABLED /D S57_ENABLED /D DGN_ENABLED /D VRT_ENABLED /D REC_ENABLED /D MEM_ENABLED /D BNA_ENABLED /D CSV_ENABLED /D GML_ENABLED /D GPX_ENABLED /D KML_ENABLED /D GEOJSON_ENABLED /D GMT_ENABLED /D WASP_ENABLED /D OPENFILEGDB_ENABLED /D XPLANE_ENABLED /D DXF_ENABLED /D GEOCONCEPT_ENABLED /D GEORSS_ENABLED /D GTM_ENABLED /D PGDUMP_ENABLED /D OSM_ENABLED /D GPSBABEL_ENABLED /D SUA_ENABLED /D OPENAIR_ENABLED /D PDS_ENABLED /D HTF_ENABLED /D AERONAVFAA_ENABLED /D EDIGEO_ENABLED /D SVG_ENABLED /D IDRISI_ENABLED /D ARCGEN_ENABLED /D SEGUKOOA_ENABLED /D SEGY_ENABLED /D SXF_ENABLED /D SELAFIN_ENABLED /D JML_ENABLED /D TIGER_ENABLED /D AMIGOCLOUD_ENABLED /D VDV_ENABLED /D WFS_ENABLED /D CSW_ENABLED /D SQLITE_ENABLED /D XLSX_ENABLED /D VFK_ENABLED /D GFT_ENABLED /D "(PreprocessorDefinitions)" /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\lib\x64\Release\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\lib\x64\Release\vc100.pdb" /Gd /TC /errorReport:prompt "..\..\gdal-2.1.2\alg\delaunay.c" "..\..\gdal-2.1.2\alg\gdal_crs.c" "..\..\gdal-2.1.2\alg\gdalwarpkernel_opencl.c" "..\..\gdal-2.1.2\alg\libqhull\geom.c" "..\..\gdal-2.1.2\alg\libqhull\geom2.c" "..\..\gdal-2.1.2\alg\libqhull\global.c" "..\..\gdal-2.1.2\alg\libqhull\io.c" "..\..\gdal-2.1.2\alg\libqhull\libqhull.c" "..\..\gdal-2.1.2\alg\libqhull\mem.c" "..\..\gdal-2.1.2\alg\libqhull\merge.c" "..\..\gdal-2.1.2\alg\libqhull\poly.c" "..\..\gdal-2.1.2\alg\libqhull\poly2.c" "..\..\gdal-2.1.2\alg\libqhull\qset.c" "..\..\gdal-2.1.2\alg\libqhull\random.c" "..\..\gdal-2.1.2\alg\libqhull\rboxlib.c" "..\..\gdal-2.1.2\alg\libqhull\stat.c" "..\..\gdal-2.1.2\alg\libqhull\user.c" "..\..\gdal-2.1.2\alg\libqhull\usermem.c" "..\..\gdal-2.1.2\alg\libqhull\userprintf.c" "..\..\gdal-2.1.2\alg\libqhull\userprintf_rbox.c" "..\..\gdal-2.1.2\frmts\aigrid\aigccitt.c" "..\..\gdal-2.1.2\frmts\aigrid\aigopen.c" "..\..\gdal-2.1.2\frmts\aigrid\gridlib.c" "..\..\gdal-2.1.2\frmts\blx\blx.c" "..\..\gdal-2.1.2\frmts\bsb\bsb2raw.c" "..\..\gdal-2.1.2\frmts\bsb\bsb_read.c" "..\..\gdal-2.1.2\frmts\ceos2\ceos.c" "..\..\gdal-2.1.2\frmts\ceos2\ceosrecipe.c" "..\..\gdal-2.1.2\frmts\ceos2\ceossar.c" "..\..\gdal-2.1.2\frmts\ceos2\link.c" "..\..\gdal-2.1.2\frmts\ceos\ceosopen.c" "..\..\gdal-2.1.2\frmts\dted\dted_api.c" "..\..\gdal-2.1.2\frmts\dted\dted_create.c" "..\..\gdal-2.1.2\frmts\dted\dted_ptstream.c" "..\..\gdal-2.1.2\frmts\e00grid\e00read.c" "..\..\gdal-2.1.2\frmts\envisat\EnvisatFile.c" "..\..\gdal-2.1.2\frmts\envisat\records.c" "..\..\gdal-2.1.2\frmts\gif\giflib\dgif_lib.c" "..\..\gdal-2.1.2\frmts\gif\giflib\egif_lib.c" "..\..\gdal-2.1.2\frmts\gif\giflib\gif_err.c" "..\..\gdal-2.1.2\frmts\gif\giflib\gif_hash.c" "..\..\gdal-2.1.2\frmts\gif\giflib\gifalloc.c" "..\..\gdal-2.1.2\frmts\gtiff\libgeotiff\geo_extra.c" "..\..\gdal-2.1.2\frmts\gtiff\libgeotiff\geo_free.c" "..\..\gdal-2.1.2\frmts\gtiff\libgeotiff\geo_get.c" "..\..\gdal-2.1.2\frmts\gtiff\libgeotiff\geo_names.c" "..\..\gdal-2.1.2\frmts\gtiff\libgeotiff\geo_new.c" "..\..\gdal-2.1.2\frmts\gtiff\libgeotiff\geo_normalize.c" "..\..\gdal-2.1.2\frmts\gtiff\libgeotiff\geo_print.c" "..\..\gdal-2.1.2\frmts\gtiff\libgeotiff\geo_set.c" "..\..\gdal-2.1.2\frmts\gtiff\libgeotiff\geo_simpletags.c" "..\..\gdal-2.1.2\frmts\gtiff\libgeotiff\geo_tiffp.c" "..\..\gdal-2.1.2\frmts\gtiff\libgeotiff\geo_trans.c" "..\..\gdal-2.1.2\frmts\gtiff\libgeotiff\geo_write.c" "..\..\gdal-2.1.2\frmts\gtiff\libgeotiff\geotiff_proj4.c" "..\..\gdal-2.1.2\frmts\gtiff\libgeotiff\xtiff.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_aux.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_close.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_codec.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_color.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_compress.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_dir.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_dirinfo.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_dirread.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_dirwrite.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_dumpmode.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_error.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_extension.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_fax3.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_fax3sm.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_flush.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_getimage.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_jpeg.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_jpeg_12.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_luv.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_lzma.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_lzw.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_next.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_ojpeg.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_open.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_packbits.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_pixarlog.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_predict.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_print.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_read.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_strip.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_swab.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_thunder.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_tile.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_version.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_vsi.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_warning.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_write.c" "..\..\gdal-2.1.2\frmts\gtiff\libtiff\tif_zip.c" "..\..\gdal-2.1.2\frmts\gtiff\tif_float.c" "..\..\gdal-2.1.2\frmts\gxf\gxf_ogcwkt.c" "..\..\gdal-2.1.2\frmts\gxf\gxf_proj4.c" "..\..\gdal-2.1.2\frmts\gxf\gxfopen.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jcapimin.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jcapistd.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jccoefct.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jccolor.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jcdctmgr.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jchuff.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jcinit.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jcmainct.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jcmarker.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jcmaster.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jcomapi.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jcparam.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jcphuff.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jcprepct.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jcsample.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jctrans.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdapimin.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdapistd.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdatadst.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdatasrc.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdcoefct.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdcolor.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jddctmgr.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdhuff.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdinput.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdmainct.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdmarker.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdmaster.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdmerge.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdphuff.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdpostct.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdsample.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jdtrans.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jerror.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jfdctflt.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jfdctfst.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jfdctint.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jidctflt.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jidctfst.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jidctint.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jidctred.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jmemansi.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jmemmgr.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jquant1.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jquant2.c" "..\..\gdal-2.1.2\frmts\jpeg\libjpeg\jutils.c" "..\..\gdal-2.1.2\frmts\nitf\mgrs.c" "..\..\gdal-2.1.2\frmts\nitf\nitfdes.c" "..\..\gdal-2.1.2\frmts\nitf\nitffile.c" "..\..\gdal-2.1.2\frmts\nitf\nitfimage.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\_getcell.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\_getrow.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\_gsomece.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\_putcell.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\_rputrow.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\angle.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\attravai.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\attrsize.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\cellsize.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\create2.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\csfglob.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\csfsup.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\delattr.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\dumconv.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\endian.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\filename.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\gattrblk.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\gattridx.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\gcellrep.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\gdattype.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\getattr.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\getx0.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\gety0.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\ggisfid.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\gmaxval.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\gminval.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\gnrcols.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\gnrrows.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\gproj.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\gputproj.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\gvalscal.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\gvartype.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\gversion.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\ismv.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\kernlcsf.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\legend.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\mclose.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\mopen.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\moreattr.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\mperror.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\pgisfid.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\pmaxval.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\pminval.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\putallmv.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\putattr.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\putsomec.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\putx0.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\puty0.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\pvalscal.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\rattrblk.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\rcomp.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\rcoords.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\rdup2.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\reseterr.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\rextend.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\rmalloc.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\rrowcol.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\ruseas.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\setangle.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\setmv.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\setvtmv.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\strconst.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\strpad.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\swapio.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\trackmm.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\vs2.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\vsdef.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\vsis.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\vsvers.c" "..\..\gdal-2.1.2\frmts\pcraster\libcsf\wattrblk.c" "..\..\gdal-2.1.2\frmts\png\libpng\png.c" "..\..\gdal-2.1.2\frmts\png\libpng\pngerror.c" "..\..\gdal-2.1.2\frmts\png\libpng\pnggccrd.c" "..\..\gdal-2.1.2\frmts\png\libpng\pngget.c" "..\..\gdal-2.1.2\frmts\png\libpng\pngmem.c" "..\..\gdal-2.1.2\frmts\png\libpng\pngpread.c" "..\..\gdal-2.1.2\frmts\png\libpng\pngread.c" "..\..\gdal-2.1.2\frmts\png\libpng\pngrio.c" "..\..\gdal-2.1.2\frmts\png\libpng\pngrtran.c" "..\..\gdal-2.1.2\frmts\png\libpng\pngrutil.c" "..\..\gdal-2.1.2\frmts\png\libpng\pngset.c" "..\..\gdal-2.1.2\frmts\png\libpng\pngtrans.c" "..\..\gdal-2.1.2\frmts\png\libpng\pngvcrd.c" "..\..\gdal-2.1.2\frmts\png\libpng\pngwio.c" "..\..\gdal-2.1.2\frmts\png\libpng\pngwrite.c" "..\..\gdal-2.1.2\frmts\png\libpng\pngwtran.c" "..\..\gdal-2.1.2\frmts\png\libpng\pngwutil.c" "..\..\gdal-2.1.2\frmts\zlib\adler32.c" "..\..\gdal-2.1.2\frmts\zlib\compress.c" "..\..\gdal-2.1.2\frmts\zlib\crc32.c" "..\..\gdal-2.1.2\frmts\zlib\deflate.c" "..\..\gdal-2.1.2\frmts\zlib\gzio.c" "..\..\gdal-2.1.2\frmts\zlib\infback.c" "..\..\gdal-2.1.2\frmts\zlib\inffast.c" "..\..\gdal-2.1.2\frmts\zlib\inflate.c" "..\..\gdal-2.1.2\frmts\zlib\inftrees.c" "..\..\gdal-2.1.2\frmts\zlib\trees.c" "..\..\gdal-2.1.2\frmts\zlib\uncompr.c" "..\..\gdal-2.1.2\frmts\zlib\zutil.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\avc_bin.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\avc_binwr.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\avc_e00gen.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\avc_e00parse.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\avc_e00read.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\avc_e00write.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\avc_mbyte.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\avc_misc.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\avc_rawbin.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geoconcept\geoconcept.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geoconcept\geoconcept_syscoord.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\arraylist.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\debug.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_c_version.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_object.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_object_iterator.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_util.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\linkhash.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\printbuf.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\shape\dbfopen.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\shape\sbnsearch.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\shape\shp_vsi.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\shape\shpopen.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\shape\shptree.c" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqliteapiroutines.c" "..\..\gdal-2.1.2\ogr\osr_cs_wkt.c" "..\..\gdal-2.1.2\ogr\osr_cs_wkt_parser.c" /MACHINE:X64 
-     1>cl : Command line warning D9002: ignoring unknown option '/MACHINE:X64'
-         delaunay.c
-         gdal_crs.c
-         gdalwarpkernel_opencl.c
-         geom.c
-         geom2.c
-         global.c
-         io.c
-         libqhull.c
-         mem.c
-         merge.c
-         poly.c
-         poly2.c
-         qset.c
-         random.c
-         rboxlib.c
-         stat.c
-         user.c
-         usermem.c
-         userprintf.c
-         userprintf_rbox.c
-         Compiling...
-         aigccitt.c
-         aigopen.c
-         gridlib.c
-         blx.c
-         bsb2raw.c
-         bsb_read.c
-         ceos.c
-         ceosrecipe.c
-         ceossar.c
-         link.c
-         ceosopen.c
-         dted_api.c
-         dted_create.c
-         dted_ptstream.c
-         e00read.c
-         EnvisatFile.c
-         records.c
-         dgif_lib.c
-         egif_lib.c
-         gif_err.c
-         Compiling...
-         gif_hash.c
-         gifalloc.c
-         geo_extra.c
-         geo_free.c
-         geo_get.c
-         geo_names.c
-         geo_new.c
-         geo_normalize.c
-         geo_print.c
-         geo_set.c
-         geo_simpletags.c
-         geo_tiffp.c
-         geo_trans.c
-         geo_write.c
-         geotiff_proj4.c
-         xtiff.c
-         tif_aux.c
-         tif_close.c
-         tif_codec.c
-         tif_color.c
-         Compiling...
-         tif_compress.c
-         tif_dir.c
-         tif_dirinfo.c
-         tif_dirread.c
-         tif_dirwrite.c
-         tif_dumpmode.c
-         tif_error.c
-         tif_extension.c
-         tif_fax3.c
-         tif_fax3sm.c
-         tif_flush.c
-         tif_getimage.c
-         tif_jpeg.c
-         tif_jpeg_12.c
-         tif_luv.c
-         tif_lzma.c
-         tif_lzw.c
-         tif_next.c
-         tif_ojpeg.c
-         tif_open.c
-         Compiling...
-         tif_packbits.c
-         tif_pixarlog.c
-         tif_predict.c
-         tif_print.c
-         tif_read.c
-         tif_strip.c
-         tif_swab.c
-         tif_thunder.c
-         tif_tile.c
-         tif_version.c
-         tif_vsi.c
-         tif_warning.c
-         tif_write.c
-         tif_zip.c
-         tif_float.c
-         gxf_ogcwkt.c
-         gxf_proj4.c
-         gxfopen.c
-         jcapimin.c
-         jcapistd.c
-         Compiling...
-         jccoefct.c
-         jccolor.c
-         jcdctmgr.c
-         jchuff.c
-         jcinit.c
-         jcmainct.c
-         jcmarker.c
-         jcmaster.c
-         jcomapi.c
-         jcparam.c
-         jcphuff.c
-         jcprepct.c
-         jcsample.c
-         jctrans.c
-         jdapimin.c
-         jdapistd.c
-         jdatadst.c
-         jdatasrc.c
-         jdcoefct.c
-         jdcolor.c
-         Compiling...
-         jddctmgr.c
-         jdhuff.c
-         jdinput.c
-         jdmainct.c
-         jdmarker.c
-         jdmaster.c
-         jdmerge.c
-         jdphuff.c
-         jdpostct.c
-         jdsample.c
-         jdtrans.c
-         jerror.c
-         jfdctflt.c
-         jfdctfst.c
-         jfdctint.c
-         jidctflt.c
-         jidctfst.c
-         jidctint.c
-         jidctred.c
-         jmemansi.c
-         Compiling...
-         jmemmgr.c
-         jquant1.c
-         jquant2.c
-         jutils.c
-         mgrs.c
-         nitfdes.c
-         nitffile.c
-         nitfimage.c
-         _getcell.c
-         _getrow.c
-         _gsomece.c
-         _putcell.c
-         _rputrow.c
-         angle.c
-         attravai.c
-         attrsize.c
-         cellsize.c
-         create2.c
-         csfglob.c
-         csfsup.c
-         Compiling...
-         delattr.c
-         dumconv.c
-         endian.c
-         filename.c
-         gattrblk.c
-         gattridx.c
-         gcellrep.c
-         gdattype.c
-         getattr.c
-         getx0.c
-         gety0.c
-         ggisfid.c
-         gmaxval.c
-         gminval.c
-         gnrcols.c
-         gnrrows.c
-         gproj.c
-         gputproj.c
-         gvalscal.c
-         gvartype.c
-         Compiling...
-         gversion.c
-         ismv.c
-         kernlcsf.c
-         legend.c
-         mclose.c
-         mopen.c
-         moreattr.c
-         mperror.c
-         pgisfid.c
-         pmaxval.c
-         pminval.c
-         putallmv.c
-         putattr.c
-         putsomec.c
-         putx0.c
-         puty0.c
-         pvalscal.c
-         rattrblk.c
-         rcomp.c
-         rcoords.c
-         Compiling...
-         rdup2.c
-         reseterr.c
-         rextend.c
-         rmalloc.c
-         rrowcol.c
-         ruseas.c
-         setangle.c
-         setmv.c
-         setvtmv.c
-         strconst.c
-         strpad.c
-         swapio.c
-         trackmm.c
-         vs2.c
-         vsdef.c
-         vsis.c
-         vsvers.c
-         wattrblk.c
-         png.c
-         pngerror.c
-         Compiling...
-         pnggccrd.c
-         pngget.c
-         pngmem.c
-         pngpread.c
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngpread.c(572): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngpread.c(588): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngpread.c(767): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngpread.c(791): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-         pngread.c
-         pngrio.c
-         pngrtran.c
-         pngrutil.c
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngrutil.c(365): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngrutil.c(412): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngrutil.c(1138): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngrutil.c(3373): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngrutil.c(3376): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngrutil.c(3377): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngrutil.c(3381): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngrutil.c(3396): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngrutil.c(3397): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngrutil.c(3400): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-         pngset.c
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngset.c(305): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngset.c(322): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngset.c(345): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngset.c(614): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngset.c(961): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-         pngtrans.c
-         pngvcrd.c
-         pngwio.c
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngwio.c(60): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-         pngwrite.c
-         pngwtran.c
-         pngwutil.c
-     1>..\..\gdal-2.1.2\frmts\png\libpng\pngwutil.c(1465): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
-         adler32.c
-         compress.c
-         crc32.c
-         deflate.c
-         gzio.c
-         Compiling...
-         infback.c
-         inffast.c
-         inflate.c
-         inftrees.c
-         trees.c
-         uncompr.c
-         zutil.c
-         avc_bin.c
-         avc_binwr.c
-         avc_e00gen.c
-         avc_e00parse.c
-         avc_e00read.c
-         avc_e00write.c
-         avc_mbyte.c
-         avc_misc.c
-         avc_rawbin.c
-         geoconcept.c
-         geoconcept_syscoord.c
-         arraylist.c
-         debug.c
-         Compiling...
-         json_c_version.c
-         json_object.c
-     1>..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_object.c(604): warning C4244: 'return' : conversion from 'int64_t' to 'double', possible loss of data
-         json_object_iterator.c
-         json_tokener.c
-     1>..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(360): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
-     1>..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(364): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
-     1>..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(375): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
-     1>..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(379): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
-     1>..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(401): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
-     1>..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(409): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
-     1>..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(415): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
-     1>..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(692): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
-     1>..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(698): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
-     1>..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\libjson\json_tokener.c(704): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
-         json_util.c
-         linkhash.c
-         printbuf.c
-         dbfopen.c
-     1>..\..\gdal-2.1.2\ogr\ogrsf_frmts\shape\dbfopen.c(750): warning C4267: 'function' : conversion from 'size_t' to 'SAOffset', possible loss of data
-         sbnsearch.c
-         shp_vsi.c
-         shpopen.c
-         shptree.c
-         ogrsqliteapiroutines.c
-         osr_cs_wkt.c
-         osr_cs_wkt_parser.c
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"../../gdal-2.1.2/alg" /I"../../gdal-2.1.2/apps" /I"../../gdal-2.1.2/frmts" /I"../../gdal-2.1.2/frmts/blx" /I"../../gdal-2.1.2/frmts/gif/giflib" /I"../../gdal-2.1.2/frmts/gtiff" /I"../../gdal-2.1.2/frmts/gtiff/libgeotiff" /I"../../gdal-2.1.2/frmts/gtiff/libtiff" /I"../../gdal-2.1.2/frmts/idrisi" /I"../../gdal-2.1.2/frmts/iso8211" /I"../../gdal-2.1.2/frmts/jpeg" /I"../../gdal-2.1.2/frmts/jpeg/libjpeg" /I"../../gdal-2.1.2/frmts/mem" /I"../../gdal-2.1.2/frmts/mrf/libLERC" /I"../../gdal-2.1.2/frmts/mrf" /I"../../gdal-2.1.2/frmts/pcidsk/sdk" /I"../../gdal-2.1.2/frmts/pcidsk/sdk/segment" /I"../../gdal-2.1.2/frmts/pcraster/libcsf" /I"../../gdal-2.1.2/frmts/pds" /I"../../gdal-2.1.2/frmts/png/libpng" /I"../../gdal-2.1.2/frmts/raw" /I"../../gdal-2.1.2/frmts/sdts" /I"../../gdal-2.1.2/frmts/vrt" /I"../../gdal-2.1.2/frmts/zlib" /I"../../gdal-2.1.2/gcore" /I"../../gdal-2.1.2/ogr" /I"../../gdal-2.1.2/ogr/ogrsf_frmts" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/avc" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/generic" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/geojson/libjson" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/geojson" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/gml" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/gpkg" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/mem" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/pgdump" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/shape" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/sqlite" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/wfs" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/xplane" /I"../../gdal-2.1.2/port" /I"../../3rdpart/expat-2.1.0/lib" /I"../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation" /I"../../3rdpart/ecw-4.3/include" /I"../../3rdpart/ecw-4.3/include/NCSECW/API" /I"../../3rdpart/ecw-4.3/include/NCSECW/ECW" /I"../../3rdpart/ecw-4.3/include/NCSECW/GDT" /I"../../3rdpart/ecw-4.3/include/NCSECW/JP2" /I"../../3rdpart/ecw-4.3/include/NCSECW/JPC" /I"../../3rdpart/ecw-4.3/include/NCSECW/SDK" /I"../../3rdpart/curl-7.49.1/include" /I"../../3rdpart/geos-3.5.0/capi" /I"../../3rdpart/geos-3.5.0/include" /I"../../3rdpart/hdf5-1.8.17/include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D OGR_ENABLED /D GDALDRIVER /D GDAL_SUPPORT /D GDAL_COMPILATION /D USE_CPL /D _USE_MATH_DEFINES /D USE_IN_GDAL /D INTERNAL_LIBGEOTIFF /D INTERNAL_LIBTIFF /D BIGTIFF_SUPPORT /D INCLUDE_OGR_FRMTS /D SQLITE_LIB /D HAVE_LIBZ /D HAVE_MITAB /D HAVE_EXPAT /D HAVE_SQLITE /D HAVE_LIBJPEG /D HAVE_CURL /D HAVE_GEOS /D FRMT_ceos /D FRMT_aigrid /D FRMT_elas /D FRMT_hfa /D FRMT_gtiff /D FRMT_sdts /D FRMT_raw /D FRMT_gxf /D FRMT_ceos2 /D FRMT_png /D FRMT_dted /D FRMT_mem /D FRMT_jpeg /D FRMT_vrt /D FRMT_nitf /D FRMT_gif /D FRMT_envisat /D FRMT_bsb /D FRMT_xpm /D FRMT_bmp /D FRMT_airsar /D FRMT_rs2 /D FRMT_pcidsk /D FRMT_pcraster /D FRMT_ilwis /D FRMT_ers /D FRMT_ecw /D FRMT_arg /D FRMT_cals /D FRMT_wmts /D FRMT_wms /D FRMT_sentinel2 /D FRMT_mrf /D FRMT_safe /D FRMT_mbtiles /D FRMT_hdf5 /D H5_BUILT_AS_DYNAMIC_LIB /D LERC /D HAVE_ECW_BUILDNUMBER_H /D SHAPE_ENABLED /D TAB_ENABLED /D NTF_ENABLED /D SDTS_ENABLED /D S57_ENABLED /D DGN_ENABLED /D VRT_ENABLED /D REC_ENABLED /D MEM_ENABLED /D BNA_ENABLED /D CSV_ENABLED /D GML_ENABLED /D GPX_ENABLED /D KML_ENABLED /D GEOJSON_ENABLED /D GMT_ENABLED /D WASP_ENABLED /D OPENFILEGDB_ENABLED /D XPLANE_ENABLED /D DXF_ENABLED /D GEOCONCEPT_ENABLED /D GEORSS_ENABLED /D GTM_ENABLED /D PGDUMP_ENABLED /D OSM_ENABLED /D GPSBABEL_ENABLED /D SUA_ENABLED /D OPENAIR_ENABLED /D PDS_ENABLED /D HTF_ENABLED /D AERONAVFAA_ENABLED /D EDIGEO_ENABLED /D SVG_ENABLED /D IDRISI_ENABLED /D ARCGEN_ENABLED /D SEGUKOOA_ENABLED /D SEGY_ENABLED /D SXF_ENABLED /D SELAFIN_ENABLED /D JML_ENABLED /D TIGER_ENABLED /D AMIGOCLOUD_ENABLED /D VDV_ENABLED /D WFS_ENABLED /D CSW_ENABLED /D SQLITE_ENABLED /D XLSX_ENABLED /D VFK_ENABLED /D GFT_ENABLED /D "(PreprocessorDefinitions)" /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\lib\x64\Release\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\lib\x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt "..\..\gdal-2.1.2\alg\contour.cpp" "..\..\gdal-2.1.2\alg\gdal_octave.cpp" "..\..\gdal-2.1.2\alg\gdal_rpc.cpp" "..\..\gdal-2.1.2\alg\gdal_simplesurf.cpp" "..\..\gdal-2.1.2\alg\gdal_tps.cpp" "..\..\gdal-2.1.2\alg\gdalchecksum.cpp" "..\..\gdal-2.1.2\alg\gdalcutline.cpp" "..\..\gdal-2.1.2\alg\gdaldither.cpp" "..\..\gdal-2.1.2\alg\gdalgeoloc.cpp" "..\..\gdal-2.1.2\alg\gdalgrid.cpp" "..\..\gdal-2.1.2\alg\gdalgridavx.cpp" "..\..\gdal-2.1.2\alg\gdalgridsse.cpp" "..\..\gdal-2.1.2\alg\gdalmatching.cpp" "..\..\gdal-2.1.2\alg\gdalmediancut.cpp" "..\..\gdal-2.1.2\alg\gdalpansharpen.cpp" "..\..\gdal-2.1.2\alg\gdalproximity.cpp" "..\..\gdal-2.1.2\alg\gdalrasterize.cpp" "..\..\gdal-2.1.2\alg\gdalrasterpolygonenumerator.cpp" "..\..\gdal-2.1.2\alg\gdalsievefilter.cpp" "..\..\gdal-2.1.2\alg\gdalsimplewarp.cpp" "..\..\gdal-2.1.2\alg\gdaltransformer.cpp" "..\..\gdal-2.1.2\alg\gdaltransformgeolocs.cpp" "..\..\gdal-2.1.2\alg\gdalwarper.cpp" "..\..\gdal-2.1.2\alg\gdalwarpkernel.cpp" "..\..\gdal-2.1.2\alg\gdalwarpoperation.cpp" "..\..\gdal-2.1.2\alg\llrasterize.cpp" "..\..\gdal-2.1.2\alg\polygonize.cpp" "..\..\gdal-2.1.2\alg\rasterfill.cpp" "..\..\gdal-2.1.2\alg\thinplatespline.cpp" "..\..\gdal-2.1.2\apps\commonutils.cpp" "..\..\gdal-2.1.2\apps\gdal_grid_lib.cpp" "..\..\gdal-2.1.2\apps\gdal_rasterize_lib.cpp" "..\..\gdal-2.1.2\apps\gdal_translate_lib.cpp" "..\..\gdal-2.1.2\apps\gdalbuildvrt_lib.cpp" "..\..\gdal-2.1.2\apps\gdaldem_lib.cpp" "..\..\gdal-2.1.2\apps\gdalinfo_lib.cpp" "..\..\gdal-2.1.2\apps\gdalwarp_lib.cpp" "..\..\gdal-2.1.2\apps\nearblack_lib.cpp" "..\..\gdal-2.1.2\apps\ogr2ogr_lib.cpp" "..\..\gdal-2.1.2\frmts\aaigrid\aaigriddataset.cpp" "..\..\gdal-2.1.2\frmts\adrg\adrgdataset.cpp" "..\..\gdal-2.1.2\frmts\adrg\srpdataset.cpp" "..\..\gdal-2.1.2\frmts\aigrid\aigdataset.cpp" "..\..\gdal-2.1.2\frmts\airsar\airsardataset.cpp" "..\..\gdal-2.1.2\frmts\arg\argdataset.cpp" "..\..\gdal-2.1.2\frmts\blx\blxdataset.cpp" "..\..\gdal-2.1.2\frmts\bmp\bmpdataset.cpp" "..\..\gdal-2.1.2\frmts\bsb\bsbdataset.cpp" "..\..\gdal-2.1.2\frmts\cals\calsdataset.cpp" "..\..\gdal-2.1.2\frmts\ceos2\sar_ceosdataset.cpp" "..\..\gdal-2.1.2\frmts\ceos\ceosdataset.cpp" "..\..\gdal-2.1.2\frmts\coasp\coasp_dataset.cpp" "..\..\gdal-2.1.2\frmts\cosar\cosar_dataset.cpp" "..\..\gdal-2.1.2\frmts\ctg\ctgdataset.cpp" "..\..\gdal-2.1.2\frmts\dimap\dimapdataset.cpp" "..\..\gdal-2.1.2\frmts\dted\dteddataset.cpp" "..\..\gdal-2.1.2\frmts\e00grid\e00griddataset.cpp" "..\..\gdal-2.1.2\frmts\ecw\ecwasyncreader.cpp" "..\..\gdal-2.1.2\frmts\ecw\ecwcreatecopy.cpp" "..\..\gdal-2.1.2\frmts\ecw\ecwdataset.cpp" "..\..\gdal-2.1.2\frmts\ecw\jp2userbox.cpp" "..\..\gdal-2.1.2\frmts\elas\elasdataset.cpp" "..\..\gdal-2.1.2\frmts\envisat\adsrange.cpp" "..\..\gdal-2.1.2\frmts\envisat\envisatdataset.cpp" "..\..\gdal-2.1.2\frmts\envisat\unwrapgcps.cpp" "..\..\gdal-2.1.2\frmts\ers\ersdataset.cpp" "..\..\gdal-2.1.2\frmts\ers\ershdrnode.cpp" "..\..\gdal-2.1.2\frmts\fit\fit.cpp" "..\..\gdal-2.1.2\frmts\fit\fitdataset.cpp" "..\..\gdal-2.1.2\frmts\gdalallregister.cpp" "..\..\gdal-2.1.2\frmts\gff\gff_dataset.cpp" "..\..\gdal-2.1.2\frmts\gif\biggifdataset.cpp" "..\..\gdal-2.1.2\frmts\gif\gifabstractdataset.cpp" "..\..\gdal-2.1.2\frmts\gif\gifdataset.cpp" "..\..\gdal-2.1.2\frmts\gsg\gs7bgdataset.cpp" "..\..\gdal-2.1.2\frmts\gsg\gsagdataset.cpp" "..\..\gdal-2.1.2\frmts\gsg\gsbgdataset.cpp" "..\..\gdal-2.1.2\frmts\gtiff\geotiff.cpp" "..\..\gdal-2.1.2\frmts\gtiff\gt_citation.cpp" "..\..\gdal-2.1.2\frmts\gtiff\gt_jpeg_copy.cpp" "..\..\gdal-2.1.2\frmts\gtiff\gt_overview.cpp" "..\..\gdal-2.1.2\frmts\gtiff\gt_wkt_srs.cpp" "..\..\gdal-2.1.2\frmts\gtiff\tifvsi.cpp" "..\..\gdal-2.1.2\frmts\gxf\gxfdataset.cpp" "..\..\gdal-2.1.2\frmts\hdf5\bagdataset.cpp" "..\..\gdal-2.1.2\frmts\hdf5\gh5_convenience.cpp" "..\..\gdal-2.1.2\frmts\hdf5\hdf5dataset.cpp" "..\..\gdal-2.1.2\frmts\hdf5\hdf5imagedataset.cpp" "..\..\gdal-2.1.2\frmts\hdf5\iso19115_srs.cpp" "..\..\gdal-2.1.2\frmts\hf2\hf2dataset.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfa_overviews.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfaband.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfacompress.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfadataset.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfadictionary.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfaentry.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfafield.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfaopen.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfatype.cpp" "..\..\gdal-2.1.2\frmts\idrisi\IdrisiDataset.cpp" "..\..\gdal-2.1.2\frmts\ilwis\ilwiscoordinatesystem.cpp" "..\..\gdal-2.1.2\frmts\ilwis\ilwisdataset.cpp" "..\..\gdal-2.1.2\frmts\ingr\IngrTypes.cpp" "..\..\gdal-2.1.2\frmts\ingr\IntergraphBand.cpp" "..\..\gdal-2.1.2\frmts\ingr\IntergraphDataset.cpp" "..\..\gdal-2.1.2\frmts\ingr\JpegHelper.cpp" "..\..\gdal-2.1.2\frmts\iris\irisdataset.cpp" "..\..\gdal-2.1.2\frmts\iso8211\ddffield.cpp" "..\..\gdal-2.1.2\frmts\iso8211\ddffielddefn.cpp" "..\..\gdal-2.1.2\frmts\iso8211\ddfmodule.cpp" "..\..\gdal-2.1.2\frmts\iso8211\ddfrecord.cpp" "..\..\gdal-2.1.2\frmts\iso8211\ddfsubfielddefn.cpp" "..\..\gdal-2.1.2\frmts\iso8211\ddfutils.cpp" "..\..\gdal-2.1.2\frmts\jaxapalsar\jaxapalsardataset.cpp" "..\..\gdal-2.1.2\frmts\jdem\jdemdataset.cpp" "..\..\gdal-2.1.2\frmts\jpeg\jpgdataset.cpp" "..\..\gdal-2.1.2\frmts\jpeg\jpgdataset_12.cpp" "..\..\gdal-2.1.2\frmts\jpeg\vsidataio.cpp" "..\..\gdal-2.1.2\frmts\kmlsuperoverlay\kmlsuperoverlaydataset.cpp" "..\..\gdal-2.1.2\frmts\l1b\l1bdataset.cpp" "..\..\gdal-2.1.2\frmts\leveller\levellerdataset.cpp" "..\..\gdal-2.1.2\frmts\map\mapdataset.cpp" "..\..\gdal-2.1.2\frmts\mbtiles\mbtilesdataset.cpp" "..\..\gdal-2.1.2\frmts\mem\memdataset.cpp" "..\..\gdal-2.1.2\frmts\mrf\JPEG12_band.cpp" "..\..\gdal-2.1.2\frmts\mrf\JPEG_band.cpp" "..\..\gdal-2.1.2\frmts\mrf\JPNG_band.cpp" "..\..\gdal-2.1.2\frmts\mrf\LERC_band.cpp" "..\..\gdal-2.1.2\frmts\mrf\PNG_band.cpp" "..\..\gdal-2.1.2\frmts\mrf\Raw_band.cpp" "..\..\gdal-2.1.2\frmts\mrf\Tif_band.cpp" "..\..\gdal-2.1.2\frmts\mrf\libLERC\BitMask.cpp" "..\..\gdal-2.1.2\frmts\mrf\libLERC\BitMask2.cpp" "..\..\gdal-2.1.2\frmts\mrf\libLERC\BitStuffer.cpp" "..\..\gdal-2.1.2\frmts\mrf\libLERC\BitStuffer2.cpp" "..\..\gdal-2.1.2\frmts\mrf\libLERC\CntZImage.cpp" "..\..\gdal-2.1.2\frmts\mrf\libLERC\Huffman.cpp" "..\..\gdal-2.1.2\frmts\mrf\libLERC\Lerc2.cpp" "..\..\gdal-2.1.2\frmts\mrf\libLERC\RLE.cpp" "..\..\gdal-2.1.2\frmts\mrf\marfa_dataset.cpp" "..\..\gdal-2.1.2\frmts\mrf\mrf_band.cpp" "..\..\gdal-2.1.2\frmts\mrf\mrf_overview.cpp" "..\..\gdal-2.1.2\frmts\mrf\mrf_util.cpp" "..\..\gdal-2.1.2\frmts\msgn\msg_basic_types.cpp" "..\..\gdal-2.1.2\frmts\msgn\msg_reader_core.cpp" "..\..\gdal-2.1.2\frmts\msgn\msgndataset.cpp" "..\..\gdal-2.1.2\frmts\ngsgeoid\ngsgeoiddataset.cpp" "..\..\gdal-2.1.2\frmts\nitf\ecrgtocdataset.cpp" "..\..\gdal-2.1.2\frmts\nitf\nitf_gcprpc.cpp" "..\..\gdal-2.1.2\frmts\nitf\nitfaridpcm.cpp" "..\..\gdal-2.1.2\frmts\nitf\nitfbilevel.cpp" "..\..\gdal-2.1.2\frmts\nitf\nitfdataset.cpp" "..\..\gdal-2.1.2\frmts\nitf\nitfrasterband.cpp" "..\..\gdal-2.1.2\frmts\nitf\nitfwritejpeg.cpp" "..\..\gdal-2.1.2\frmts\nitf\nitfwritejpeg_12.cpp" "..\..\gdal-2.1.2\frmts\nitf\rpftocdataset.cpp" "..\..\gdal-2.1.2\frmts\nitf\rpftocfile.cpp" "..\..\gdal-2.1.2\frmts\northwood\grcdataset.cpp" "..\..\gdal-2.1.2\frmts\northwood\grddataset.cpp" "..\..\gdal-2.1.2\frmts\northwood\northwood.cpp" "..\..\gdal-2.1.2\frmts\ozi\ozidataset.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\gdal_edb.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\ogrpcidsklayer.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\pcidskdataset2.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\channel\cbandinterleavedchannel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\channel\cexternalchannel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\channel\cpcidskchannel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\channel\cpixelinterleavedchannel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\channel\ctiledchannel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\clinksegment.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\cpcidskfile.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\edb_pcidsk.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\libjpeg_io.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\metadataset_p.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\pcidsk_pubutils.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\pcidsk_utils.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\pcidskbuffer.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\pcidskcreate.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\pcidskexception.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\pcidskinterfaces.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\pcidskopen.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\sysvirtualfile.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\port\io_win32.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\port\win32_mutex.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidsk_array.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidsk_tex.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskads40model.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskapmodel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskbinarysegment.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskbitmap.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskephemerissegment.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskgcp2segment.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskgeoref.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskpct.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskrpcmodel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidsksegment.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidsktoutinmodel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskvectorsegment.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskvectorsegment_consistencycheck.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\metadatasegment_p.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\sysblockmap.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\vecsegdataindex.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\vecsegheader.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\vsi_pcidsk_io.cpp" "..\..\gdal-2.1.2\frmts\pcraster\pcrasterdataset.cpp" "..\..\gdal-2.1.2\frmts\pcraster\pcrastermisc.cpp" "..\..\gdal-2.1.2\frmts\pcraster\pcrasterrasterband.cpp" "..\..\gdal-2.1.2\frmts\pcraster\pcrasterutil.cpp" "..\..\gdal-2.1.2\frmts\pds\isis2dataset.cpp" "..\..\gdal-2.1.2\frmts\pds\isis3dataset.cpp" "..\..\gdal-2.1.2\frmts\pds\nasakeywordhandler.cpp" "..\..\gdal-2.1.2\frmts\pds\pdsdataset.cpp" "..\..\gdal-2.1.2\frmts\pds\vicardataset.cpp" "..\..\gdal-2.1.2\frmts\pds\vicarkeywordhandler.cpp" "..\..\gdal-2.1.2\frmts\png\pngdataset.cpp" "..\..\gdal-2.1.2\frmts\r\rcreatecopy.cpp" "..\..\gdal-2.1.2\frmts\r\rdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\ace2dataset.cpp" "..\..\gdal-2.1.2\frmts\raw\atlsci_spheroid.cpp" "..\..\gdal-2.1.2\frmts\raw\btdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\cpgdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\ctable2dataset.cpp" "..\..\gdal-2.1.2\frmts\raw\dipxdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\doq1dataset.cpp" "..\..\gdal-2.1.2\frmts\raw\doq2dataset.cpp" "..\..\gdal-2.1.2\frmts\raw\ehdrdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\eirdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\envidataset.cpp" "..\..\gdal-2.1.2\frmts\raw\fastdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\fujibasdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\genbindataset.cpp" "..\..\gdal-2.1.2\frmts\raw\gscdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\gtxdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\hkvdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\idadataset.cpp" "..\..\gdal-2.1.2\frmts\raw\iscedataset.cpp" "..\..\gdal-2.1.2\frmts\raw\krodataset.cpp" "..\..\gdal-2.1.2\frmts\raw\landataset.cpp" "..\..\gdal-2.1.2\frmts\raw\lcpdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\loslasdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\mffdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\ndfdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\ntv2dataset.cpp" "..\..\gdal-2.1.2\frmts\raw\pauxdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\pnmdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\rawdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\roipacdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\snodasdataset.cpp" "..\..\gdal-2.1.2\frmts\rik\rikdataset.cpp" "..\..\gdal-2.1.2\frmts\rmf\rmfdataset.cpp" "..\..\gdal-2.1.2\frmts\rmf\rmfdem.cpp" "..\..\gdal-2.1.2\frmts\rmf\rmflzw.cpp" "..\..\gdal-2.1.2\frmts\rs2\rs2dataset.cpp" "..\..\gdal-2.1.2\frmts\safe\safedataset.cpp" "..\..\gdal-2.1.2\frmts\saga\sagadataset.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtsattrreader.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtscatd.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtsdataset.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtsindexedreader.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtsiref.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtslib.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtslinereader.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtspointreader.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtspolygonreader.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtsrasterreader.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtstransfer.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtsxref.cpp" "..\..\gdal-2.1.2\frmts\sentinel2\sentinel2dataset.cpp" "..\..\gdal-2.1.2\frmts\sgi\sgidataset.cpp" "..\..\gdal-2.1.2\frmts\srtmhgt\srtmhgtdataset.cpp" "..\..\gdal-2.1.2\frmts\terragen\terragendataset.cpp" "..\..\gdal-2.1.2\frmts\til\tildataset.cpp" "..\..\gdal-2.1.2\frmts\tsx\tsxdataset.cpp" "..\..\gdal-2.1.2\frmts\usgsdem\usgsdem_create.cpp" "..\..\gdal-2.1.2\frmts\usgsdem\usgsdemdataset.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtdataset.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtderivedrasterband.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtdriver.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtfilters.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtpansharpened.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtrasterband.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtrawrasterband.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtsourcedrasterband.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtsources.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtwarped.cpp" "..\..\gdal-2.1.2\frmts\wms\gdalhttp.cpp" "..\..\gdal-2.1.2\frmts\wms\gdalwmscache.cpp" "..\..\gdal-2.1.2\frmts\wms\gdalwmsdataset.cpp" "..\..\gdal-2.1.2\frmts\wms\gdalwmsrasterband.cpp" "..\..\gdal-2.1.2\frmts\wms\md5.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_arcgis_server.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_iip.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_tiled_wms.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_tileservice.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_tms.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_virtualearth.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_wms.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_worldwind.cpp" "..\..\gdal-2.1.2\frmts\wms\wmsdriver.cpp" "..\..\gdal-2.1.2\frmts\wms\wmsmetadataset.cpp" "..\..\gdal-2.1.2\frmts\wms\wmsutils.cpp" "..\..\gdal-2.1.2\frmts\wmts\wmtsdataset.cpp" "..\..\gdal-2.1.2\frmts\xpm\xpmdataset.cpp" "..\..\gdal-2.1.2\frmts\xyz\xyzdataset.cpp" "..\..\gdal-2.1.2\frmts\zmap\zmapdataset.cpp" "..\..\gdal-2.1.2\gcore\gdal_mdreader.cpp" "..\..\gdal-2.1.2\gcore\gdal_misc.cpp" "..\..\gdal-2.1.2\gcore\gdal_rat.cpp" "..\..\gdal-2.1.2\gcore\gdalabstractbandblockcache.cpp" "..\..\gdal-2.1.2\gcore\gdalallvalidmaskband.cpp" "..\..\gdal-2.1.2\gcore\gdalarraybandblockcache.cpp" "..\..\gdal-2.1.2\gcore\gdalclientserver.cpp" "..\..\gdal-2.1.2\gcore\gdalcolortable.cpp" "..\..\gdal-2.1.2\gcore\gdaldataset.cpp" "..\..\gdal-2.1.2\gcore\gdaldefaultasync.cpp" "..\..\gdal-2.1.2\gcore\gdaldefaultoverviews.cpp" "..\..\gdal-2.1.2\gcore\gdaldllmain.cpp" "..\..\gdal-2.1.2\gcore\gdaldriver.cpp" "..\..\gdal-2.1.2\gcore\gdaldrivermanager.cpp" "..\..\gdal-2.1.2\gcore\gdalgeorefpamdataset.cpp" "..\..\gdal-2.1.2\gcore\gdalgmlcoverage.cpp" "..\..\gdal-2.1.2\gcore\gdalhashsetbandblockcache.cpp" "..\..\gdal-2.1.2\gcore\gdaljp2abstractdataset.cpp" "..\..\gdal-2.1.2\gcore\gdaljp2box.cpp" "..\..\gdal-2.1.2\gcore\gdaljp2metadata.cpp" "..\..\gdal-2.1.2\gcore\gdaljp2metadatagenerator.cpp" "..\..\gdal-2.1.2\gcore\gdaljp2structure.cpp" "..\..\gdal-2.1.2\gcore\gdalmajorobject.cpp" "..\..\gdal-2.1.2\gcore\gdalmultidomainmetadata.cpp" "..\..\gdal-2.1.2\gcore\gdalnodatamaskband.cpp" "..\..\gdal-2.1.2\gcore\gdalnodatavaluesmaskband.cpp" "..\..\gdal-2.1.2\gcore\gdalopeninfo.cpp" "..\..\gdal-2.1.2\gcore\gdaloverviewdataset.cpp" "..\..\gdal-2.1.2\gcore\gdalpamdataset.cpp" "..\..\gdal-2.1.2\gcore\gdalpamproxydb.cpp" "..\..\gdal-2.1.2\gcore\gdalpamrasterband.cpp" "..\..\gdal-2.1.2\gcore\gdalproxydataset.cpp" "..\..\gdal-2.1.2\gcore\gdalproxypool.cpp" "..\..\gdal-2.1.2\gcore\gdalrasterband.cpp" "..\..\gdal-2.1.2\gcore\gdalrasterblock.cpp" "..\..\gdal-2.1.2\gcore\gdalrescaledalphaband.cpp" "..\..\gdal-2.1.2\gcore\gdalvirtualmem.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_alos.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_digital_globe.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_eros.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_geo_eye.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_kompsat.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_landsat.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_orb_view.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_pleiades.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_rapid_eye.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_rdk1.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_spot.cpp" "..\..\gdal-2.1.2\gcore\overview.cpp" "..\..\gdal-2.1.2\gcore\rasterio.cpp" "..\..\gdal-2.1.2\ogr\gml2ogrgeometry.cpp" "..\..\gdal-2.1.2\ogr\ogr2gmlgeometry.cpp" "..\..\gdal-2.1.2\ogr\ogr_api.cpp" "..\..\gdal-2.1.2\ogr\ogr_expat.cpp" "..\..\gdal-2.1.2\ogr\ogr_fromepsg.cpp" "..\..\gdal-2.1.2\ogr\ogr_geocoding.cpp" "..\..\gdal-2.1.2\ogr\ogr_opt.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_dict.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_erm.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_esri.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_ozi.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_panorama.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_pci.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_proj4.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_usgs.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_validate.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_xml.cpp" "..\..\gdal-2.1.2\ogr\ogr_srsnode.cpp" "..\..\gdal-2.1.2\ogr\ograpispy.cpp" "..\..\gdal-2.1.2\ogr\ograssemblepolygon.cpp" "..\..\gdal-2.1.2\ogr\ogrcircularstring.cpp" "..\..\gdal-2.1.2\ogr\ogrcompoundcurve.cpp" "..\..\gdal-2.1.2\ogr\ogrct.cpp" "..\..\gdal-2.1.2\ogr\ogrcurve.cpp" "..\..\gdal-2.1.2\ogr\ogrcurvecollection.cpp" "..\..\gdal-2.1.2\ogr\ogrcurvepolygon.cpp" "..\..\gdal-2.1.2\ogr\ogrfeature.cpp" "..\..\gdal-2.1.2\ogr\ogrfeaturedefn.cpp" "..\..\gdal-2.1.2\ogr\ogrfeaturequery.cpp" "..\..\gdal-2.1.2\ogr\ogrfeaturestyle.cpp" "..\..\gdal-2.1.2\ogr\ogrfielddefn.cpp" "..\..\gdal-2.1.2\ogr\ogrgeomediageometry.cpp" "..\..\gdal-2.1.2\ogr\ogrgeometry.cpp" "..\..\gdal-2.1.2\ogr\ogrgeometrycollection.cpp" "..\..\gdal-2.1.2\ogr\ogrgeometryfactory.cpp" "..\..\gdal-2.1.2\ogr\ogrgeomfielddefn.cpp" "..\..\gdal-2.1.2\ogr\ogrlinearring.cpp" "..\..\gdal-2.1.2\ogr\ogrlinestring.cpp" "..\..\gdal-2.1.2\ogr\ogrmulticurve.cpp" "..\..\gdal-2.1.2\ogr\ogrmultilinestring.cpp" "..\..\gdal-2.1.2\ogr\ogrmultipoint.cpp" "..\..\gdal-2.1.2\ogr\ogrmultipolygon.cpp" "..\..\gdal-2.1.2\ogr\ogrmultisurface.cpp" "..\..\gdal-2.1.2\ogr\ogrpgeogeometry.cpp" "..\..\gdal-2.1.2\ogr\ogrpoint.cpp" "..\..\gdal-2.1.2\ogr\ogrpolygon.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\aeronavfaa\ograeronavfaadatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\aeronavfaa\ograeronavfaadriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\aeronavfaa\ograeronavfaalayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\amigocloud\ogramigoclouddatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\amigocloud\ogramigoclouddriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\amigocloud\ogramigocloudlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\amigocloud\ogramigocloudresultlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\amigocloud\ogramigocloudtablelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\arcgen\ograrcgendatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\arcgen\ograrcgendriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\arcgen\ograrcgenlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravcbindatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravcbindriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravcbinlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravcdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravce00datasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravce00driver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravce00layer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravclayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\bna\ogrbnadatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\bna\ogrbnadriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\bna\ogrbnalayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\bna\ogrbnaparser.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\csv\ogrcsvdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\csv\ogrcsvdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\csv\ogrcsvlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\csw\ogrcswdataset.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\dgnfloat.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\dgnhelp.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\dgnopen.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\dgnread.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\dgnstroke.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\dgnwrite.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\ogrdgndatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\ogrdgndriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\ogrdgnlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\intronurbs.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogr_autocad_services.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxf_blockmap.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxf_dimension.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxf_hatch.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxf_polyline_smooth.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxfblockslayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxfblockswriterlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxfdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxfdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxflayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxfreader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxfwriterds.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxfwriterlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\edigeo\ogredigeodatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\edigeo\ogredigeodriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\edigeo\ogredigeolayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogr_attrind.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogr_gensql.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogr_miattrind.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogreditablelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogremulatedtransaction.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrlayerdecorator.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrlayerpool.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrmutexeddatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrmutexedlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrregisterall.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrsfdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrsfdriverregistrar.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrunionlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrwarpedlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geoconcept\ogrgeoconceptdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geoconcept\ogrgeoconceptdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geoconcept\ogrgeoconceptlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogresrijsonreader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrgeojsondatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrgeojsondriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrgeojsonlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrgeojsonreader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrgeojsonutils.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrgeojsonwritelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrgeojsonwriter.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrtopojsonreader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\georss\ogrgeorssdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\georss\ogrgeorssdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\georss\ogrgeorsslayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gft\ogrgftdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gft\ogrgftdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gft\ogrgftlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gft\ogrgftresultlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gft\ogrgfttablelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gfstemplate.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlfeature.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlfeatureclass.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlhandler.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlpropertydefn.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlreader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlreadstate.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlregistry.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlutils.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\hugefileresolver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\ogrgmldatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\ogrgmldriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\ogrgmllayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\parsexsd.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\resolvexlinks.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\trstring.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gmt\ogrgmtdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gmt\ogrgmtdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gmt\ogrgmtlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpkg\gdalgeopackagerasterband.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpkg\ogrgeopackagedatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpkg\ogrgeopackagedriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpkg\ogrgeopackagelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpkg\ogrgeopackageselectlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpkg\ogrgeopackagetablelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpkg\ogrgeopackageutility.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpsbabel\ogrgpsbabeldatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpsbabel\ogrgpsbabeldriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpsbabel\ogrgpsbabelwritedatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpx\ogrgpxdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpx\ogrgpxdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpx\ogrgpxlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gtm\gtm.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gtm\gtmtracklayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gtm\gtmwaypointlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gtm\ogrgtmdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gtm\ogrgtmdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gtm\ogrgtmlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\htf\ogrhtfdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\htf\ogrhtfdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\htf\ogrhtflayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\idrisi\ogridrisidatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\idrisi\ogridrisidriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\idrisi\ogridrisilayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\jml\ogrjmldataset.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\jml\ogrjmllayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\jml\ogrjmlwriterlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\kml\kml.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\kml\kmlnode.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\kml\kmlvector.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\kml\ogr2kmlgeometry.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\kml\ogrkmldatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\kml\ogrkmldriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\kml\ogrkmllayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mem\ogrmemdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mem\ogrmemdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mem\ogrmemlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_bounds.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_coordsys.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_datfile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_feature.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_feature_mif.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_geometry.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_idfile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_imapinfofile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_indfile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_mapcoordblock.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_mapfile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_mapheaderblock.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_mapindexblock.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_mapobjectblock.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_maptoolblock.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_middatafile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_miffile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_ogr_datasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_ogr_driver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_rawbinblock.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_spatialref.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_tabfile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_tabseamless.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_tabview.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_tooldef.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_utils.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ntf_codelist.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ntf_estlayers.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ntf_generic.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ntf_raster.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ntffilereader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ntfrecord.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ntfstroke.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ogrntfdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ogrntfdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ogrntffeatureclasslayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ogrntflayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openair\ogropenairdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openair\ogropenairdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openair\ogropenairlabellayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openair\ogropenairlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openfilegdb\filegdbindex.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openfilegdb\filegdbtable.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openfilegdb\ogropenfilegdbdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openfilegdb\ogropenfilegdbdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openfilegdb\ogropenfilegdblayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\osm\ogrosmdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\osm\ogrosmdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\osm\ogrosmlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\osm\osm_parser.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\pds\ogrpdsdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\pds\ogrpdsdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\pds\ogrpdslayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\pgdump\ogrpgdumpdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\pgdump\ogrpgdumpdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\pgdump\ogrpgdumplayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\rec\ll_recio.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\rec\ogrrecdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\rec\ogrrecdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\rec\ogrreclayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\ddfrecordindex.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\ogrs57datasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\ogrs57driver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\ogrs57layer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\s57classregistrar.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\s57featuredefns.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\s57filecollector.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\s57reader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\s57writer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sdts\ogrsdtsdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sdts\ogrsdtsdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sdts\ogrsdtslayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\segukooa\ogrsegukooadatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\segukooa\ogrsegukooadriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\segukooa\ogrsegukooalayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\segy\ogrsegydatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\segy\ogrsegydriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\segy\ogrsegylayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\selafin\io_selafin.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\selafin\ogrselafindatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\selafin\ogrselafindriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\selafin\ogrselafinlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\shape\ogrshapedatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\shape\ogrshapedriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\shape\ogrshapelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\shape\shape2ogr.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqlitedatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqlitedriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqliteexecutesql.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqlitelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqliteselectlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqlitesinglefeaturelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqlitetablelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqlitevfs.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqliteviewlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqlitevirtualogr.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sua\ogrsuadatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sua\ogrsuadriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sua\ogrsualayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\svg\ogrsvgdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\svg\ogrsvgdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\svg\ogrsvglayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sxf\ogrsxfdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sxf\ogrsxfdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sxf\ogrsxflayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\ogrtigerdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\ogrtigerdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\ogrtigerlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigeraltname.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerarealandmarks.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigercompletechain.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerentitynames.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerfeatureids.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerfilebase.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigeridhistory.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerkeyfeatures.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerlandmarks.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigeroverunder.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerpip.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerpoint.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerpolychainlink.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerpolygon.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerpolygoncorrections.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerpolygoneconomic.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerspatialmetadata.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigertlidrange.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerzerocellid.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerzipcodes.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerzipplus4.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vdv\ogrvdvdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\ogrvfkdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\ogrvfkdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\ogrvfklayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkdatablock.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkdatablocksqlite.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkfeature.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkfeaturesqlite.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkproperty.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkpropertydefn.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkreader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkreadersqlite.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vrt\ogrvrtdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vrt\ogrvrtdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vrt\ogrvrtlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wasp\ogrwaspdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wasp\ogrwaspdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wasp\ogrwasplayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wfs\ogrwfsdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wfs\ogrwfsdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wfs\ogrwfsfilter.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wfs\ogrwfsjoinlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wfs\ogrwfslayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xlsx\ogrxlsxdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xlsx\ogrxlsxdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogr_xplane_apt_reader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogr_xplane_awy_reader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogr_xplane_fix_reader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogr_xplane_geo_utils.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogr_xplane_nav_reader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogr_xplane_reader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogrxplanedatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogrxplanedriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogrxplanelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrspatialreference.cpp" "..\..\gdal-2.1.2\ogr\ogrsurface.cpp" "..\..\gdal-2.1.2\ogr\ogrutils.cpp" "..\..\gdal-2.1.2\ogr\swq.cpp" "..\..\gdal-2.1.2\ogr\swq_expr_node.cpp" "..\..\gdal-2.1.2\ogr\swq_op_general.cpp" "..\..\gdal-2.1.2\ogr\swq_op_registrar.cpp" "..\..\gdal-2.1.2\ogr\swq_parser.cpp" "..\..\gdal-2.1.2\ogr\swq_select.cpp" "..\..\gdal-2.1.2\port\cpl_atomic_ops.cpp" "..\..\gdal-2.1.2\port\cpl_aws.cpp" "..\..\gdal-2.1.2\port\cpl_base64.cpp" "..\..\gdal-2.1.2\port\cpl_conv.cpp" "..\..\gdal-2.1.2\port\cpl_csv.cpp" "..\..\gdal-2.1.2\port\cpl_error.cpp" "..\..\gdal-2.1.2\port\cpl_findfile.cpp" "..\..\gdal-2.1.2\port\cpl_getexecpath.cpp" "..\..\gdal-2.1.2\port\cpl_google_oauth2.cpp" "..\..\gdal-2.1.2\port\cpl_hash_set.cpp" "..\..\gdal-2.1.2\port\cpl_http.cpp" "..\..\gdal-2.1.2\port\cpl_list.cpp" "..\..\gdal-2.1.2\port\cpl_minixml.cpp" "..\..\gdal-2.1.2\port\cpl_minizip_ioapi.cpp" "..\..\gdal-2.1.2\port\cpl_minizip_unzip.cpp" "..\..\gdal-2.1.2\port\cpl_minizip_zip.cpp" "..\..\gdal-2.1.2\port\cpl_multiproc.cpp" "..\..\gdal-2.1.2\port\cpl_path.cpp" "..\..\gdal-2.1.2\port\cpl_progress.cpp" "..\..\gdal-2.1.2\port\cpl_quad_tree.cpp" "..\..\gdal-2.1.2\port\cpl_recode.cpp" "..\..\gdal-2.1.2\port\cpl_recode_iconv.cpp" "..\..\gdal-2.1.2\port\cpl_recode_stub.cpp" "..\..\gdal-2.1.2\port\cpl_sha256.cpp" "..\..\gdal-2.1.2\port\cpl_spawn.cpp" "..\..\gdal-2.1.2\port\cpl_string.cpp" "..\..\gdal-2.1.2\port\cpl_strtod.cpp" "..\..\gdal-2.1.2\port\cpl_time.cpp" "..\..\gdal-2.1.2\port\cpl_virtualmem.cpp" "..\..\gdal-2.1.2\port\cpl_vsi_error.cpp" "..\..\gdal-2.1.2\port\cpl_vsi_mem.cpp" "..\..\gdal-2.1.2\port\cpl_vsil.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_abstract_archive.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_buffered_reader.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_cache.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_crypt.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_curl.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_curl_streaming.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_gzip.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_sparsefile.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_stdin.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_stdout.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_subfile.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_tar.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_unix_stdio_64.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_win32.cpp" "..\..\gdal-2.1.2\port\cpl_vsisimple.cpp" "..\..\gdal-2.1.2\port\cpl_worker_thread_pool.cpp" "..\..\gdal-2.1.2\port\cpl_xml_validate.cpp" "..\..\gdal-2.1.2\port\cplgetsymbol.cpp" "..\..\gdal-2.1.2\port\cplkeywordparser.cpp" "..\..\gdal-2.1.2\port\cplstring.cpp" "..\..\gdal-2.1.2\port\cplstringlist.cpp" /MACHINE:X64 
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"../../gdal-2.1.2/alg" /I"../../gdal-2.1.2/apps" /I"../../gdal-2.1.2/frmts" /I"../../gdal-2.1.2/frmts/blx" /I"../../gdal-2.1.2/frmts/gif/giflib" /I"../../gdal-2.1.2/frmts/gtiff" /I"../../gdal-2.1.2/frmts/gtiff/libgeotiff" /I"../../gdal-2.1.2/frmts/gtiff/libtiff" /I"../../gdal-2.1.2/frmts/idrisi" /I"../../gdal-2.1.2/frmts/iso8211" /I"../../gdal-2.1.2/frmts/jpeg" /I"../../gdal-2.1.2/frmts/jpeg/libjpeg" /I"../../gdal-2.1.2/frmts/mem" /I"../../gdal-2.1.2/frmts/mrf/libLERC" /I"../../gdal-2.1.2/frmts/mrf" /I"../../gdal-2.1.2/frmts/pcidsk/sdk" /I"../../gdal-2.1.2/frmts/pcidsk/sdk/segment" /I"../../gdal-2.1.2/frmts/pcraster/libcsf" /I"../../gdal-2.1.2/frmts/pds" /I"../../gdal-2.1.2/frmts/png/libpng" /I"../../gdal-2.1.2/frmts/raw" /I"../../gdal-2.1.2/frmts/sdts" /I"../../gdal-2.1.2/frmts/vrt" /I"../../gdal-2.1.2/frmts/zlib" /I"../../gdal-2.1.2/gcore" /I"../../gdal-2.1.2/ogr" /I"../../gdal-2.1.2/ogr/ogrsf_frmts" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/avc" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/generic" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/geojson/libjson" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/geojson" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/gml" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/gpkg" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/mem" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/pgdump" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/shape" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/sqlite" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/wfs" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/xplane" /I"../../gdal-2.1.2/port" /I"../../3rdpart/expat-2.1.0/lib" /I"../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation" /I"../../3rdpart/ecw-4.3/include" /I"../../3rdpart/ecw-4.3/include/NCSECW/API" /I"../../3rdpart/ecw-4.3/include/NCSECW/ECW" /I"../../3rdpart/ecw-4.3/include/NCSECW/GDT" /I"../../3rdpart/ecw-4.3/include/NCSECW/JP2" /I"../../3rdpart/ecw-4.3/include/NCSECW/JPC" /I"../../3rdpart/ecw-4.3/include/NCSECW/SDK" /I"../../3rdpart/curl-7.49.1/include" /I"../../3rdpart/geos-3.5.0/capi" /I"../../3rdpart/geos-3.5.0/include" /I"../../3rdpart/hdf5-1.8.17/include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D OGR_ENABLED /D GDALDRIVER /D GDAL_SUPPORT /D GDAL_COMPILATION /D USE_CPL /D _USE_MATH_DEFINES /D USE_IN_GDAL /D INTERNAL_LIBGEOTIFF /D INTERNAL_LIBTIFF /D BIGTIFF_SUPPORT /D INCLUDE_OGR_FRMTS /D SQLITE_LIB /D HAVE_LIBZ /D HAVE_MITAB /D HAVE_EXPAT /D HAVE_SQLITE /D HAVE_LIBJPEG /D HAVE_CURL /D HAVE_GEOS /D FRMT_ceos /D FRMT_aigrid /D FRMT_elas /D FRMT_hfa /D FRMT_gtiff /D FRMT_sdts /D FRMT_raw /D FRMT_gxf /D FRMT_ceos2 /D FRMT_png /D FRMT_dted /D FRMT_mem /D FRMT_jpeg /D FRMT_vrt /D FRMT_nitf /D FRMT_gif /D FRMT_envisat /D FRMT_bsb /D FRMT_xpm /D FRMT_bmp /D FRMT_airsar /D FRMT_rs2 /D FRMT_pcidsk /D FRMT_pcraster /D FRMT_ilwis /D FRMT_ers /D FRMT_ecw /D FRMT_arg /D FRMT_cals /D FRMT_wmts /D FRMT_wms /D FRMT_sentinel2 /D FRMT_mrf /D FRMT_safe /D FRMT_mbtiles /D FRMT_hdf5 /D H5_BUILT_AS_DYNAMIC_LIB /D LERC /D HAVE_ECW_BUILDNUMBER_H /D SHAPE_ENABLED /D TAB_ENABLED /D NTF_ENABLED /D SDTS_ENABLED /D S57_ENABLED /D DGN_ENABLED /D VRT_ENABLED /D REC_ENABLED /D MEM_ENABLED /D BNA_ENABLED /D CSV_ENABLED /D GML_ENABLED /D GPX_ENABLED /D KML_ENABLED /D GEOJSON_ENABLED /D GMT_ENABLED /D WASP_ENABLED /D OPENFILEGDB_ENABLED /D XPLANE_ENABLED /D DXF_ENABLED /D GEOCONCEPT_ENABLED /D GEORSS_ENABLED /D GTM_ENABLED /D PGDUMP_ENABLED /D OSM_ENABLED /D GPSBABEL_ENABLED /D SUA_ENABLED /D OPENAIR_ENABLED /D PDS_ENABLED /D HTF_ENABLED /D AERONAVFAA_ENABLED /D EDIGEO_ENABLED /D SVG_ENABLED /D IDRISI_ENABLED /D ARCGEN_ENABLED /D SEGUKOOA_ENABLED /D SEGY_ENABLED /D SXF_ENABLED /D SELAFIN_ENABLED /D JML_ENABLED /D TIGER_ENABLED /D AMIGOCLOUD_ENABLED /D VDV_ENABLED /D WFS_ENABLED /D CSW_ENABLED /D SQLITE_ENABLED /D XLSX_ENABLED /D VFK_ENABLED /D GFT_ENABLED /D "(PreprocessorDefinitions)" /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\lib\x64\Release\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\lib\x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt "..\..\gdal-2.1.2\alg\contour.cpp" "..\..\gdal-2.1.2\alg\gdal_octave.cpp" "..\..\gdal-2.1.2\alg\gdal_rpc.cpp" "..\..\gdal-2.1.2\alg\gdal_simplesurf.cpp" "..\..\gdal-2.1.2\alg\gdal_tps.cpp" "..\..\gdal-2.1.2\alg\gdalchecksum.cpp" "..\..\gdal-2.1.2\alg\gdalcutline.cpp" "..\..\gdal-2.1.2\alg\gdaldither.cpp" "..\..\gdal-2.1.2\alg\gdalgeoloc.cpp" "..\..\gdal-2.1.2\alg\gdalgrid.cpp" "..\..\gdal-2.1.2\alg\gdalgridavx.cpp" "..\..\gdal-2.1.2\alg\gdalgridsse.cpp" "..\..\gdal-2.1.2\alg\gdalmatching.cpp" "..\..\gdal-2.1.2\alg\gdalmediancut.cpp" "..\..\gdal-2.1.2\alg\gdalproximity.cpp" "..\..\gdal-2.1.2\alg\gdalrasterize.cpp" "..\..\gdal-2.1.2\alg\gdalrasterpolygonenumerator.cpp" "..\..\gdal-2.1.2\alg\gdalsievefilter.cpp" "..\..\gdal-2.1.2\alg\gdalsimplewarp.cpp" "..\..\gdal-2.1.2\alg\gdaltransformer.cpp" "..\..\gdal-2.1.2\alg\gdaltransformgeolocs.cpp" "..\..\gdal-2.1.2\alg\gdalwarper.cpp" "..\..\gdal-2.1.2\alg\gdalwarpkernel.cpp" "..\..\gdal-2.1.2\alg\gdalwarpoperation.cpp" "..\..\gdal-2.1.2\alg\llrasterize.cpp" "..\..\gdal-2.1.2\alg\polygonize.cpp" "..\..\gdal-2.1.2\alg\rasterfill.cpp" "..\..\gdal-2.1.2\alg\thinplatespline.cpp" "..\..\gdal-2.1.2\frmts\aaigrid\aaigriddataset.cpp" "..\..\gdal-2.1.2\frmts\adrg\adrgdataset.cpp" "..\..\gdal-2.1.2\frmts\adrg\srpdataset.cpp" "..\..\gdal-2.1.2\frmts\aigrid\aigdataset.cpp" "..\..\gdal-2.1.2\frmts\airsar\airsardataset.cpp" "..\..\gdal-2.1.2\frmts\blx\blxdataset.cpp" "..\..\gdal-2.1.2\frmts\bmp\bmpdataset.cpp" "..\..\gdal-2.1.2\frmts\ceos2\sar_ceosdataset.cpp" "..\..\gdal-2.1.2\frmts\ceos\ceosdataset.cpp" "..\..\gdal-2.1.2\frmts\coasp\coasp_dataset.cpp" "..\..\gdal-2.1.2\frmts\cosar\cosar_dataset.cpp" "..\..\gdal-2.1.2\frmts\ctg\ctgdataset.cpp" "..\..\gdal-2.1.2\frmts\dimap\dimapdataset.cpp" "..\..\gdal-2.1.2\frmts\dted\dteddataset.cpp" "..\..\gdal-2.1.2\frmts\e00grid\e00griddataset.cpp" "..\..\gdal-2.1.2\frmts\elas\elasdataset.cpp" "..\..\gdal-2.1.2\frmts\envisat\adsrange.cpp" "..\..\gdal-2.1.2\frmts\envisat\envisatdataset.cpp" "..\..\gdal-2.1.2\frmts\envisat\unwrapgcps.cpp" "..\..\gdal-2.1.2\frmts\ers\ersdataset.cpp" "..\..\gdal-2.1.2\frmts\ers\ershdrnode.cpp" "..\..\gdal-2.1.2\frmts\fit\fit.cpp" "..\..\gdal-2.1.2\frmts\fit\fitdataset.cpp" "..\..\gdal-2.1.2\frmts\gdalallregister.cpp" "..\..\gdal-2.1.2\frmts\gff\gff_dataset.cpp" "..\..\gdal-2.1.2\frmts\gif\biggifdataset.cpp" "..\..\gdal-2.1.2\frmts\gif\gifabstractdataset.cpp" "..\..\gdal-2.1.2\frmts\gif\gifdataset.cpp" "..\..\gdal-2.1.2\frmts\gsg\gs7bgdataset.cpp" "..\..\gdal-2.1.2\frmts\gsg\gsagdataset.cpp" "..\..\gdal-2.1.2\frmts\gsg\gsbgdataset.cpp" "..\..\gdal-2.1.2\frmts\gtiff\geotiff.cpp" "..\..\gdal-2.1.2\frmts\gtiff\gt_citation.cpp" "..\..\gdal-2.1.2\frmts\gtiff\gt_jpeg_copy.cpp" "..\..\gdal-2.1.2\frmts\gtiff\gt_overview.cpp" "..\..\gdal-2.1.2\frmts\gtiff\gt_wkt_srs.cpp" "..\..\gdal-2.1.2\frmts\gtiff\tifvsi.cpp" "..\..\gdal-2.1.2\frmts\gxf\gxfdataset.cpp" "..\..\gdal-2.1.2\frmts\hf2\hf2dataset.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfa_overviews.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfaband.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfacompress.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfadataset.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfadictionary.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfaentry.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfafield.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfaopen.cpp" "..\..\gdal-2.1.2\frmts\hfa\hfatype.cpp" "..\..\gdal-2.1.2\frmts\idrisi\IdrisiDataset.cpp" "..\..\gdal-2.1.2\frmts\ilwis\ilwiscoordinatesystem.cpp" "..\..\gdal-2.1.2\frmts\ilwis\ilwisdataset.cpp" "..\..\gdal-2.1.2\frmts\ingr\IngrTypes.cpp" "..\..\gdal-2.1.2\frmts\ingr\IntergraphBand.cpp" "..\..\gdal-2.1.2\frmts\ingr\IntergraphDataset.cpp" "..\..\gdal-2.1.2\frmts\ingr\JpegHelper.cpp" "..\..\gdal-2.1.2\frmts\iris\irisdataset.cpp" "..\..\gdal-2.1.2\frmts\jaxapalsar\jaxapalsardataset.cpp" "..\..\gdal-2.1.2\frmts\jdem\jdemdataset.cpp" "..\..\gdal-2.1.2\frmts\kmlsuperoverlay\kmlsuperoverlaydataset.cpp" "..\..\gdal-2.1.2\frmts\l1b\l1bdataset.cpp" "..\..\gdal-2.1.2\frmts\leveller\levellerdataset.cpp" "..\..\gdal-2.1.2\frmts\map\mapdataset.cpp" "..\..\gdal-2.1.2\frmts\mem\memdataset.cpp" "..\..\gdal-2.1.2\frmts\mrf\PNG_band.cpp" "..\..\gdal-2.1.2\frmts\mrf\Raw_band.cpp" "..\..\gdal-2.1.2\frmts\mrf\Tif_band.cpp" "..\..\gdal-2.1.2\frmts\mrf\libLERC\BitStuffer2.cpp" "..\..\gdal-2.1.2\frmts\mrf\libLERC\CntZImage.cpp" "..\..\gdal-2.1.2\frmts\mrf\libLERC\Huffman.cpp" "..\..\gdal-2.1.2\frmts\mrf\libLERC\Lerc2.cpp" "..\..\gdal-2.1.2\frmts\mrf\libLERC\RLE.cpp" "..\..\gdal-2.1.2\frmts\mrf\marfa_dataset.cpp" "..\..\gdal-2.1.2\frmts\mrf\mrf_band.cpp" "..\..\gdal-2.1.2\frmts\mrf\mrf_overview.cpp" "..\..\gdal-2.1.2\frmts\mrf\mrf_util.cpp" "..\..\gdal-2.1.2\frmts\msgn\msg_basic_types.cpp" "..\..\gdal-2.1.2\frmts\msgn\msg_reader_core.cpp" "..\..\gdal-2.1.2\frmts\msgn\msgndataset.cpp" "..\..\gdal-2.1.2\frmts\ngsgeoid\ngsgeoiddataset.cpp" "..\..\gdal-2.1.2\frmts\nitf\ecrgtocdataset.cpp" "..\..\gdal-2.1.2\frmts\nitf\nitf_gcprpc.cpp" "..\..\gdal-2.1.2\frmts\nitf\nitfaridpcm.cpp" "..\..\gdal-2.1.2\frmts\nitf\nitfbilevel.cpp" "..\..\gdal-2.1.2\frmts\nitf\nitfdataset.cpp" "..\..\gdal-2.1.2\frmts\nitf\nitfrasterband.cpp" "..\..\gdal-2.1.2\frmts\nitf\nitfwritejpeg.cpp" "..\..\gdal-2.1.2\frmts\nitf\nitfwritejpeg_12.cpp" "..\..\gdal-2.1.2\frmts\nitf\rpftocdataset.cpp" "..\..\gdal-2.1.2\frmts\nitf\rpftocfile.cpp" "..\..\gdal-2.1.2\frmts\northwood\grcdataset.cpp" "..\..\gdal-2.1.2\frmts\northwood\grddataset.cpp" "..\..\gdal-2.1.2\frmts\northwood\northwood.cpp" "..\..\gdal-2.1.2\frmts\ozi\ozidataset.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\gdal_edb.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\ogrpcidsklayer.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\pcidskdataset2.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\channel\cbandinterleavedchannel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\channel\cexternalchannel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\channel\cpcidskchannel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\channel\cpixelinterleavedchannel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\channel\ctiledchannel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\clinksegment.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\cpcidskfile.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\edb_pcidsk.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\libjpeg_io.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\metadataset_p.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\pcidsk_pubutils.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\pcidsk_utils.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\pcidskbuffer.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\pcidskcreate.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\pcidskexception.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\pcidskinterfaces.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\pcidskopen.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\core\sysvirtualfile.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\port\io_win32.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\port\win32_mutex.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidsk_array.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidsk_tex.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskads40model.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskapmodel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskbinarysegment.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskbitmap.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskephemerissegment.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskgcp2segment.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskgeoref.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskpct.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskrpcmodel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidsksegment.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidsktoutinmodel.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskvectorsegment.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\cpcidskvectorsegment_consistencycheck.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\metadatasegment_p.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\sysblockmap.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\vecsegdataindex.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\sdk\segment\vecsegheader.cpp" "..\..\gdal-2.1.2\frmts\pcidsk\vsi_pcidsk_io.cpp" "..\..\gdal-2.1.2\frmts\pcraster\pcrasterdataset.cpp" "..\..\gdal-2.1.2\frmts\pcraster\pcrastermisc.cpp" "..\..\gdal-2.1.2\frmts\pcraster\pcrasterrasterband.cpp" "..\..\gdal-2.1.2\frmts\pcraster\pcrasterutil.cpp" "..\..\gdal-2.1.2\frmts\pds\isis2dataset.cpp" "..\..\gdal-2.1.2\frmts\pds\isis3dataset.cpp" "..\..\gdal-2.1.2\frmts\pds\nasakeywordhandler.cpp" "..\..\gdal-2.1.2\frmts\pds\pdsdataset.cpp" "..\..\gdal-2.1.2\frmts\pds\vicardataset.cpp" "..\..\gdal-2.1.2\frmts\pds\vicarkeywordhandler.cpp" "..\..\gdal-2.1.2\frmts\png\pngdataset.cpp" "..\..\gdal-2.1.2\frmts\r\rcreatecopy.cpp" "..\..\gdal-2.1.2\frmts\r\rdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\ace2dataset.cpp" "..\..\gdal-2.1.2\frmts\raw\atlsci_spheroid.cpp" "..\..\gdal-2.1.2\frmts\raw\btdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\cpgdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\ctable2dataset.cpp" "..\..\gdal-2.1.2\frmts\raw\dipxdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\doq1dataset.cpp" "..\..\gdal-2.1.2\frmts\raw\doq2dataset.cpp" "..\..\gdal-2.1.2\frmts\raw\ehdrdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\eirdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\envidataset.cpp" "..\..\gdal-2.1.2\frmts\raw\fastdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\fujibasdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\genbindataset.cpp" "..\..\gdal-2.1.2\frmts\raw\gscdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\gtxdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\hkvdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\idadataset.cpp" "..\..\gdal-2.1.2\frmts\raw\iscedataset.cpp" "..\..\gdal-2.1.2\frmts\raw\krodataset.cpp" "..\..\gdal-2.1.2\frmts\raw\landataset.cpp" "..\..\gdal-2.1.2\frmts\raw\lcpdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\loslasdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\mffdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\ndfdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\ntv2dataset.cpp" "..\..\gdal-2.1.2\frmts\raw\pauxdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\pnmdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\rawdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\roipacdataset.cpp" "..\..\gdal-2.1.2\frmts\raw\snodasdataset.cpp" "..\..\gdal-2.1.2\frmts\rik\rikdataset.cpp" "..\..\gdal-2.1.2\frmts\rmf\rmfdataset.cpp" "..\..\gdal-2.1.2\frmts\rmf\rmfdem.cpp" "..\..\gdal-2.1.2\frmts\rmf\rmflzw.cpp" "..\..\gdal-2.1.2\frmts\rs2\rs2dataset.cpp" "..\..\gdal-2.1.2\frmts\safe\safedataset.cpp" "..\..\gdal-2.1.2\frmts\saga\sagadataset.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtsattrreader.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtscatd.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtsdataset.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtsindexedreader.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtsiref.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtslib.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtslinereader.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtspointreader.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtspolygonreader.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtsrasterreader.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtstransfer.cpp" "..\..\gdal-2.1.2\frmts\sdts\sdtsxref.cpp" "..\..\gdal-2.1.2\frmts\sentinel2\sentinel2dataset.cpp" "..\..\gdal-2.1.2\frmts\sgi\sgidataset.cpp" "..\..\gdal-2.1.2\frmts\srtmhgt\srtmhgtdataset.cpp" "..\..\gdal-2.1.2\frmts\terragen\terragendataset.cpp" "..\..\gdal-2.1.2\frmts\til\tildataset.cpp" "..\..\gdal-2.1.2\frmts\tsx\tsxdataset.cpp" "..\..\gdal-2.1.2\frmts\usgsdem\usgsdem_create.cpp" "..\..\gdal-2.1.2\frmts\usgsdem\usgsdemdataset.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtdataset.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtderivedrasterband.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtdriver.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtfilters.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtpansharpened.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtrasterband.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtrawrasterband.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtsourcedrasterband.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtsources.cpp" "..\..\gdal-2.1.2\frmts\vrt\vrtwarped.cpp" "..\..\gdal-2.1.2\frmts\wms\gdalhttp.cpp" "..\..\gdal-2.1.2\frmts\wms\gdalwmscache.cpp" "..\..\gdal-2.1.2\frmts\wms\gdalwmsdataset.cpp" "..\..\gdal-2.1.2\frmts\wms\gdalwmsrasterband.cpp" "..\..\gdal-2.1.2\frmts\wms\md5.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_arcgis_server.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_iip.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_tiled_wms.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_tileservice.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_tms.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_virtualearth.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_wms.cpp" "..\..\gdal-2.1.2\frmts\wms\minidriver_worldwind.cpp" "..\..\gdal-2.1.2\frmts\wms\wmsdriver.cpp" "..\..\gdal-2.1.2\frmts\wms\wmsmetadataset.cpp" "..\..\gdal-2.1.2\frmts\wms\wmsutils.cpp" "..\..\gdal-2.1.2\frmts\wmts\wmtsdataset.cpp" "..\..\gdal-2.1.2\frmts\xpm\xpmdataset.cpp" "..\..\gdal-2.1.2\frmts\xyz\xyzdataset.cpp" "..\..\gdal-2.1.2\frmts\zmap\zmapdataset.cpp" "..\..\gdal-2.1.2\gcore\gdal_mdreader.cpp" "..\..\gdal-2.1.2\gcore\gdal_misc.cpp" "..\..\gdal-2.1.2\gcore\gdal_rat.cpp" "..\..\gdal-2.1.2\gcore\gdalabstractbandblockcache.cpp" "..\..\gdal-2.1.2\gcore\gdalallvalidmaskband.cpp" "..\..\gdal-2.1.2\gcore\gdalarraybandblockcache.cpp" "..\..\gdal-2.1.2\gcore\gdalclientserver.cpp" "..\..\gdal-2.1.2\gcore\gdalcolortable.cpp" "..\..\gdal-2.1.2\gcore\gdaldataset.cpp" "..\..\gdal-2.1.2\gcore\gdaldefaultasync.cpp" "..\..\gdal-2.1.2\gcore\gdaldefaultoverviews.cpp" "..\..\gdal-2.1.2\gcore\gdaldllmain.cpp" "..\..\gdal-2.1.2\gcore\gdaldriver.cpp" "..\..\gdal-2.1.2\gcore\gdaldrivermanager.cpp" "..\..\gdal-2.1.2\gcore\gdalgeorefpamdataset.cpp" "..\..\gdal-2.1.2\gcore\gdalgmlcoverage.cpp" "..\..\gdal-2.1.2\gcore\gdalhashsetbandblockcache.cpp" "..\..\gdal-2.1.2\gcore\gdaljp2abstractdataset.cpp" "..\..\gdal-2.1.2\gcore\gdaljp2box.cpp" "..\..\gdal-2.1.2\gcore\gdaljp2metadata.cpp" "..\..\gdal-2.1.2\gcore\gdaljp2metadatagenerator.cpp" "..\..\gdal-2.1.2\gcore\gdaljp2structure.cpp" "..\..\gdal-2.1.2\gcore\gdalmajorobject.cpp" "..\..\gdal-2.1.2\gcore\gdalmultidomainmetadata.cpp" "..\..\gdal-2.1.2\gcore\gdalnodatamaskband.cpp" "..\..\gdal-2.1.2\gcore\gdalnodatavaluesmaskband.cpp" "..\..\gdal-2.1.2\gcore\gdalopeninfo.cpp" "..\..\gdal-2.1.2\gcore\gdaloverviewdataset.cpp" "..\..\gdal-2.1.2\gcore\gdalpamdataset.cpp" "..\..\gdal-2.1.2\gcore\gdalpamproxydb.cpp" "..\..\gdal-2.1.2\gcore\gdalpamrasterband.cpp" "..\..\gdal-2.1.2\gcore\gdalproxydataset.cpp" "..\..\gdal-2.1.2\gcore\gdalproxypool.cpp" "..\..\gdal-2.1.2\gcore\gdalrasterband.cpp" "..\..\gdal-2.1.2\gcore\gdalrasterblock.cpp" "..\..\gdal-2.1.2\gcore\gdalrescaledalphaband.cpp" "..\..\gdal-2.1.2\gcore\gdalvirtualmem.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_alos.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_digital_globe.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_eros.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_geo_eye.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_kompsat.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_landsat.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_orb_view.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_pleiades.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_rapid_eye.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_rdk1.cpp" "..\..\gdal-2.1.2\gcore\mdreader\reader_spot.cpp" "..\..\gdal-2.1.2\gcore\overview.cpp" "..\..\gdal-2.1.2\gcore\rasterio.cpp" "..\..\gdal-2.1.2\ogr\gml2ogrgeometry.cpp" "..\..\gdal-2.1.2\ogr\ogr2gmlgeometry.cpp" "..\..\gdal-2.1.2\ogr\ogr_api.cpp" "..\..\gdal-2.1.2\ogr\ogr_expat.cpp" "..\..\gdal-2.1.2\ogr\ogr_fromepsg.cpp" "..\..\gdal-2.1.2\ogr\ogr_geocoding.cpp" "..\..\gdal-2.1.2\ogr\ogr_opt.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_dict.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_erm.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_esri.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_ozi.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_panorama.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_pci.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_proj4.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_usgs.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_validate.cpp" "..\..\gdal-2.1.2\ogr\ogr_srs_xml.cpp" "..\..\gdal-2.1.2\ogr\ogr_srsnode.cpp" "..\..\gdal-2.1.2\ogr\ograpispy.cpp" "..\..\gdal-2.1.2\ogr\ograssemblepolygon.cpp" "..\..\gdal-2.1.2\ogr\ogrcircularstring.cpp" "..\..\gdal-2.1.2\ogr\ogrcompoundcurve.cpp" "..\..\gdal-2.1.2\ogr\ogrct.cpp" "..\..\gdal-2.1.2\ogr\ogrcurve.cpp" "..\..\gdal-2.1.2\ogr\ogrcurvecollection.cpp" "..\..\gdal-2.1.2\ogr\ogrcurvepolygon.cpp" "..\..\gdal-2.1.2\ogr\ogrfeature.cpp" "..\..\gdal-2.1.2\ogr\ogrfeaturedefn.cpp" "..\..\gdal-2.1.2\ogr\ogrfeaturequery.cpp" "..\..\gdal-2.1.2\ogr\ogrfeaturestyle.cpp" "..\..\gdal-2.1.2\ogr\ogrfielddefn.cpp" "..\..\gdal-2.1.2\ogr\ogrgeomediageometry.cpp" "..\..\gdal-2.1.2\ogr\ogrgeometry.cpp" "..\..\gdal-2.1.2\ogr\ogrgeometrycollection.cpp" "..\..\gdal-2.1.2\ogr\ogrgeometryfactory.cpp" "..\..\gdal-2.1.2\ogr\ogrgeomfielddefn.cpp" "..\..\gdal-2.1.2\ogr\ogrlinearring.cpp" "..\..\gdal-2.1.2\ogr\ogrlinestring.cpp" "..\..\gdal-2.1.2\ogr\ogrmulticurve.cpp" "..\..\gdal-2.1.2\ogr\ogrmultilinestring.cpp" "..\..\gdal-2.1.2\ogr\ogrmultipoint.cpp" "..\..\gdal-2.1.2\ogr\ogrmultipolygon.cpp" "..\..\gdal-2.1.2\ogr\ogrmultisurface.cpp" "..\..\gdal-2.1.2\ogr\ogrpgeogeometry.cpp" "..\..\gdal-2.1.2\ogr\ogrpoint.cpp" "..\..\gdal-2.1.2\ogr\ogrpolygon.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\aeronavfaa\ograeronavfaadatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\aeronavfaa\ograeronavfaadriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\aeronavfaa\ograeronavfaalayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\amigocloud\ogramigoclouddatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\amigocloud\ogramigoclouddriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\amigocloud\ogramigocloudlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\amigocloud\ogramigocloudresultlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\amigocloud\ogramigocloudtablelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\arcgen\ograrcgendatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\arcgen\ograrcgendriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\arcgen\ograrcgenlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravcbindatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravcbindriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravcbinlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravcdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravce00datasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravce00driver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravce00layer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\avc\ogravclayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\bna\ogrbnadatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\bna\ogrbnadriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\bna\ogrbnalayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\bna\ogrbnaparser.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\csv\ogrcsvdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\csv\ogrcsvdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\csv\ogrcsvlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\csw\ogrcswdataset.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\dgnfloat.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\dgnhelp.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\dgnopen.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\dgnread.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\dgnstroke.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\dgnwrite.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\ogrdgndatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\ogrdgndriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dgn\ogrdgnlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\intronurbs.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogr_autocad_services.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxf_blockmap.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxf_dimension.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxf_hatch.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxf_polyline_smooth.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxfblockslayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxfblockswriterlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxfdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxfdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxflayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxfreader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxfwriterds.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\dxf\ogrdxfwriterlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\edigeo\ogredigeodatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\edigeo\ogredigeodriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\edigeo\ogredigeolayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogr_attrind.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogr_gensql.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogr_miattrind.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogreditablelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogremulatedtransaction.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrlayerdecorator.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrlayerpool.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrmutexeddatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrmutexedlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrregisterall.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrsfdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrsfdriverregistrar.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrunionlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\generic\ogrwarpedlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geoconcept\ogrgeoconceptdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geoconcept\ogrgeoconceptdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geoconcept\ogrgeoconceptlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogresrijsonreader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrgeojsondatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrgeojsondriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrgeojsonlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrgeojsonreader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrgeojsonutils.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrgeojsonwritelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrgeojsonwriter.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\geojson\ogrtopojsonreader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\georss\ogrgeorssdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\georss\ogrgeorssdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\georss\ogrgeorsslayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gft\ogrgftdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gft\ogrgftdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gft\ogrgftlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gft\ogrgftresultlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gft\ogrgfttablelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gfstemplate.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlfeature.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlfeatureclass.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlhandler.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlpropertydefn.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlreader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlreadstate.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlregistry.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\gmlutils.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\hugefileresolver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\ogrgmldatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\ogrgmldriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\ogrgmllayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\parsexsd.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\resolvexlinks.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gml\trstring.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gmt\ogrgmtdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gmt\ogrgmtdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gmt\ogrgmtlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpkg\gdalgeopackagerasterband.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpkg\ogrgeopackagedatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpkg\ogrgeopackagedriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpkg\ogrgeopackagelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpkg\ogrgeopackageselectlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpkg\ogrgeopackagetablelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpkg\ogrgeopackageutility.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpsbabel\ogrgpsbabeldatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpsbabel\ogrgpsbabeldriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpsbabel\ogrgpsbabelwritedatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpx\ogrgpxdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpx\ogrgpxdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gpx\ogrgpxlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gtm\gtm.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gtm\gtmtracklayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gtm\gtmwaypointlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gtm\ogrgtmdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gtm\ogrgtmdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\gtm\ogrgtmlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\htf\ogrhtfdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\htf\ogrhtfdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\htf\ogrhtflayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\idrisi\ogridrisidatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\idrisi\ogridrisidriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\idrisi\ogridrisilayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\jml\ogrjmldataset.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\jml\ogrjmllayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\jml\ogrjmlwriterlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\kml\kml.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\kml\kmlnode.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\kml\kmlvector.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\kml\ogr2kmlgeometry.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\kml\ogrkmldatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\kml\ogrkmldriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\kml\ogrkmllayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mem\ogrmemdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mem\ogrmemdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mem\ogrmemlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_bounds.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_coordsys.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_datfile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_feature.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_feature_mif.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_geometry.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_idfile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_imapinfofile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_indfile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_mapcoordblock.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_mapfile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_mapheaderblock.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_mapindexblock.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_mapobjectblock.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_maptoolblock.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_middatafile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_miffile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_ogr_datasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_ogr_driver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_rawbinblock.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_spatialref.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_tabfile.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_tabseamless.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_tabview.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_tooldef.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\mitab\mitab_utils.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ntf_codelist.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ntf_estlayers.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ntf_generic.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ntf_raster.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ntffilereader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ntfrecord.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ntfstroke.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ogrntfdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ogrntfdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ogrntffeatureclasslayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\ntf\ogrntflayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openair\ogropenairdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openair\ogropenairdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openair\ogropenairlabellayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openair\ogropenairlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openfilegdb\filegdbindex.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openfilegdb\filegdbtable.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openfilegdb\ogropenfilegdbdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openfilegdb\ogropenfilegdbdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\openfilegdb\ogropenfilegdblayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\osm\ogrosmdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\osm\ogrosmdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\osm\ogrosmlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\osm\osm_parser.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\pds\ogrpdsdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\pds\ogrpdsdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\pds\ogrpdslayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\pgdump\ogrpgdumpdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\pgdump\ogrpgdumpdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\pgdump\ogrpgdumplayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\rec\ll_recio.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\rec\ogrrecdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\rec\ogrrecdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\rec\ogrreclayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\ddfrecordindex.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\ogrs57datasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\ogrs57driver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\ogrs57layer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\s57classregistrar.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\s57featuredefns.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\s57filecollector.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\s57reader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\s57\s57writer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sdts\ogrsdtsdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sdts\ogrsdtsdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sdts\ogrsdtslayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\segukooa\ogrsegukooadatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\segukooa\ogrsegukooadriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\segukooa\ogrsegukooalayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\segy\ogrsegydatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\segy\ogrsegydriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\segy\ogrsegylayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\selafin\io_selafin.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\selafin\ogrselafindatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\selafin\ogrselafindriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\selafin\ogrselafinlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\shape\ogrshapedatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\shape\ogrshapedriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\shape\ogrshapelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\shape\shape2ogr.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqlitedatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqlitedriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqliteexecutesql.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqlitelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqliteselectlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqlitesinglefeaturelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqlitetablelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqlitevfs.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqliteviewlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sqlite\ogrsqlitevirtualogr.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sua\ogrsuadatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sua\ogrsuadriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sua\ogrsualayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\svg\ogrsvgdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\svg\ogrsvgdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\svg\ogrsvglayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sxf\ogrsxfdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sxf\ogrsxfdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\sxf\ogrsxflayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\ogrtigerdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\ogrtigerdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\ogrtigerlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigeraltname.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerarealandmarks.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigercompletechain.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerentitynames.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerfeatureids.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerfilebase.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigeridhistory.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerkeyfeatures.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerlandmarks.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigeroverunder.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerpip.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerpoint.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerpolychainlink.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerpolygon.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerpolygoncorrections.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerpolygoneconomic.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerspatialmetadata.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigertlidrange.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerzerocellid.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerzipcodes.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\tiger\tigerzipplus4.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vdv\ogrvdvdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\ogrvfkdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\ogrvfkdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\ogrvfklayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkdatablock.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkdatablocksqlite.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkfeature.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkfeaturesqlite.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkproperty.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkpropertydefn.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkreader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vfk\vfkreadersqlite.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vrt\ogrvrtdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vrt\ogrvrtdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\vrt\ogrvrtlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wasp\ogrwaspdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wasp\ogrwaspdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wasp\ogrwasplayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wfs\ogrwfsdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wfs\ogrwfsdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wfs\ogrwfsfilter.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wfs\ogrwfsjoinlayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\wfs\ogrwfslayer.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xlsx\ogrxlsxdatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xlsx\ogrxlsxdriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogr_xplane_apt_reader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogr_xplane_awy_reader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogr_xplane_fix_reader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogr_xplane_geo_utils.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogr_xplane_nav_reader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogr_xplane_reader.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogrxplanedatasource.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogrxplanedriver.cpp" "..\..\gdal-2.1.2\ogr\ogrsf_frmts\xplane\ogrxplanelayer.cpp" "..\..\gdal-2.1.2\ogr\ogrspatialreference.cpp" "..\..\gdal-2.1.2\ogr\ogrsurface.cpp" "..\..\gdal-2.1.2\ogr\ogrutils.cpp" "..\..\gdal-2.1.2\ogr\swq.cpp" "..\..\gdal-2.1.2\ogr\swq_expr_node.cpp" "..\..\gdal-2.1.2\ogr\swq_op_general.cpp" "..\..\gdal-2.1.2\ogr\swq_op_registrar.cpp" "..\..\gdal-2.1.2\ogr\swq_parser.cpp" "..\..\gdal-2.1.2\ogr\swq_select.cpp" "..\..\gdal-2.1.2\port\cpl_atomic_ops.cpp" "..\..\gdal-2.1.2\port\cpl_aws.cpp" "..\..\gdal-2.1.2\port\cpl_base64.cpp" "..\..\gdal-2.1.2\port\cpl_conv.cpp" "..\..\gdal-2.1.2\port\cpl_csv.cpp" "..\..\gdal-2.1.2\port\cpl_error.cpp" "..\..\gdal-2.1.2\port\cpl_findfile.cpp" "..\..\gdal-2.1.2\port\cpl_getexecpath.cpp" "..\..\gdal-2.1.2\port\cpl_google_oauth2.cpp" "..\..\gdal-2.1.2\port\cpl_hash_set.cpp" "..\..\gdal-2.1.2\port\cpl_http.cpp" "..\..\gdal-2.1.2\port\cpl_list.cpp" "..\..\gdal-2.1.2\port\cpl_minixml.cpp" "..\..\gdal-2.1.2\port\cpl_minizip_ioapi.cpp" "..\..\gdal-2.1.2\port\cpl_minizip_unzip.cpp" "..\..\gdal-2.1.2\port\cpl_minizip_zip.cpp" "..\..\gdal-2.1.2\port\cpl_multiproc.cpp" "..\..\gdal-2.1.2\port\cpl_path.cpp" "..\..\gdal-2.1.2\port\cpl_progress.cpp" "..\..\gdal-2.1.2\port\cpl_quad_tree.cpp" "..\..\gdal-2.1.2\port\cpl_recode.cpp" "..\..\gdal-2.1.2\port\cpl_recode_iconv.cpp" "..\..\gdal-2.1.2\port\cpl_recode_stub.cpp" "..\..\gdal-2.1.2\port\cpl_sha256.cpp" "..\..\gdal-2.1.2\port\cpl_spawn.cpp" "..\..\gdal-2.1.2\port\cpl_string.cpp" "..\..\gdal-2.1.2\port\cpl_strtod.cpp" "..\..\gdal-2.1.2\port\cpl_time.cpp" "..\..\gdal-2.1.2\port\cpl_virtualmem.cpp" "..\..\gdal-2.1.2\port\cpl_vsi_error.cpp" "..\..\gdal-2.1.2\port\cpl_vsi_mem.cpp" "..\..\gdal-2.1.2\port\cpl_vsil.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_abstract_archive.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_buffered_reader.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_cache.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_crypt.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_curl.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_curl_streaming.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_gzip.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_sparsefile.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_stdin.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_stdout.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_subfile.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_tar.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_unix_stdio_64.cpp" "..\..\gdal-2.1.2\port\cpl_vsil_win32.cpp" "..\..\gdal-2.1.2\port\cpl_vsisimple.cpp" "..\..\gdal-2.1.2\port\cpl_worker_thread_pool.cpp" "..\..\gdal-2.1.2\port\cpl_xml_validate.cpp" "..\..\gdal-2.1.2\port\cplgetsymbol.cpp" "..\..\gdal-2.1.2\port\cplkeywordparser.cpp" "..\..\gdal-2.1.2\port\cplstring.cpp" "..\..\gdal-2.1.2\port\cplstringlist.cpp" /MACHINE:X64 
      1>cl : Command line warning D9002: ignoring unknown option '/MACHINE:X64'
          contour.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
@@ -611,53 +289,6 @@
                      _Kty=CPLString,
                      _Ty=GDALDriver *
                  ]
-         gdalpansharpen.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_worker_thread_pool.h(74): warning C4251: 'CPLWorkerThreadPool::aWT' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'CPLWorkerThreadPool'
-                 with
-                 [
-                     _Ty=CPLWorkerThread
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\alg\../frmts/vrt/vrtdataset.h(147): warning C4251: 'VRTDataset::m_apoOverviews' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'VRTDataset'
-                 with
-                 [
-                     _Ty=GDALDataset *
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\alg\../frmts/vrt/vrtdataset.h(148): warning C4251: 'VRTDataset::m_apoOverviewsBak' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'VRTDataset'
-                 with
-                 [
-                     _Ty=GDALDataset *
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\alg\../frmts/vrt/vrtdataset.h(369): warning C4251: 'VRTRasterBand::m_apoOverviews' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'VRTRasterBand'
-                 with
-                 [
-                     _Ty=VRTOverviewInfo
-                 ]
          gdalproximity.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
@@ -730,7 +361,6 @@
                      _Kty=CPLString,
                      _Ty=GDALDriver *
                  ]
-         Compiling...
          gdaltransformer.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
@@ -758,6 +388,7 @@
                      _Kty=CPLString,
                      _Ty=GDALDriver *
                  ]
+         Compiling...
          gdaltransformgeolocs.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
@@ -883,278 +514,6 @@
                      _Alloc=std::allocator<char>
                  ]
          thinplatespline.cpp
-         commonutils.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-         gdal_grid_lib.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         gdal_rasterize_lib.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-         gdal_translate_lib.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\frmts\vrt\vrtdataset.h(147): warning C4251: 'VRTDataset::m_apoOverviews' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'VRTDataset'
-                 with
-                 [
-                     _Ty=GDALDataset *
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\frmts\vrt\vrtdataset.h(148): warning C4251: 'VRTDataset::m_apoOverviewsBak' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'VRTDataset'
-                 with
-                 [
-                     _Ty=GDALDataset *
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\frmts\vrt\vrtdataset.h(369): warning C4251: 'VRTRasterBand::m_apoOverviews' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'VRTRasterBand'
-                 with
-                 [
-                     _Ty=VRTOverviewInfo
-                 ]
-         gdalbuildvrt_lib.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\frmts\vrt\vrtdataset.h(147): warning C4251: 'VRTDataset::m_apoOverviews' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'VRTDataset'
-                 with
-                 [
-                     _Ty=GDALDataset *
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\frmts\vrt\vrtdataset.h(148): warning C4251: 'VRTDataset::m_apoOverviewsBak' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'VRTDataset'
-                 with
-                 [
-                     _Ty=GDALDataset *
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\frmts\vrt\vrtdataset.h(369): warning C4251: 'VRTRasterBand::m_apoOverviews' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'VRTRasterBand'
-                 with
-                 [
-                     _Ty=VRTOverviewInfo
-                 ]
-         gdaldem_lib.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         gdalinfo_lib.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_rat.h(306): warning C4251: 'GDALDefaultRasterAttributeTable::aoFields' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALDefaultRasterAttributeTable'
-                 with
-                 [
-                     _Ty=GDALRasterAttributeField
-                 ]
-         gdalwarp_lib.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         nearblack_lib.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-         ogr2ogr_lib.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
          aaigriddataset.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
@@ -1182,7 +541,6 @@
                      _Kty=CPLString,
                      _Ty=GDALDriver *
                  ]
-         Compiling...
          adrgdataset.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
@@ -1296,33 +654,6 @@
                      _Kty=CPLString,
                      _Ty=GDALDriver *
                  ]
-         argdataset.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
          blxdataset.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
@@ -1351,60 +682,6 @@
                      _Ty=GDALDriver *
                  ]
          bmpdataset.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         bsbdataset.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         calsdataset.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
                  [
@@ -1566,6 +843,7 @@
                      _Kty=CPLString,
                      _Ty=GDALDriver *
                  ]
+         Compiling...
          dimapdataset.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
@@ -1641,115 +919,6 @@
                  [
                      _Kty=std::string,
                      _Ty=VSIFilesystemHandler *
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         ecwasyncreader.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         ecwcreatecopy.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         ecwdataset.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         Compiling...
-         jp2userbox.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
                  ]
      1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
                  with
@@ -2158,6 +1327,7 @@
                      _Kty=CPLString,
                      _Ty=GDALDriver *
                  ]
+         Compiling...
          gt_citation.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
@@ -2216,7 +1386,6 @@
                  [
                      _Ty=VRTOverviewInfo
                  ]
-         Compiling...
          gt_overview.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
@@ -2288,104 +1457,6 @@
                      _Kty=CPLString,
                      _Ty=GDALDriver *
                  ]
-         bagdataset.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         gh5_convenience.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-         hdf5dataset.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         hdf5imagedataset.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         iso19115_srs.cpp
          hf2dataset.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
@@ -2627,7 +1698,6 @@
                  [
                      _Ty=GDALRasterAttributeField
                  ]
-         Compiling...
          ilwiscoordinatesystem.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
@@ -2709,6 +1779,7 @@
                      _Kty=CPLString,
                      _Ty=GDALDriver *
                  ]
+         Compiling...
          IntergraphBand.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
@@ -2791,42 +1862,6 @@
                      _Kty=CPLString,
                      _Ty=GDALDriver *
                  ]
-         ddffield.cpp
-         ddffielddefn.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-         ddfmodule.cpp
-         ddfrecord.cpp
-         ddfsubfielddefn.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-         ddfutils.cpp
          jaxapalsardataset.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
@@ -2881,35 +1916,6 @@
                      _Kty=CPLString,
                      _Ty=GDALDriver *
                  ]
-         jpgdataset.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         jpgdataset_12.cpp
-         vsidataio.cpp
          kmlsuperoverlaydataset.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
@@ -2979,7 +1985,6 @@
                      _Kty=CPLString,
                      _Ty=GDALDriver *
                  ]
-         Compiling...
          levellerdataset.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
@@ -3034,148 +2039,7 @@
                      _Kty=CPLString,
                      _Ty=GDALDriver *
                  ]
-         mbtilesdataset.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\port\cpl_vsi_virtual.h(107): warning C4251: 'VSIFileManager::oHandlers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'VSIFileManager'
-                 with
-                 [
-                     _Kty=std::string,
-                     _Ty=VSIFilesystemHandler *
-                 ]
          memdataset.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         JPEG12_band.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         JPEG_band.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         JPNG_band.cpp
-     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
-                 with
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-                 and
-                 [
-                     _Ty=char
-                 ]
-                 and
-                 [
-                     _Elem=char,
-                     _Alloc=std::allocator<char>
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
-                 with
-                 [
-                     _Ty=GDALColorEntry
-                 ]
-     1>k:\components\libraryv2\gdal\gdal_2.1.x_vc_nointfilescleanup\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
-                 with
-                 [
-                     _Kty=CPLString,
-                     _Ty=GDALDriver *
-                 ]
-         LERC_band.cpp
      1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
                  with
                  [
@@ -3283,9 +2147,6 @@
                      _Kty=CPLString,
                      _Ty=GDALDriver *
                  ]
-         BitMask.cpp
-         BitMask2.cpp
-         BitStuffer.cpp
          BitStuffer2.cpp
          CntZImage.cpp
          Huffman.cpp
@@ -18509,4 +17370,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:08:54.93
+Time Elapsed 00:07:31.21

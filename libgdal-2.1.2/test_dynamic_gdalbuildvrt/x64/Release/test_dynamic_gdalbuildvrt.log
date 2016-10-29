@@ -1,7 +1,7 @@
-﻿Build started 21/10/2016 12:12:11.
+﻿Build started 29/10/2016 10:24:24.
      1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\test_dynamic_gdalbuildvrt\test_dynamic_gdalbuildvrt.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.unsuccessfulbuild".
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC_NoIntFilesCleanUp\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x64\Release\test_dynamic_gdalbuildvrt.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
        Link:
@@ -23,4 +23,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:07.39
+Time Elapsed 00:00:01.70
