@@ -44,7 +44,7 @@ theire capabilites in ods and txt format : SupportedDrivers.ods and SupportedDri
 /!\ Due to GitHub (free version) limitation I've deleted the static version of gdal-2.1.2.lib (more than 650 MB),
 so you will have to rebuild the static lib version to build the "test_static_XX workspaces".
 
-## 2016-08-12:	
+## 2016-10-29:	
 	1. Compiled with the 27/10/2016 GDAL 2.1.2 Release
 	
 	2. Added a new test workspace to show how to load GDAL_DATA and PROJ_LIB env vars form C++.
