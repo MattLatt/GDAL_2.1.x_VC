@@ -1,0 +1,42 @@
+﻿Build started 17/11/2016 23:24:35.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\test_dynamic_gdalbuildvrt.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\test_dynamic_gdalbuildvrt.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"../../gdal-2.1.2/alg" /I"../../gdal-2.1.2/frmts" /I"../../gdal-2.1.2/gcore" /I"../../gdal-2.1.2/ogr" /I"../../gdal-2.1.2/port" /I"../../gdal-2.1.2/frmts/vrt" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/geojson" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/geojson/libjson" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\gdal-2.1.2\apps\gdalbuildvrt_bin.cpp"
+         gdalbuildvrt_bin.cpp
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
+                 with
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Ty=char
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\test_dynamic_gdalbuildvrt.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../dll/x86/Release "gdal-2.1.2.lib" /MANIFEST /ManifestFile:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\test_dynamic_gdalbuildvrt.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\test_dynamic_gdalbuildvrt.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\test_dynamic_gdalbuildvrt.lib" /MACHINE:X86 "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\gdalbuildvrt_bin.obj"
+            Creating library K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\test_dynamic_gdalbuildvrt.lib and object K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\test_dynamic_gdalbuildvrt.exp
+         Generating code
+         Finished generating code
+         test_dynamic_gdalbuildvrt.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\test_dynamic_gdalbuildvrt.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\test_dynamic_gdalbuildvrt.exe;#1" /manifest "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\test_dynamic_gdalbuildvrt.exe.intermediate.manifest"
+       PostBuildEvent:
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\test_dynamic_gdalbuildvrt.exe K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\binaries\dll\x86\Release\test_dynamic_gdalbuildvrt.exe
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\test_dynamic_gdalbuildvrt.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\x86\Release\test_dynamic_gdalbuildvrt.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_dynamic_gdalbuildvrt\test_dynamic_gdalbuildvrt.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.16

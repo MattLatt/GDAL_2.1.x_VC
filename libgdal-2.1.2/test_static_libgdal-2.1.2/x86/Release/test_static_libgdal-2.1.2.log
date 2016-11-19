@@ -1,0 +1,53 @@
+﻿Build started 17/11/2016 23:20:50.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\test_static_libgdal-2.1.2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\test_static_gdal-2.1.2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"../../gdal-2.1.2/alg" /I"../../gdal-2.1.2/frmts" /I"../../gdal-2.1.2/frmts/blx" /I"../../gdal-2.1.2/frmts/gif/giflib" /I"../../gdal-2.1.2/frmts/gtiff" /I"../../gdal-2.1.2/frmts/gtiff/libgeotiff" /I"../../gdal-2.1.2/frmts/gtiff/libtiff" /I"../../gdal-2.1.2/frmts/idrisi" /I"../../gdal-2.1.2/frmts/iso8211" /I"../../gdal-2.1.2/frmts/jpeg" /I"../../gdal-2.1.2/frmts/jpeg/libjpeg" /I"../../gdal-2.1.2/frmts/mem" /I"../../gdal-2.1.2/frmts/pcidsk/sdk" /I"../../gdal-2.1.2/frmts/pcidsk/sdk/segment" /I"../../gdal-2.1.2/frmts/pcraster/libcsf" /I"../../gdal-2.1.2/frmts/pds" /I"../../gdal-2.1.2/frmts/png/libpng" /I"../../gdal-2.1.2/frmts/raw" /I"../../gdal-2.1.2/frmts/sdts" /I"../../gdal-2.1.2/frmts/vrt" /I"../../gdal-2.1.2/frmts/zlib" /I"../../gdal-2.1.2/gcore" /I"../../gdal-2.1.2/ogr" /I"../../gdal-2.1.2/ogr/ogrsf_frmts" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/avc" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/generic" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/geojson/libjson" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/geojson" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/mem" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/shape" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/sqlite" /I"../../gdal-2.1.2/ogr/ogrsf_frmts/xplane" /I"../../gdal-2.1.2/port" /I"../../3rdpart/expat-2.1.0/lib" /I"../../3rdpart/sqlite-3.12/sqlite-3.12-amalgamation" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\\" /Fd"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\gdal-2.1.2\port\cpl_string.h(284): warning C4251: 'std::_String_val<_Elem,_Alloc>::_Alval' : class 'std::allocator<_Ty>' needs to have dll-interface to be used by clients of class 'std::_String_val<_Elem,_Alloc>'
+                 with
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Ty=char
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\gdal-2.1.2\gcore\gdal_priv.h(664): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
+                 with
+                 [
+                     _Ty=GDALColorEntry
+                 ]
+     1>K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\gdal-2.1.2\gcore\gdal_priv.h(1144): warning C4251: 'GDALDriverManager::oMapNameToDrivers' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'GDALDriverManager'
+                 with
+                 [
+                     _Kty=CPLString,
+                     _Ty=GDALDriver *
+                 ]
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\test_static_gdal-2.1.2.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib/x86/Release wsock32.lib ws2_32.lib "gdal-2.1.2.lib" /MANIFEST /ManifestFile:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\test_static_gdal-2.1.2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\test_static_gdal-2.1.2.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\test_static_gdal-2.1.2.lib" /MACHINE:X86 "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\main.obj"
+            Creating library K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\test_static_gdal-2.1.2.lib and object K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\test_static_gdal-2.1.2.exp
+         Generating code
+         Finished generating code
+         test_static_libgdal-2.1.2.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\test_static_gdal-2.1.2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\test_static_gdal-2.1.2.exe;#1" /manifest "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\test_static_gdal-2.1.2.exe.intermediate.manifest"
+       PostBuildEvent:
+         copy K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\test_static_gdal-2.1.2.exe K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\binaries\lib\x86\Release\test_static_gdal-2.1.2.exe
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\test_static_gdal-2.1.2.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\x86\Release\test_static_gdal-2.1.2.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\test_static_libgdal-2.1.2\test_static_libgdal-2.1.2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:15.82

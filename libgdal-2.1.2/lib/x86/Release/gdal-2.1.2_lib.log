@@ -1,0 +1,24 @@
+﻿Build started 17/11/2016 23:34:29.
+     1>Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\lib\gdal-2.1.2_lib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\lib\x86\Release\gdal-2.1.2_lib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         gdal-2.1.2_lib.vcxproj -> K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\lib\x86\Release\gdal-2.1.2.lib
+       PostBuildEvent:
+         copy "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\lib\x86\Release\gdal-2.1.2.lib" "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\binaries\lib\x86\Release\gdal-2.1.2.lib"
+         :VCEnd
+                 1 fichier(s) copié(s).
+       FinalizeBuildStatus:
+         Deleting file "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\lib\x86\Release\gdal-2.1.2_lib.unsuccessfulbuild".
+         Touching "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\lib\x86\Release\gdal-2.1.2_lib.lastbuildstate".
+     1>Done Building Project "K:\Components\LibraryV2\GDAL\GDAL_2.1.x_VC\libgdal-2.1.2\lib\gdal-2.1.2_lib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:35.13
