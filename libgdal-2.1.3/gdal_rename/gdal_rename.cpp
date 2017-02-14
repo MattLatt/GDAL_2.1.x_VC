@@ -6,7 +6,7 @@
 //		 designed initialy to rename tiled dataset in metric CRS					//
 //		 																			//
 //		 																			//
-// Author: 	Mathieu Lattes (geospatialist@lattes.me)								//
+// Author: 	Mathieu Lattes (mathieu@lattes.me)								//
 //																					//
 //		 																			//
 // Version:	v0.0.2_20170106-01 : using std lib instead of char * as str container	//
