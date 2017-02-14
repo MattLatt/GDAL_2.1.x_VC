@@ -50,7 +50,7 @@ theire capabilites in ods and txt format : SupportedDrivers.ods and SupportedDri
 /!\ Due to GitHub (free version) limitation I've deleted the static version of gdal-2.1.3.lib (more than 650 MB),
 so you will have to rebuild the static lib version to build the "test_static_XX workspaces".
 
-## 20167-02-14:	
+## 2017-02-14:	
 	1. Compiled with the 01/20/2017 GDAL 2.1.3 Release
 	
 	2. Added a new workspace gdal_rename to allow to rename file regarding geospatial metadatas. (Work in Progress)
